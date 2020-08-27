@@ -1,5 +1,57 @@
 .rodape {
     background-color: #00072d;
     display: flex;
+    color: white;
 }
 
+.redes-sociais {
+    display: inline;
+}
+
+.logo-facebook {
+    width: 20px;
+    margin: 5px
+}
+
+.logo-instagram {
+    width: 20px;
+    margin: 5px;
+}
+
+.logo-twitter {
+    width: 20px;
+    margin: 5px
+}
+
+.faca-parte {
+    margin: 8px;
+    font-size: 20px;
+}
+
+.titulo-redes-sociais {
+    font-size: 20px;
+}
+
+.logos-cartoes {
+    display: inline;    
+}
+
+.logo-cartao-visa {
+    width: 40px;
+    margin: 5px
+}
+
+.logo-cartao-mastercard {
+    width: 40px;
+    margin: 5px
+}
+
+.logo-cartao-pagseguro {
+    width: 60px;
+    margin: 5px
+}
+
+.logo-cartao-elo {
+    width: 60px;
+    margin: 5px
+}
