@@ -1,6 +1,7 @@
 body{
     margin:0px;
     padding: 0px;
+    background-color: #EEEEEE;
 }
 
 .bg-dark {
@@ -48,29 +49,24 @@ body{
 
 }
 
-.h1-main{
+
+
+/*Main*/
+.containerConfirmacaoPagamento{
     text-align: center;
-    font-style: bold;
+    background-color: #3AB42F;
+    width: 100%;
+    height: 56px;
+    
+    
+    padding: 10px;
+    border-radius: 10px;
 
-    margin-bottom: 50px;
-    margin: 30px
+
+    
+    
+
 }
-
-
-/*Valor do produto*/
-.card-text{
-    font-size: 30px;
-    text-align: center;
-}
-
-.nomeEchopet{
-    font-size: 17px;
-    margin:0 80px;
-    color: darkgray;
-}
-
-
-
 
 
 

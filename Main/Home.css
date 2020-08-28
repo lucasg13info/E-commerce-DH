@@ -1,0 +1,111 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+
+.bg-dark {
+    /* background-color: #343a40!important;Cinza */
+    background-color: #000000!important; /*preto*/
+}
+
+.logo{
+    width: 220px;
+}
+
+.nav{
+    font-size: 35px;
+    
+}
+
+
+/*formulario menu*/
+.form-control{
+    width: 400px;
+}
+
+
+.navA{
+    justify-content: space-evenly;;
+    display: flex;
+    margin:0px;
+    padding: 0px;
+    background-color: #00072D;
+}
+
+
+.nav-link{
+    color: white;
+    text-decoration:none;
+
+    font-size: 15px;
+}
+
+.menu-hamburguer{
+    width: 40px;
+}
+
+.menu-hamburguer:hover{
+
+}
+
+.h1-main{
+    text-align: center;
+    font-style: bold;
+
+    margin-bottom: 50px;
+    margin: 30px
+}
+
+
+/*Valor do produto*/
+.card-text{
+    font-size: 30px;
+    text-align: center;
+}
+
+.nomeEchopet{
+    font-size: 17px;
+    margin:0 80px;
+    color: darkgray;
+}
+
+
+
+
+.desconto10Porcento{
+    
+text-align: center;
+
+background: #EEEEEE;
+border: 1px solid #000000;
+box-sizing: border-box;
+
+border-radius: 31px;
+}
+
+
+
+
+/*Logo de empresas*/
+.logoMarcas{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.logoMarcas .pedigree{
+    width: 15%;
+    height: 90%;
+}
+
+
+.logoMarcas .doChow{
+    width: 15%;
+    height: 90%;
+}
+
+.logoMarcas .purina{
+    width: 10%;
+    height: 75%;
+}
