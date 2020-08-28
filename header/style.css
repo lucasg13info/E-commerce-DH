@@ -47,6 +47,9 @@ body{
 .h1-main{
     text-align: center;
     font-style: bold;
+
+    margin-bottom: 50px;
+    margin: 30px
 }
 
 
@@ -61,3 +64,4 @@ body{
     margin:0 80px;
     color: darkgray;
 }
+
