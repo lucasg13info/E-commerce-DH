@@ -3,6 +3,10 @@ body{
     padding: 0px;
 }
 
+.bg-dark {
+    background-color: #343a40!important;
+}
+
 .logo{
     width: 220px;
 }
@@ -13,14 +17,10 @@ body{
 }
 
 
-/*Navegação*/
-
-
 /*formulario menu*/
 .form-control{
     width: 400px;
 }
-
 
 
 .navA{
@@ -30,7 +30,6 @@ body{
     padding: 0px;
     background-color: #00072D;
 }
-
 
 
 .nav-link{
