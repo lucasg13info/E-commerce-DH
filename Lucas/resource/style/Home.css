@@ -56,10 +56,10 @@ body{
 /*MAIN*/
 .h1-main{
     text-align: center;
-    font-style: bold;
+    font-weight: bold;
 
-    margin-bottom: 50px;
-    margin: 30px
+    
+    margin: 70px
 }
 
 
@@ -114,18 +114,18 @@ padding: 10px;
 
 
 .logoMarcas .pedigree{
-    width: 15%;
+    width: 20%;
     height: 90%;
 }
 
 
 .logoMarcas .doChow{
-    width: 15%;
+    width: 20%;
     height: 90%;
 }
 
 .logoMarcas .purina{
-    width: 10%;
+    width: 20%;
     height: 75%;
 }
 
