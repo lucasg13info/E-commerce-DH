@@ -1,6 +1,12 @@
 body{
     margin:0px;
     padding: 0px;
+    background-color: #EEEEEE;
+}
+
+.bg-dark {
+    /* background-color: #343a40!important;Cinza */
+    background-color: #000000!important; /*preto*/
 }
 
 .logo{
@@ -13,14 +19,10 @@ body{
 }
 
 
-/*Navegação*/
-
-
 /*formulario menu*/
 .form-control{
     width: 400px;
 }
-
 
 
 .navA{
@@ -30,7 +32,6 @@ body{
     padding: 0px;
     background-color: #00072D;
 }
-
 
 
 .nav-link{
@@ -44,21 +45,36 @@ body{
     width: 40px;
 }
 
+.menu-hamburguer:hover{
 
-.h1-main{
+}
+
+
+
+/*Main*/
+.containerConfirmacaoPagamento{
     text-align: center;
-    font-style: bold;
+    background-color: #3AB42F;
+    width: 100%;
+    height: 56px;
+    
+    
+    padding: 10px;
+    border-radius: 10px;
+
+
+    
+    
+
 }
 
 
-/*Valor do produto*/
-.card-text{
-    font-size: 30px;
-    text-align: center;
-}
 
-.nomeEchopet{
-    font-size: 17px;
-    margin:0 80px;
-    color: darkgray;
-}
+
+
+
+
+
+
+
+
