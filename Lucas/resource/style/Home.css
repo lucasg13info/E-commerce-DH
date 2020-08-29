@@ -7,17 +7,27 @@ body{
 /*Header*/
 .bg-dark {
     /* background-color: #343a40!important;Cinza */
-    background-color: #000000!important; /*preto*/
+    background-color: #f50000ec!important; /*preto*/
 }
 
 .logo{
     width: 220px;
 }
 
+
+.carrinhoHeader{
+    width: 60px;
+    height: 50px;
+}
+
+
 .nav{
     font-size: 35px;
     
 }
+
+
+
 
 
 /*formulario menu*/
@@ -43,6 +53,9 @@ body{
 
     font-size: 20px;
 }
+
+
+
 
 
 /*Menu Hamburguer*/
