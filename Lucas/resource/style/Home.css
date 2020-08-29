@@ -1,8 +1,10 @@
+/*Zerando a página toda*/
 body{
     margin:0px;
     padding: 0px;
 }
 
+/*Header*/
 .bg-dark {
     /* background-color: #343a40!important;Cinza */
     background-color: #000000!important; /*preto*/
@@ -23,7 +25,7 @@ body{
     width: 400px;
 }
 
-
+/*Segundo header azul*/
 .navA{
     justify-content: space-evenly;;
     display: flex;
@@ -48,6 +50,10 @@ body{
 
 }
 
+
+
+
+/*MAIN*/
 .h1-main{
     text-align: center;
     font-style: bold;
@@ -57,6 +63,7 @@ body{
 }
 
 
+/*Container produto*/
 /*Valor do produto*/
 .card-text{
     font-size: 30px;
@@ -64,28 +71,40 @@ body{
 }
 
 .nomeEchopet{
-    font-size: 17px;
-    margin:0 80px;
+    font-size: 10px;
+    margin:0 50px;
     color: darkgray;
 }
 
 
 
-
+/*Cupom de desconto*/
 .desconto10Porcento{
-    
 text-align: center;
 
-background: #EEEEEE;
+background: #ffffff;
 border: 1px solid #000000;
-box-sizing: border-box;
 
 border-radius: 31px;
+
+margin: 60px;
+
+padding: 10px;
 }
 
 
+.cumpomDescontoTextoNormal{
+    font-weight: bold;
+    font-size: 20px ;
+}
+.cupomPetiscao{
+    color: orange;
+    font-weight: bold;
+    font-size: 40px
+}
 
 
+/*Empresas em destaque*/
 /*Logo de empresas*/
 .logoMarcas{
     display: flex;
@@ -109,3 +128,51 @@ border-radius: 31px;
     width: 10%;
     height: 75%;
 }
+
+
+
+
+
+
+
+
+
+
+
+/*Testes de responsividade*/
+@media (min-width: 770px){
+    .container .container-lg .container-md .container-sm {
+        max-width: 849px;
+    }
+
+    }
+
+@media (min-width: 992px){
+.container .container-lg .container-md .container-sm {
+    max-width: 960px;
+}
+}
+
+
+@media (max-width: 998px) {
+    
+      .desconto10Porcento{
+        text-align: center;
+        
+        background: #ffffff;
+        border: 1px solid #000000;
+        
+        margin: 10px;
+        
+        padding: 10px;
+        }
+
+
+        .cupomPetiscao{
+            color: orange;
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+    }
+  
