@@ -1,11 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
 .rodape {
     background-color: #00072d;
     display: flex;
     color: white;
+    height: 300px;
+}
+
+.footer-div {
+    display: flex;
 }
 
 .redes-sociais {
     display: inline;
+    width: 20%;
 }
 
 .logo-facebook {
@@ -54,4 +64,15 @@
 .logo-cartao-elo {
     width: 60px;
     margin: 5px
+}
+
+.logo {
+    width: 130px;
+    height: 100px;
+    display: flex;
+}
+
+.contato{
+    display: flex;
+    align-items: flex-end;
 }
