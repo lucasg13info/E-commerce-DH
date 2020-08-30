@@ -1,0 +1,27 @@
+body{
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+header{
+    height: 40vh;
+    border: 1px solid red;
+}
+
+main{
+    border: 1px solid red;
+}
+
+footer{
+    height: 40vh;
+    border: 1px solid red;
+}
+
+#titleMeuCarrinho{
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+#resumoCarrinho{
+
+}
