@@ -1,0 +1,50 @@
+body{
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+header{
+    height: 40vh;
+    border: 1px solid red;
+}
+
+main{
+    border: 1px solid red;
+}
+
+footer{
+    height: 40vh;
+    border: 1px solid red;
+}
+
+#linkRef{
+    margin-top: 2vh;
+}
+#avaliacao{
+    height: 3vh;
+}
+
+#logoProd{
+    height: 10vh;
+}
+
+#estadoDisp{
+    color:green;
+}
+
+h4{
+    color: rgba(3, 57, 166, 1);
+
+}
+
+.row h4{
+    border-bottom: 0.10px solid rgb(180, 179, 179);
+}
+
+h1{
+    margin-top: 5vh ;
+    text-align: center;
+}
+
+
+
