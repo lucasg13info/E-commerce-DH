@@ -66,11 +66,15 @@ body{
 }
 
 
-.nav-link:hover{
+.nav-link{
     color: white;
     text-decoration:none;
 
     font-size: 20px;
+}
+
+.nav-link:hover{
+    color: orange;
 }
 
 
