@@ -1,0 +1,88 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* LEFT */
+
+.left {
+    width: 20vw;
+    height: 100vh;
+}
+
+.imagem_I {
+    width: 20vw;
+    height: 170px;
+}
+
+.imagem_II {
+    width: 20vw;
+    height: 170px;
+}
+
+.imagem_III {
+    width: 20vw;
+    height: 170px;
+}
+
+.imagem_IV {
+    width: 20vw;
+    height: 170px;
+}
+
+/* MAIN */
+
+.main {
+    width: 60vw;
+    height: 100vh;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo_EchoPet {
+    width: 150px;
+    height: 100px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.content {
+    margin: 35px;
+    margin-top: 50px;
+    /* overflow: hidden; */
+}
+
+/* .politicas_sobre {
+    list-style: none;
+    text-align: center;
+} */
+
+/* RIGHT */
+
+.right {
+    width: 20vw;
+    height: 100vh;
+}
+
+@media (max-width: 500px) {
+    .right {
+        display: none;
+    }
+
+    .left {
+        display: none;
+    }
+
+    .main {
+        width: 100vw;
+    }
+}
