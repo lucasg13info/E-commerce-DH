@@ -26,14 +26,20 @@ body{
     
 }
 
+.BemVindoMenu{
+    margin: 20px;
+    
+}
 
+.carrinhoHeader{
+    margin: 20px;
+    height: 62px;
+}
 
 
 
 /*formulario menu*/
-.form-control{
-    width: 400px;
-}
+
 
 /*Segundo header azul*/
 .navA{
