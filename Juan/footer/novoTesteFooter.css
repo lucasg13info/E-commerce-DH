@@ -1,0 +1,60 @@
+/* GERAL */
+* {
+    box-sizing: border-box;
+}
+
+.footer {
+    background-color: #00072d;
+    display: flex;
+    color: white;
+    /* margin: 0%;
+    padding: 0%;
+    border: 0%; */
+}
+
+/* REDES SOCIAIS */
+.logo-facebook {
+    width: 20px;
+    margin: 5px
+}
+
+.logo-instagram {
+    width: 20px;
+    margin: 5px;
+}
+
+.logo-twitter {
+    width: 20px;
+    margin: 5px
+}
+
+/* PARTE DE BAIXO DO FOOTER */
+/* .informacoes_footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+} */
+
+/* LOGO ECHOPET */
+/* .logo_echopet {
+    display: flex;
+    justify-content: flex-end;
+} */
+
+.logo {
+    width: 130px;
+    height: 100px;
+}
+
+/* CONTATO */
+/* .col-5 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+} */
+
+/* CNPJ ECHOPET */
+/* .cnpj_echopet {
+    display: flex;
+    align-items: flex-start;
+} */
