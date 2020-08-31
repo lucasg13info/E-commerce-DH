@@ -1,5 +1,5 @@
-# E-commerce-DH 👨‍💻 👩‍💻
-EchoPet
+# E-commerce EchoPet 🦁 🐦
+
 
 # Figma
 https://www.figma.com/file/uSzNvWzY9Nh2RZrS5mZSwG/EchoPet?node-id=0%3A1
