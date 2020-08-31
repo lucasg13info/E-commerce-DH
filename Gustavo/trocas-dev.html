@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resource/css/style.css">
+    <title>Trocas e Devoluções</title>
+</head>
+<body>
+
+        <div class="left">
+            <img src="resource/img/EchoPet-logo-preto.png" alt="Logo EchoPet" class="logo-fundo">
+
+            <form action="">
+                <h4> Solicitar Vale Troca: </h4>
+                <select name="trocas" id="trocas">
+                    <option selected disabled> Motivo </option>
+                    <option value="Arrependimento"> DEVOLUÇÃO POR ARREPENDIMENTO OU DESISTÊNCIA </option>
+                    <option value="PedidoCancelado"> RESSARCIMENTO DE VALOR DE PEDIDO CANCELADO </option>
+                    <option value="ModeloDivergente"> TROCA DO PRODUTO – DIVERGÊNCIA DO MODELO </option>
+                    <option value="Defeito"> TROCA DO PRODUTO COM DEFEITO </option>
+                </select>
+
+                <br><br>
+
+                <input type="number" id="pedido" name="pedido" placeholder="N° do pedido" required>
+
+                <button type="submit"> Enviar </button>
+
+            </form>
+            
+        </div>
+    
+
+    <div class="main">
+        <h2> Trocas e Devoluções </h2>
+        <h3> O consumidor tem até 7 (sete) dias corridos para solicitar a troca ou devolução do produto.</h3>
+        <p>
+            
+        </p>
+    </div>
+
+    <div class="right">
+
+        <form action="">
+            <h4>Caso deseje a devolução do valor, envie-nos um e-mail para que possamos analisar o caso e dar prosseguimento</h4>
+            <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+            <br><br>
+            <textarea name="mensagem" id="mensagem" cols="40" rows="5" placeholder="Nos explique melhor"></textarea>
+            <br>
+            <button type="submit"> Enviar </button>
+            <button type="reset"> Cancelar </button>
+        </form>
+    </div>
+    
+</body>
+</html>

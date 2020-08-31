@@ -1,0 +1,39 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.left {
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    width: 40vw;
+    height: 100vh;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.logo-fundo {
+    width: 300px;
+    height: 220px;
+}
+
+.right {
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
