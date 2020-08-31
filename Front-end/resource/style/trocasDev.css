@@ -25,6 +25,13 @@ body {
     text-align: center;
 }
 
+.logo_fundo {
+    text-align: center;
+    width: 400px;
+    height: 250px;
+    /* background-image: url('resource/img/trocas-dev/EchoPet-logo-preto.png'); */
+}
+
 .logo-fundo {
     width: 300px;
     height: 220px;
@@ -36,4 +43,18 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+@media (max-width: 500px) {
+    .right {
+        width: 300vw;
+    }
+
+    .left {
+        width: 300vw;
+    }
+
+    .main {
+        width: 400vw;
+    }
 }
