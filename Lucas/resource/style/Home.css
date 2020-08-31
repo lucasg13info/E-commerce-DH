@@ -144,8 +144,6 @@ body{
 
 
 
-
-
 /*MAIN*/
 .h1-main{
     text-align: center;
@@ -175,13 +173,11 @@ body{
 .desconto10Porcento{
 text-align: center;
 
-background: #ffffff;
-border: 1px solid #000000;
+background: #f1f1f1;
+border: 2px solid #000000;
 
 border-radius: 31px;
-
 margin: 60px;
-
 padding: 10px;
 }
 
