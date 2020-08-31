@@ -2,22 +2,22 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrinho de compras</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="/Front-end/resource/style/Carrinho.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrinho de compras</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="/Front-end/resource/style/Carrinho.css">
 </head>
 
 <body>
 
-    
-    <!--HEADER-->
+
+  <!--HEADER-->
 
   <header class="papai">
     <div class="logo">
-      <img class="logo" src="/Front-end/resource/img/EchoPet-logo-white.png" alt="">
+      <img class="logo" src="/Front-end/resource/img/Carrinho/EchoPet-logo-white.png" alt="">
     </div>
 
     <div class="formulario1">
@@ -32,7 +32,7 @@
     </div>
 
     <div class="carrinho1">
-      <img class="carrinhoHeader" src="/Front-end/resource/img/carrinho.png" alt="">
+      <img class="carrinhoHeader" src="/Front-end/resource/img//Carrinho/carrinho.png" alt="">
       <p class="textoHeader">Carrinho Item 0 </p>
     </div>
   </header>
@@ -44,8 +44,9 @@
   <div class="navA">
     <div class="dropdown">
 
-      <img class="btn btn-secondary dropdown-toggle menu-hamburguer" src="/Front-end/resource/img/menu-hamburguer.png"
-        type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <img class="btn btn-secondary dropdown-toggle menu-hamburguer"
+        src="/Front-end/resource/img//Carrinho/menu-hamburguer.png" type="button" id="dropdownMenuButton"
+        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 
       </button>
       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -85,10 +86,10 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="/Front-end/resource/img/carrosel1.png" class="d-block w-100" alt="...">
+        <img src="/Front-end/resource/img//Carrinho/carrosel1.png" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="/Front-end/resource/img/carrosel2.png" class="d-block w-100" alt="...">
+        <img src="/Front-end/resource/img//Carrinho/carrosel2.png" class="d-block w-100" alt="...">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -103,89 +104,90 @@
 
 
 
-    <main>
-        <div class="container" id="containerCarrinho">
+  <main>
+    <div class="container" id="containerCarrinho">
 
-            <div class="row" id="titleCarrinho">
-                <div class="col-12">
-                    <h3>Meu carrinho <img src="./carrinho.png" alt="" class="img-thumbnail" id="logoCarrinho"></h3>
-                </div>
+      <div class="row" id="titleCarrinho">
+        <div class="col-12">
+          <h3>Meu carrinho <img src="/Front-end/resource/img/Carrinho/carrinho.png" alt="" class="img-thumbnail"
+              id="logoCarrinho"></h3>
+        </div>
+      </div>
+
+      <div class="row" id="carrinhoProdutos">
+        <div class="col-md-7" id="tabelaCarrinho">
+          <div class="table-responsive">
+            <table class="table">
+              <table class="table table-hover">
+                <thead>
+                  <tr>
+                    <th scope="col">Código</th>
+                    <th scope="col">Produto</th>
+                    <th scope="col">Quantidade</th>
+                    <th scope="col">Valor</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row" id="codProduto">0001</th>
+                    <td class="descProduto">Ração</td>
+                    <td class="qtd">1</td>
+                    <td>R$ 190,00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" id="codProduto">0002</th>
+                    <td class="descProduto">Tapete Higiênico</td>
+                    <td class="qtd">3</td>
+                    <td>R$ 145,00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" id="codProduto">0003</th>
+                    <td class="descProduto">Areia de gato</td>
+                    <td class="qtd">5</td>
+                    <td>R$ 250,99</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" id="codProduto">0015</th>
+                    <td class="descProduto">Aquário de peixe</td>
+                    <td class="qtd">1</td>
+                    <td>R$ 51,99</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table>
+          </div>
+        </div>
+
+
+        <div class="col-md-5" id="resumoCarrinho">
+          <div class="card w-75">
+            <div class="card-body">
+              <h5 class="card-title">Subtotal: <span>R$ 530,00</span></h5>
+              <p class="card-text"><strong>Frete: </strong><a href="http://" #id="calcFrete">Calcular Frete</a>
+              <p class="card-text"><a href="http://" #id="cupomDesconto">Possui um cupom de desconto?</a><br><br>
+                <a href="#" class="btn btn-primary">Continuar Compra</a>
             </div>
-
-            <div class="row" id="carrinhoProdutos">
-                <div class="col-md-7" id="tabelaCarrinho">
-                    <div class="table-responsive">
-                        <table class="table">
-                            <table class="table table-hover">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">Código</th>
-                                        <th scope="col">Produto</th>
-                                        <th scope="col">Quantidade</th>
-                                        <th scope="col">Valor</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row" id="codProduto">0001</th>
-                                        <td class="descProduto">Ração</td>
-                                        <td class="qtd">1</td>
-                                        <td>R$ 190,00</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row" id="codProduto">0002</th>
-                                        <td class="descProduto">Tapete Higiênico</td>
-                                        <td class="qtd">3</td>
-                                        <td>R$ 145,00</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row" id="codProduto">0003</th>
-                                        <td class="descProduto">Areia de gato</td>
-                                        <td class="qtd">5</td>
-                                        <td>R$ 250,99</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row" id="codProduto">0015</th>
-                                        <td class="descProduto">Aquário de peixe</td>
-                                        <td class="qtd">1</td>
-                                        <td>R$ 51,99</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </table>
-                    </div>
-                </div>
-
-
-                <div class="col-md-5" id="resumoCarrinho">
-                    <div class="card w-75">
-                        <div class="card-body">
-                            <h5 class="card-title">Subtotal: <span>R$ 530,00</span></h5>
-                            <p class="card-text"><strong>Frete: </strong><a href="http://" #id="calcFrete">Calcular Frete</a>
-                            <p class="card-text"><a href="http://" #id="cupomDesconto">Possui um cupom de desconto?</a><br><br>
-                            <a href="#" class="btn btn-primary">Continuar Compra</a>
-                        </div>
-                    </div>
-                </div>
-            </div><br><br>
-
+          </div>
         </div>
+      </div><br><br>
+
+    </div>
 
 
-        </div>
-    </main>
+    </div>
+  </main>
 
-    <footer></footer>
+  <footer></footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
