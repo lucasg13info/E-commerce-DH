@@ -58,3 +58,9 @@
     display: flex;
     align-items: flex-start;
 } */
+
+.sobre_Echopet {
+    display: flex;
+    flex-direction: column;
+}
+
