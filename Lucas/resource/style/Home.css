@@ -8,7 +8,6 @@ body{
 .papai{
     display: flex;
     background-color: #000000;
-   
 }
 
 .logo{
@@ -22,6 +21,7 @@ body{
     padding: 71px;  
     width: 800px;
 }
+
 
 .inputForm{
     width: 615px;
@@ -56,19 +56,14 @@ body{
 
 
 
-
-
-
 /*Segundo header azul*/
-.navA{
+.navA {
     justify-content: space-evenly;;
     display: flex;
     margin:0px;
     padding: 0px;
     background-color: #00072D;
 }
-
-
 
 
 .nav-link{
@@ -78,8 +73,9 @@ body{
     font-size: 20px;
 }
 
-
-
+.nav-link:hover{
+    color: orange;
+}
 
 
 /*Menu Hamburguer*/
@@ -107,7 +103,6 @@ body{
     font-size: 30px;
 }
 
-
 .animaisMenuHamburguer{
     font-weight: bold;
     font-size: 30px;
@@ -132,8 +127,6 @@ body{
     border: 6px solid rgba(0,0,0,.15);
     border-radius: 2.25rem;
 }
-
-
 
 .menu-hamburguer{
     width: 60px;
