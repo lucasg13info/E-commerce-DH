@@ -61,10 +61,27 @@
     align-items: flex-start;
 } */
 
+
 .sobre_Echopet {
     display: flex;
     flex-direction: column;
 }
+
+.col-5 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.col-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+/* FOOTER COPYRIGHT */
 
 .footer-II {
     height: 8vh;
