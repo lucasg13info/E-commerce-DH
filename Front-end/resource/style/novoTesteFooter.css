@@ -10,6 +10,8 @@
     /* margin: 0%;
     padding: 0%;
     border: 0%; */
+    height: 35vh;
+    width: 100%;
 }
 
 /* REDES SOCIAIS */
@@ -64,3 +66,46 @@
     flex-direction: column;
 }
 
+.footer-II {
+    height: 8vh;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background-color: #cccccc;
+}
+
+.certificado_seguranca {
+    width: 40px;
+    margin: 5px;
+}
+
+.site_seguro {
+    width: 50px;
+    margin: 5px;
+}
+
+.logo_elo {
+    width: 45px;
+    margin: 5px
+}
+
+.logo_pagseguro {
+    width: 55px;
+    margin: 5px
+}
+
+.logo_mastercard {
+    width: 35px;
+    margin: 5px
+}
+
+.logo_visa {
+    width: 35px;
+    margin: 5px
+}
+
+.col-sm {
+    display: flex;
+    align-items: flex-end;
+}
