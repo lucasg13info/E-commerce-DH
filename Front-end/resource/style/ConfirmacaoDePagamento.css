@@ -138,19 +138,6 @@ body{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .bg-dark {
     /* background-color: #343a40!important;Cinza */
     background-color: #000000!important; /*preto*/
@@ -192,20 +179,15 @@ body{
     width: 40px;
 }
 
-.menu-hamburguer:hover{
-
-}
-
 
 
 /*Main*/
 
 .container{
-    /* text-align: center;
-    /* background-color: blue; */
-    /* width: 815px;
-    height: 100px;
-    justify-content: center; */
+    text-align: center;
+}
+
+/* .container{
 
     width: 100vw;
          height: 30vh;
@@ -215,8 +197,8 @@ body{
          justify-content: center;
          align-items: center
   
-}
-.containerConfirmacaoPagamento{
+} */
+/* .containerConfirmacaoPagamento{
     text-align: center;
     background-color: #3AB42F;
     width: 85vh;
@@ -239,6 +221,80 @@ body{
     padding: 40px;
     font-size: 25px;
 }
+
+ */
+
+
+
+
+
+
+
+/*FOOTER*/
+.footer {
+    background-color: #00072d;
+    display: flex;
+    color: white;
+    /* margin: 0%;
+    padding: 0%;
+    border: 0%; */
+}
+
+/* REDES SOCIAIS */
+.logo-facebook {
+    width: 20px;
+    margin: 5px
+}
+
+.logo-instagram {
+    width: 20px;
+    margin: 5px;
+}
+
+.logo-twitter {
+    width: 20px;
+    margin: 5px
+}
+
+/* PARTE DE BAIXO DO FOOTER */
+/* .informacoes_footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+} */
+
+/* LOGO ECHOPET */
+/* .logo_echopet {
+    display: flex;
+    justify-content: flex-end;
+} */
+
+.logo {
+    width: 200px;
+    height: 140px;
+}
+
+/* CONTATO */
+/* .col-5 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+} */
+
+/* CNPJ ECHOPET */
+/* .cnpj_echopet {
+    display: flex;
+    align-items: flex-start;
+} */
+
+.sobre_Echopet {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
 
 
 
