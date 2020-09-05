@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    margin: 40px;
+    padding: 50px;
+    border: 10px;
+    width: 90vw;
+    height: 90vh;
+}
+
+@media (max-width: 500px) {
+    main {
+        width: 100vh;
+    }
+}
