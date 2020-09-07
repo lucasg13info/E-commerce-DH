@@ -5,6 +5,8 @@ body{
     padding: 0px;
 }
 
+
+
 /*Header*/
 .papai{
     display: flex;
@@ -143,6 +145,9 @@ body{
 }
 
 
+
+
+
 /*MAIN*/
 .h1-main{
     text-align: center;
@@ -219,6 +224,7 @@ padding: 10px;
 
 
 
+
 /*FOOTER*/
 .footer {
     background-color: #00072d;
@@ -227,8 +233,6 @@ padding: 10px;
     /* margin: 0%;
     padding: 0%;
     border: 0%; */
-    height: 35vh;
-    width: 100%;
 }
 
 /* REDES SOCIAIS */
@@ -261,8 +265,8 @@ padding: 10px;
 } */
 
 .logo {
-    width: 130px;
-    height: 100px;
+    width: 200px;
+    height: 140px;
 }
 
 /* CONTATO */
@@ -278,23 +282,9 @@ padding: 10px;
     align-items: flex-start;
 } */
 
-
 .sobre_Echopet {
     display: flex;
     flex-direction: column;
-}
-
-.col-5 {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-}
-
-.col-6 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
 }
 
 
@@ -358,6 +348,11 @@ padding: 10px;
     display: flex;
     justify-content: center;
 }
+
+
+
+
+
 
 
 /*Testes de responsividade*/
