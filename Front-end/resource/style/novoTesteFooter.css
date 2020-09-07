@@ -126,3 +126,18 @@
     display: flex;
     align-items: flex-end;
 }
+
+.logo_pequeno {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logos_cartoes {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.copyrigh {
+    display: flex;
+    justify-content: center;
+}
