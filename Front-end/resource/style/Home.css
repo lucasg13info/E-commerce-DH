@@ -144,14 +144,11 @@ body{
 
 
 
-
-
 /*MAIN*/
 .h1-main{
     text-align: center;
     font-weight: bold;
 
-    
     margin: 45px
 }
 
@@ -188,6 +185,7 @@ padding: 10px;
     font-weight: bold;
     font-size: 20px ;
 }
+
 .cupomPetiscao{
     color: orange;
     font-weight: bold;
@@ -201,7 +199,6 @@ padding: 10px;
     display: flex;
     justify-content: center;
 }
-
 
 
 .logoMarcas .pedigree{
@@ -219,12 +216,6 @@ padding: 10px;
     width: 14%;
     height: 75%;
 }
-
-
-
-
-
-
 
 
 
@@ -268,7 +259,6 @@ padding: 10px;
 }
 
 /* fim juan */
-
 
 [class*=grid-], [class*=grid_], [class~=grid] {
     box-sizing: border-box;
@@ -355,29 +345,6 @@ p {
     width: 60px;
     margin: 5px
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
