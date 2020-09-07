@@ -8,6 +8,7 @@ body{
 .papai{
     display: flex;
     background-color: #000000;
+    justify-content: center;
 }
 
 .logo{
@@ -32,7 +33,6 @@ body{
     border-radius: 18px;
 
     height: 40px;
-    
 }
 
 .textoBemVindo1{
@@ -67,11 +67,15 @@ body{
 }
 
 
-.nav-link:hover{
+.nav-link{
     color: white;
     text-decoration:none;
 
     font-size: 20px;
+}
+
+.nav-link:hover{
+    color: orange;
 }
 
 
@@ -138,94 +142,11 @@ body{
 }
 
 
-.bg-dark {
-    /* background-color: #343a40!important;Cinza */
-    background-color: #000000!important; /*preto*/
-}
-
-.logo{
-    width: 220px;
-}
-
-.nav{
-    font-size: 35px;
-    
-}
-
-
-/*formulario menu*/
-.form-control{
-    width: 400px;
-}
-
-
-.navA{
-    justify-content: space-evenly;;
-    display: flex;
-    margin:0px;
-    padding: 0px;
-    background-color: #00072D;
-}
-
-
-.nav-link{
-    color: white;
-    text-decoration:none;
-
-    font-size: 15px;
-}
-
-.menu-hamburguer{
-    width: 40px;
-}
-
-
-
 /*Main*/
 
 .container{
     text-align: center;
 }
-
-/* .container{
-
-    width: 100vw;
-         height: 30vh;
-         
-         display: flex;
-         flex-direction: row;
-         justify-content: center;
-         align-items: center
-  
-} */
-/* .containerConfirmacaoPagamento{
-    text-align: center;
-    background-color: #3AB42F;
-    width: 85vh;
-    height: 56px;
-    
-    
-    padding: 10px;
-    border-radius: 10px;
-}
-
-
-.OlaPessoa{
-    height: 5vh;
-    padding: 50px;
-    
-}
-
-
-.pagamentoConfirmado{
-    padding: 40px;
-    font-size: 25px;
-}
-
- */
-
-
-
 
 
 
@@ -293,12 +214,63 @@ body{
 }
 
 
+/* FOOTER COPYRIGHT */
 
+.footer-II {
+    height: 8vh;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background-color: #cccccc;
+}
 
+.certificado_seguranca {
+    width: 40px;
+    margin: 5px;
+}
 
+.site_seguro {
+    width: 50px;
+    margin: 5px;
+}
 
+.logo_elo {
+    width: 45px;
+    margin: 5px
+}
 
+.logo_pagseguro {
+    width: 55px;
+    margin: 5px
+}
 
+.logo_mastercard {
+    width: 35px;
+    margin: 5px
+}
 
+.logo_visa {
+    width: 35px;
+    margin: 5px
+}
 
+.col-sm {
+    display: flex;
+    align-items: flex-end;
+}
 
+.logo_pequeno {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logos_cartoes {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.copyrigh {
+    display: flex;
+    justify-content: center;
+}
