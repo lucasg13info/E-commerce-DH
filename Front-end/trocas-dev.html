@@ -3,56 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="shortcut icon" href="resource/img/index/EchoPet-logo-preto.png">
     <link rel="stylesheet" href="resource/style/trocasDev.css">
     <title>Trocas e Devoluções</title>
 </head>
 <body>
-        <div class="left">
-            <img src="resource/img/trocas-dev/EchoPet-logo-preto.png" alt="Logo EchoPet" class="logo-fundo">
 
-            <form action="">
+    <!--HEADER-->
+
+
+ <header class="papai">
+    <div class="logo">
+      <img class="logo" src="./resource/img/index/EchoPet-logo-white.png" alt="">
+    </div>
+
+    <div class="formulario1">
+      <form class="formulario1a" action="">
+        <input class="inputForm" type="text">
+      </form>
+    </div>
+
+    <div class="textoBemVindo1">
+      <h3 class="textoHeader">Bem-vindo</h3>
+      <p class="textoHeader">Entre ou Cadastre-se</p>
+    </div>
+
+    <div class="carrinho1">
+      <img class="carrinhoHeader" src="./resource/img/index/carrinho.png" alt="">
+      <p class="textoHeader">Carrinho Item 0 </p>
+    </div>
+  </header>
+    <!--CORPO-->
+    <div class="corpo">
+      
+     <div class="titulo">
+      <h1> Troca e Devolução </h1>
+     </div>
+      <div class="imageBack">
+         <img class= "imageBack"src="./resource/img/trocas-dev/backgroundPets 1.png" alt="">
+      </div>
+        <div class="inform1">
+            <form action="" class="inform1">
                 <h4> Solicitar Vale Troca: </h4>
-                <select name="trocas" id="trocas">
-                    <option selected disabled> Motivo </option>
-                    <option value="Arrependimento"> DEVOLUÇÃO POR ARREPENDIMENTO OU DESISTÊNCIA </option>
-                    <option value="PedidoCancelado"> RESSARCIMENTO DE VALOR DE PEDIDO CANCELADO </option>
-                    <option value="ModeloDivergente"> TROCA DO PRODUTO – DIVERGÊNCIA DO MODELO </option>
-                    <option value="Defeito"> TROCA DO PRODUTO COM DEFEITO </option>
-                </select>
-
-                <br><br>
-
-                <input type="number" id="pedido" name="pedido" placeholder="N° do pedido" required>
-
-                <button type="submit"> Enviar </button>
+                  <select name="trocas" id="trocas">
+                      <option selected disabled> Motivo </option>
+                      <option value="Arrependimento"> DEVOLUÇÃO POR ARREPENDIMENTO OU DESISTÊNCIA </option>
+                      <option value="PedidoCancelado"> RESSARCIMENTO DE VALOR DE PEDIDO CANCELADO </option>
+                      <option value="ModeloDivergente"> TROCA DO PRODUTO – DIVERGÊNCIA DO MODELO </option>
+                      <option value="Defeito"> TROCA DO PRODUTO COM DEFEITO </option>
+                  </select> <br><br>
+                  <input type="text" id="pedido" name="pedido" placeholder="N° do pedido" required>
 
             </form>
-            
-        </div>
-    
-
-    <div class="main">
-        <h2> Trocas e Devoluções </h2>
-        <h3> O consumidor tem até 7 (sete) dias corridos para solicitar a troca ou devolução do produto.</h3>
-        <img src="resource/img/trocas-dev/idade-de-cachorros-como-calcular-em-relacao-com-a-idade-humana-02092019114340399.jpeg" alt="Logo EchoPet" class="logo_fundo">
-        <p>
+              <br><br>
           
-        </p>
+          </div>
+          <img src="./resource/img/trocas-dev/EchoPet-logo-preto.png" class="logoback">
     </div>
-
-    <div class="right">
-
-        <form action="">
-            <h4>Caso deseje a devolução do valor, envie-nos um e-mail para que possamos analisar o caso e dar prosseguimento</h4>
-            <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
-            <br><br>
-            <textarea name="mensagem" id="mensagem" cols="40" rows="5" placeholder="Nos explique melhor"></textarea>
-            <br>
-            <button type="submit"> Enviar </button>
-            <button type="reset"> Cancelar </button>
-        </form>
-    </div>
+    
     
 </body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </html>
