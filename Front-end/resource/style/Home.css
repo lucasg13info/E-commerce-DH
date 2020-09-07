@@ -9,6 +9,7 @@ body{
 .papai{
     display: flex;
     background-color: #000000;
+    justify-content: center;
 }
 
 .logo{
@@ -222,20 +223,86 @@ padding: 10px;
 
 
 
+
+
+
+
+
 /*FOOTER*/
 .footer {
+    display: block;
     background-color: #00072d;
-    display: flex;
+    padding: 50px 0 30px;
     color: white;
-    /* margin: 0%;
-    padding: 0%;
-    border: 0%; */
+    height: 50vh;
 }
 
-/* REDES SOCIAIS */
+.container {
+    margin: 0 auto;
+    padding: 0 .5rem;
+    width: 95%;
+}
+
+.grid {
+    box-sizing: border-box;
+}
+
+/*  Juan  */
+.footer__links {
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    bottom: 5vh;    
+}
+
+.footer__email {
+    position: relative;
+    left: 20vh;
+    bottom: 5vh;
+}
+
+.footer__redes_sociais{
+    position: relative;
+    left: 40vh;
+    bottom: 5vh;
+}
+
+/* fim juan */
+
+
+[class*=grid-], [class*=grid_], [class~=grid] {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 -10px;
+}
+
+.grid-4 > .col-, .grid-4 > .col_, .grid-4 > .col {
+    flex-basis: 25%;
+    max-width: 25%;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+/* Juan */
+
+.footer__list {
+    list-style: none;
+    margin: 2px;
+    padding: 2px;
+    position: relative;
+    left: 30vh;
+    top: 5vh;
+    display: flex;
+    flex-flow: row;
+}
+
 .logo-facebook {
     width: 20px;
-    margin: 5px
+    margin: 5px;
 }
 
 .logo-instagram {
@@ -245,44 +312,62 @@ padding: 10px;
 
 .logo-twitter {
     width: 20px;
+    margin: 5px;
+}
+
+.logo_echopet {
+    width: 32vh;
+    height: 20vh;
+    position: relative;
+    left: 170vh;
+    bottom: 17vh;
+    top: -10vh;
+}
+
+.footer__text {
+    position: relative;
+    top: 5vh;
+}
+
+.logos_cartoes {
+    display: inline;   
+    position: relative;
+    left: 37vh;
+    bottom: 20vh; 
+}
+
+.logo-cartao-visa {
+    width: 40px;
     margin: 5px
 }
 
-/* PARTE DE BAIXO DO FOOTER */
-/* .informacoes_footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-} */
-
-/* LOGO ECHOPET */
-/* .logo_echopet {
-    display: flex;
-    justify-content: flex-end;
-} */
-
-.logo {
-    width: 200px;
-    height: 140px;
+.logo-cartao-mastercard {
+    width: 40px;
+    margin: 5px
 }
 
-/* CONTATO */
-/* .col-5 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-} */
-
-/* CNPJ ECHOPET */
-/* .cnpj_echopet {
-    display: flex;
-    align-items: flex-start;
-} */
-
-.sobre_Echopet {
-    display: flex;
-    flex-direction: column;
+.logo-cartao-pagseguro {
+    width: 60px;
+    margin: 5px
 }
+
+.logo-cartao-elo {
+    width: 60px;
+    margin: 5px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
