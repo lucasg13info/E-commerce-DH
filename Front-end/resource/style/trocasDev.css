@@ -1,113 +1,60 @@
-/*Zerando a página toda*/
-
-body{
-    background-color: #EEEEEE;
-    margin:0px;
-    padding: 0px;
-}
-
-/*Header*/
-.papai{
+body {
+    padding: 0;
+    margin: 0;
     display: flex;
-    background-color: #000000;
+    /* flex-direction: row; */
+    justify-content: space-between;
 }
 
-.logo{
-    width: 250px;  /* MODIFICA A ALTURA DO HEADER NA VERTICAL*/  
-}
-
-
-.formulario1a{
-    height: 100px;
-
-    padding: 71px;  /* ALTURA COLUNA VERTICAL INPUT DE BUSCA*/ 
-    width: 800px;   /*ESPAÇAMENTO NA HORIZONTAL (->) DO HEADER*/
-}
-
-
-.inputForm{
-    width: 615px; /*ESPAÇAMENTO NA HORIZONTAL (->) DO INPUT DE BUSCA*/
-    
-    background: #FFFFFF;
-    border: 2px solid #000000; /* BORDA DoO BUSCAR*/
+* {
     box-sizing: border-box;
-    border-radius: 18px; /*ARREDONDAMENTO DO BUSCAR*/
-
-    height: 40px; /*ALTURA DO BUSCAR NA VERTICAL*/
 }
 
-.textoBemVindo1{
-    height: 100px; 
-    padding: 50px; /* ALTURA COLUNA VERTICAL DO BEM VINDO*/ 
- 
-    width: 300px; /* ESPAÇAMENTO NA HORIZONTAL (->) DO BEM VINDO*/
+.left {
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-.textoHeader{
-    color: white;
-}
-
-.carrinho1{
-    height: 100px; /*ALTURA COLUNA VERTICAL DO CARRINHO*/
-    padding: 29px; /* ESPAÇAMENTO NA HORIZONTAL (->)*/
-}
-
-.carrinhoHeader{
-    height: 62px; /* TAMANHO LOGO*/
-}
-
-
-/* CORPO DA PAGINA */
-
-.corpo{
-    
-       
-   
-
-}
-
-.titulo{
-    background-color: #EEEEEE;
-    box-sizing: border-box;
+.main {
+    width: 40vw;
+    height: 100vh;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    font-style: normal ;
-    font-family: "Roboto";
-    font-weight: 500;
-    font-size: 20px;
-
-
 }
 
-.imageBack{
-  height: auto;
-  margin-right: 25px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.inform1{
-    margin-left: 70px;
-    margin-top: 150px;
-    
-}
-.logoback{
-    
-  
-  
+.logo_fundo {
+    text-align: center;
+    width: 400px;
+    height: 250px;
+    /* background-image: url('resource/img/trocas-dev/EchoPet-logo-preto.png'); */
 }
 
+.logo-fundo {
+    width: 300px;
+    height: 220px;
+}
 
+.right {
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
-/*Testes de responsividade*/
-@media (min-width: 770px){
-    .container .container-lg .container-md .container-sm {
-        max-width: 849px;
+@media (max-width: 500px) {
+    .right {
+        width: 300vw;
     }
 
+    .left {
+        width: 300vw;
     }
 
-@media (min-width: 992px){
-.container .container-lg .container-md .container-sm {
-    max-width: 960px;
-}
+    .main {
+        width: 400vw;
+    }
 }
