@@ -4,6 +4,9 @@ body {
     display: flex;
     /* flex-direction: row; */
     justify-content: space-between;
+
+    background-color: #eeeeee;
+    
 }
 
 * {
@@ -13,8 +16,10 @@ body {
 .left {
     width: 30vw;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
+    margin-top: 520px;
+    margin-left: 30px;
 }
 
 .main {
@@ -27,23 +32,42 @@ body {
 
 .logo_fundo {
     text-align: center;
-    width: 400px;
+    width: 900px;
     height: 250px;
-    /* background-image: url('resource/img/trocas-dev/EchoPet-logo-preto.png'); */
+    
+    margin-top: 75px;   
+   
 }
 
 .logo-fundo {
     width: 300px;
     height: 220px;
+    
+
 }
 
 .right {
     width: 30vw;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     justify-content: center;
+    margin-top: 470px;
+    margin-right: 55px;
+
+
 }
+
+
+    /* .background_logo{
+        
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+
+        
+    } */
 
 @media (max-width: 500px) {
     .right {
