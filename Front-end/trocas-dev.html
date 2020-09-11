@@ -9,55 +9,120 @@
     <title>Trocas e Devoluções</title>
 </head>
 <body>
-
-    <div class="image_descriton">
-
-        
-        <img src="./resource/img/trocas-dev/backgroundPets 1.png" alt="Logo EchoPet" class="logo_fundo">
-        
-       </div>
-
-
-
-        <div class="left">
-            
-
-            <form action="">
-                <h4> Solicitar Vale Troca: </h4>
-                <select name="trocas" id="trocas">
-                    <option selected disabled> Motivo </option>
-                    <option value="Arrependimento"> DEVOLUÇÃO POR ARREPENDIMENTO OU DESISTÊNCIA </option>
-                    <option value="PedidoCancelado"> RESSARCIMENTO DE VALOR DE PEDIDO CANCELADO </option>
-                    <option value="ModeloDivergente"> TROCA DO PRODUTO – DIVERGÊNCIA DO MODELO </option>
-                    <option value="Defeito"> TROCA DO PRODUTO COM DEFEITO </option>
-                </select>
-
-                <br><br>
-
-                <input type="text" id="pedido" name="pedido" placeholder="N° do pedido" required>
-
-                
-            </form>
-            
+     <!--HEADER-->
+     <header class="papai">
+        <div class="logo">
+            <img class="logo" src="./resource/img/index/EchoPet-logo-white.png" alt="">
         </div>
-    
 
-    
-    <!-- <div class = "background" >
-        <img src="./resource/img/trocas-dev/EchoPet-logo-preto.png" class="background_logo">
-    </div> -->
-    <div class="right">
+        <div class="formulario1">
+            <form class="formulario1a" action="">
+                <input class="inputForm" type="text">
+            </form>
+        </div>
 
-        <form action="">
-            <h4 class="descricao">Caso deseje a devolução do valor, <br> envie-nos um e-mail <br> para que possamos analisar o caso e dar prosseguimento</h4>
-            <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
-            <br><br>
-            <textarea name="mensagem" id="mensagem" cols="40" rows="5" placeholder="Nos explique melhor"></textarea>
-            <br>
-            <button type="submit"> Enviar </button>
-            <button type="reset"> Cancelar </button>
-        </form>
+        <div class="textoBemVindo1">
+            <h3 class="textoHeader">Bem-vindo</h3>
+            <p class="textoHeader">Entre ou Cadastre-se</p>
+        </div>
+
+        <div class="carrinho1">
+            <img class="carrinhoHeader" src="./resource/img/index/carrinho.png" alt="">
+            <p class="textoHeader">Carrinho Item 0 </p>
+        </div>
+    </header>
+
+     <!--Menu2 -->
+     <div class="navA">
+        <div class="dropdown">
+            <img class="btn btn-secondary dropdown-toggle menu-hamburguer"
+                src="./resource/img/index/menu-hamburguer.png" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <p class="animaisMenuHamburguer"> ANIMAIS</p>
+                <a class="dropdown-item" href="#">Cachorros</a>
+                <a class="dropdown-item" href="#">Gatos</a>
+                <a class="dropdown-item" href="#">Pássaros</a>
+                <a class="dropdown-item" href="#">Peixes</a>
+                <hr>
+                <p class="animaisMenuHamburguer" href="#">OUTROS</p>
+            </div>
+        </div>
+
+
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Cupom de desconto</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Novidades para seu cachorro</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Sobre nós</a>
+            </li>
+        </ul>
+
     </div>
+
+        <!--CORPO DA TELA-->
+        
+
+                        
+            <div class="image_descriton">
+
+                            
+                <img src="./resource/img/trocas-dev/backgroundPets 1.png" alt="Logo EchoPet" class="logo_fundo">
+                            
+            </div>
+
+                        
+
+                            <div class="left">
+                                
+
+                                <form action="">
+                                    <h4> Solicitar Vale Troca: </h4>
+                                    <select name="trocas" id="trocas">
+                                        <option selected disabled> Motivo </option>
+                                        <option value="Arrependimento"> DEVOLUÇÃO POR ARREPENDIMENTO OU DESISTÊNCIA </option>
+                                        <option value="PedidoCancelado"> RESSARCIMENTO DE VALOR DE PEDIDO CANCELADO </option>
+                                        <option value="ModeloDivergente"> TROCA DO PRODUTO – DIVERGÊNCIA DO MODELO </option>
+                                        <option value="Defeito"> TROCA DO PRODUTO COM DEFEITO </option>
+                                    </select>
+
+                                    <br><br>
+
+                                    <input type="text" id="pedido" name="pedido" placeholder="N° do pedido" required>
+
+                                    
+                                </form>
+                                
+                            </div>
+                        
+
+                        
+                        <!-- <div class = "background" >
+                            <img src="./resource/img/trocas-dev/EchoPet-logo-preto.png" class="background_logo">
+                        </div> -->
+                    
+                        <div class="right">
+
+                            <form action="">
+                                <h4 class="descricao">Caso deseje a devolução do valor, <br> envie-nos um e-mail <br> para que possamos analisar o caso e dar prosseguimento</h4>
+                                <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                                <br><br>
+                                <textarea name="mensagem" id="mensagem" cols="40" rows="5" placeholder="Nos explique melhor"></textarea>
+                                <br>
+                                <button type="submit"> Enviar </button>
+                                <button type="reset"> Cancelar </button>
+                            </form>
+                        </div>
+
+        <!--FOOTER-->
+        
+                    
     
 </body>
 
