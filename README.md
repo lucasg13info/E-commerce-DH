@@ -4,7 +4,7 @@
 # Figma
 https://www.figma.com/file/uSzNvWzY9Nh2RZrS5mZSwG/EchoPet?node-id=0%3A1
 
-
+<img src="index.png">
 
 <h1> SPRINT 1 </h1>
 <p> Os grupos deverão criar e pensar no sistema a ser desenvolvido. A ideia é documentar
