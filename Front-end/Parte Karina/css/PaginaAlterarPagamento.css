@@ -1,0 +1,214 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto'; 
+    box-sizing: border-box;
+       
+}
+
+body{
+    background-color: #EEEEEE;
+}
+
+header{
+    height: 100px;
+    background-color: #FF8A14 ;
+    
+
+}
+
+#barramenu{
+    height: 35px;
+    background-color: #00072D;
+    
+
+}
+
+#footer{
+    height: 35px;
+    background-color: #00072D;
+    border-top: 10px;
+}
+
+.col-12{
+    /* border: 1px black solid; */
+    height:auto;
+    font-size:30px;
+    color: #00072D;
+    margin-top:-7px;
+    
+}
+
+.mensagem{
+    /* border: 1px black solid; */
+    height: auto;
+    margin-top: 0px;
+    font-size:12px;
+    margin-left: 15px;
+
+}
+
+.container > .row >.col-2{
+    background-color:white;
+    /* border: 1px black solid; */
+    height: auto;
+    
+}
+
+.pagamentocartao{
+    color:black;
+    font-size:18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.iconecartao{
+    margin-left: 3px;
+    margin-top:25px;
+
+}
+
+.nomecartao{
+    color:black;
+    font-size:21px;
+    margin-bottom: 15px;
+    margin-top:25px;
+    margin-left: 12px;
+}
+
+.nomeusuario{
+    color:black;
+    font-size:16px;
+    margin-bottom: 15px;
+    margin-top:4px;
+    margin-left: 23px;
+
+}
+
+.vencimento{
+    color:black;
+    font-size:21px;
+    margin-bottom: 15px;
+    margin-top:25px;
+    margin-left: 27px;
+   
+}
+
+.datacartao{
+    color:black;
+    font-size:16px;
+    margin-bottom: 15px;
+    margin-top:4px;
+    margin-left: 50px;
+}
+
+.login-botao{
+    margin-top: 25px;
+    width: 180px;
+    margin-left: -10px;
+    border-radius: 10px;
+    background-color: #A8DADC;
+    border-color: #00072D;
+    color: black;
+    font-weight: bold;
+    height: 32px;
+    margin-bottom: 5px;
+    
+}
+
+.alterar{
+    margin-left:0px;    
+    font-weight: bold;
+}
+
+.excluir{
+    margin-left:45px;    
+    font-weight: bold;
+}
+
+.datavencimentocartao{
+    margin-top: 13px;
+    margin-bottom:-17px;;
+}
+
+.col-4{
+    /* border: 1px black solid; */
+    height:auto;
+    color: black;
+    /* background-color:white; */
+}
+
+.adicionar-cartaoBotao{
+    margin-top: 25px;
+    width: 200px;
+    margin-left: 390px;
+    background-color: #A8DADC;
+    border-radius: 10px;
+    border-color: #00072D;
+    color: black;
+    font-weight: bold;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.login-continuar{
+    margin-top: 25px;
+    width: 200px;
+    margin-left: 30px;
+    border-radius: 10px;
+    background-color: #A8DADC;
+    border-color: #00072D;
+    color: black;
+    font-weight: bold;
+    height: 40px;
+    margin-bottom: 5px;
+
+}
+
+.finalizar{
+    font-size:16px;
+    text-align:center;
+    color: black;
+    font-weight: bold;
+}
+
+.col-3{
+    /* border: 1px black solid; */
+    height:auto;
+    background-color:white;
+   
+}
+
+
+.col-11{
+    /* border: 1px black solid; */
+    height:auto;
+}
+
+.adicionarcartaocredito{
+    height:auto;
+    font-size:30px;
+    color: #00072D;
+    margin-top:-7px;
+    
+}
+
+.col-10{
+    /* border: 1px black solid; */
+    height:auto;
+    /* background-color:white; */
+    border: 1px #00072D solid;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #ccc;
+}
+
+.form-control{
+    /* border-radius: 10px;
+    box-shadow: 1px 1px 5px #ccc;
+    color: white;
+    width: 400px; */
+    margin-top: 20px;
+    /* margin-bottom: 1px; */
+}
+
