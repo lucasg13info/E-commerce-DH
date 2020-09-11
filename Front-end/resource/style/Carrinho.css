@@ -7,10 +7,11 @@ body{
 .papai{
     display: flex;
     background-color: #000000;
+    justify-content: center;
 }
 
-.logo{
-    width: 250px;  
+.logoMain{
+    width: 200px;  
 }
 
 
@@ -138,6 +139,11 @@ body{
     background-color: #00072D;
     border-color: #00072D;
 }
+
+
+
+
+
 
 main{
     border: 1px solid red;

@@ -11,8 +11,8 @@ body{
     justify-content: center;
 }
 
-.logo{
-    width: 250px;  
+.logoMain{
+    width: 200px;  
 }
 
 
@@ -142,135 +142,16 @@ body{
 }
 
 
+
+
 /*Main*/
 
 .container{
     text-align: center;
 }
 
-
-
-
-/*FOOTER*/
-.footer {
-    background-color: #00072d;
-    display: flex;
-    color: white;
-    /* margin: 0%;
-    padding: 0%;
-    border: 0%; */
-}
-
-/* REDES SOCIAIS */
-.logo-facebook {
-    width: 20px;
-    margin: 5px
-}
-
-.logo-instagram {
-    width: 20px;
-    margin: 5px;
-}
-
-.logo-twitter {
-    width: 20px;
-    margin: 5px
-}
-
-/* PARTE DE BAIXO DO FOOTER */
-/* .informacoes_footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-} */
-
-/* LOGO ECHOPET */
-/* .logo_echopet {
-    display: flex;
-    justify-content: flex-end;
-} */
-
-.logo {
-    width: 200px;
-    height: 140px;
-}
-
-/* CONTATO */
-/* .col-5 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-} */
-
-/* CNPJ ECHOPET */
-/* .cnpj_echopet {
-    display: flex;
-    align-items: flex-start;
-} */
-
-.sobre_Echopet {
-    display: flex;
-    flex-direction: column;
+.containerConfirmacaoPagamento{
+    padding: 135px;
 }
 
 
-/* FOOTER COPYRIGHT */
-
-.footer-II {
-    height: 8vh;
-    display: flex;
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
-    background-color: #cccccc;
-}
-
-.certificado_seguranca {
-    width: 40px;
-    margin: 5px;
-}
-
-.site_seguro {
-    width: 50px;
-    margin: 5px;
-}
-
-.logo_elo {
-    width: 45px;
-    margin: 5px
-}
-
-.logo_pagseguro {
-    width: 55px;
-    margin: 5px
-}
-
-.logo_mastercard {
-    width: 35px;
-    margin: 5px
-}
-
-.logo_visa {
-    width: 35px;
-    margin: 5px
-}
-
-.col-sm {
-    display: flex;
-    align-items: flex-end;
-}
-
-.logo_pequeno {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.logos_cartoes {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.copyrigh {
-    display: flex;
-    justify-content: center;
-}
