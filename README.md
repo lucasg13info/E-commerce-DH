@@ -1,9 +1,6 @@
 # E-commerce EchoPet 🦁 🐦
 
 
-# Figma
-https://www.figma.com/file/uSzNvWzY9Nh2RZrS5mZSwG/EchoPet?node-id=0%3A1
-
 <img src="index.png">
 
 <h1> SPRINT 1 </h1>
@@ -58,3 +55,8 @@ Bootstrap (caso o grupo opte por usá-lo). E, é provável que após
 começarem a transformar o protótipo em código tenham novas ideias
 para o layout, desde que todo o grupo concorde com as mudanças não há
 problema algum! </p>
+
+
+
+<h3> Figma: </h3> 
+<p>https://www.figma.com/file/uSzNvWzY9Nh2RZrS5mZSwG/EchoPet?node-id=0%3A1 </p>
