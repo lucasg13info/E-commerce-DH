@@ -6,6 +6,13 @@ body{
     margin:0px;
     padding: 0px;
     background-color: #EEEEEE;
+    background-image: url('../img/trocas-dev/EchoPet-logo-preto.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    background-size: 70%  55%
+
+    
 }
 
 
@@ -188,6 +195,13 @@ body{
 
 }
 
+.button{
+    
+    height: 5%;
+    width: auto;
+    margin-left: 20px;
+}
+
 /* .container_pai2{
 display: flex;
 background-color: black;
@@ -198,17 +212,25 @@ margin-top: -270px;
 
 
 .right {
-    width: 50vw;
+    width: 30vw;
     height: 40vh;
     margin-top: -250px;
     flex-direction: column;
     justify-content: center;
-    margin-left: 920px;
+    margin-left: 1110px;
    
     align-items: center;
     
 
 }
+
+.descricao{
+    width: 30vw;
+    height: 13vh;
+    text-align: center;
+
+}
+
 
 
     /* .background_logo{

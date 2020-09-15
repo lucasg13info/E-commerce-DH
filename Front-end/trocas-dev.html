@@ -10,23 +10,11 @@
     <title>Trocas e Devoluções</title>
 </head>
 <body>
-<<<<<<< HEAD
      <!--HEADER-->
      <header class="papai">
         <div class="logo">
             <img class="logo" src="./resource/img/index/EchoPet-logo-white.png" alt="">
         </div>
-=======
-       
-    
-    
-    
-    
-    
-    
-    <div class="left">
-            
->>>>>>> 65ffb1064f04baa876771983fe8d82df5dc4fab2
 
         <div class="formulario1">
             <form class="formulario1a" action="">
@@ -87,8 +75,11 @@
 
                             
                 <img src="./resource/img/trocas-dev/backgroundPets 1.png" alt="Logo EchoPet" class="logo_fundo">
-                            
+                    
+                    
+                    
             </div>
+
 
                         
 
@@ -109,7 +100,7 @@
 
                                     <input type="text" id="pedido" name="pedido" placeholder="N° do pedido" required>
 
-                                    
+                                   <a href=""><img href = "" src="./resource/img/trocas-dev/paw.png" alt="button" class="button"> </a>
                                 </form>
                                 
                             </div>
@@ -123,13 +114,22 @@
                         <div class="right">
 
                             <form action="">
-                                <h4 class="descricao">Caso deseje a devolução do valor, <br> envie-nos um e-mail <br> para que possamos analisar o caso e dar prosseguimento</h4>
-                                <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
-                                <br><br>
-                                <textarea name="mensagem" id="mensagem" cols="40" rows="5" placeholder="Nos explique melhor"></textarea>
+                                <h4 class="descricao">Caso deseje a devolução do valor,<br> envie-nos um e-mail  <br> para que possamos analisar o caso e dar prosseguimento</h4>
+                                <!-- <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required> -->
+                                <div class="input-group flex-nowrap">
+                                    <div class="input-group-prepend">
+                                      <span class="input-group-text" id="addon-wrapping">@</span>
+                                    </div>
+                                    <input type="email" class="form-control" cols="30" placeholder="seuemail@email.com" aria-label="Username" aria-describedby="addon-wrapping">
+                                  </div>
                                 <br>
-                                <button type="submit"> Enviar </button>
-                                <button type="reset"> Cancelar </button>
+                                <textarea name="mensagem" id="mensagem" cols="70" rows="10" placeholder="Nos explique melhor"></textarea>
+                                <br>
+                                <button type="button" class="btn btn-primary btn-sm">Enviar</button>
+                                <button type="button" class="btn btn-secondary   btn-sm">Cancelar</button>
+                                
+                                <!-- <button type="submit"> Enviar </button>
+                                <button type="reset"> Cancelar </button> -->
                             </form>
                         </div>
 
