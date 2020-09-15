@@ -3,10 +3,16 @@
 
 <img src="index.png">
 
+<h3> Figma: </h3> 
+<p>https://www.figma.com/file/uSzNvWzY9Nh2RZrS5mZSwG/EchoPet?node-id=0%3A1 </p>
+
+
+
 <h1> SPRINT 1 </h1>
 <p> Os grupos deverão criar e pensar no sistema a ser desenvolvido. A ideia é documentar
 wireframe de todas as páginas, funcionalidades principais da aplicação, fluxos e processos
 para a facilitação do desenvolvimento.</p>
+
 
 
 <p> Para a documentação e criação dos layouts, podem ser utilizadas qualquer ferramenta,
@@ -57,6 +63,3 @@ para o layout, desde que todo o grupo concorde com as mudanças não há
 problema algum! </p>
 
 
-
-<h3> Figma: </h3> 
-<p>https://www.figma.com/file/uSzNvWzY9Nh2RZrS5mZSwG/EchoPet?node-id=0%3A1 </p>
