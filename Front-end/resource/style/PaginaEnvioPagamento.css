@@ -1,0 +1,474 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto'; 
+    box-sizing: border-box;
+       
+}
+
+body{
+    background-color: #EEEEEE;
+}
+
+/*Header*/
+.papai{
+    display: flex;
+    background-color: #000000;
+    justify-content: center;
+}
+
+.logoMain{
+    width: 200px;  
+}
+
+
+.formulario1a{
+    height: 100px;
+
+    padding: 71px;  
+    width: 800px;
+}
+
+
+.inputForm{
+    width: 615px;
+    
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 18px;
+
+    height: 40px;
+}
+
+.textoBemVindo1{
+    height: 100px;
+    padding: 50px;
+
+    width: 300px;
+}
+
+.textoHeader{
+    color: white;
+}
+
+.carrinho1{
+    height: 100px;
+    padding: 29px;
+}
+
+.carrinhoHeader{
+    height: 62px;
+}
+
+
+
+/*Segundo header azul*/
+.navA {
+    justify-content: space-evenly;;
+    display: flex;
+    margin:0px;
+    padding: 0px;
+    background-color: #00072D;
+}
+
+
+.nav-link{
+    color: white;
+    text-decoration:none;
+
+    font-size: 20px;
+}
+
+.nav-link:hover{
+    color: orange;
+}
+
+
+/*Menu Hamburguer*/
+.element.style { /*Itens do menu*/
+    position: absolute;
+    top: 5px;
+    left: 4px;
+    transform: translate3d(0px, 44px, 8px);
+    
+    height: 429px;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 21;
+
+    font-size: 30px;
+}
+
+.animaisMenuHamburguer{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 20rem;
+    padding: 3.5rem 0;
+    margin: .125rem 0 0;
+    font-size: 6rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 6px solid rgba(0,0,0,.15);
+    border-radius: 2.25rem;
+}
+
+.menu-hamburguer{
+    width: 60px;
+    
+    padding: 0px;
+}
+
+.btn-secondary {
+    color: #fff; 
+    background-color: #00072D;
+    border-color: #00072D;
+}
+
+
+
+
+.col-12{
+    /* border: 1px black solid; */
+    height:auto;
+    font-size:30px;
+    color: #00072D;
+    margin-top:-7px;
+    
+}
+
+.col-5{
+    /* border: 1px black solid; */
+    height:auto;
+}
+
+.imagemcaminhao{
+    margin-left:22px;
+    margin-top:7px;
+    
+}
+
+.tituloentrega{
+    font-size:20px;
+    margin-left: 7px;
+    color: #00072D;
+    font-weight: bold;
+}
+
+.imagempagamento{
+    margin-left:0px;
+    margin-top:7px;
+}
+
+.titulopagamento{
+    font-size:20px;
+    margin-left: 7px;
+    color: #00072D;
+    font-weight: bold;
+}
+
+.col-4{
+    /* border: 1px black solid; */
+    height:auto;
+    background-color:white;
+}
+
+.dadosParaEntrega{
+    margin-top: 10px;
+    color: black;
+    margin-bottom:7px;
+    margin-left:28px;
+    
+}
+
+.titulo-pagamentocartao{
+    font-size:20px;
+    margin-left: 7px;
+    color: #00072D;
+    font-weight: bold;
+    margin-top: 3px;
+    margin-bottom:2px;
+}
+
+.col-6{
+    /* border: 1px black solid; */
+    height:auto;
+    background-color:white;
+}
+
+.cartao{
+    margin-top:6px;
+    color:black;
+    margin-bottom: 1px;
+    font-weight: bold;
+}
+
+.nomenocartao{
+    margin-top:6px;
+    color:black;
+    margin-bottom: 1px;
+    margin-left:110px;
+    font-weight: bold;
+}
+
+.vencimentocartao{
+    margin-top:6px;
+    color:black;
+    margin-bottom: 1px;
+    margin-left:70px;
+    font-weight: bold;
+}
+
+.nomeusuariocartao{
+    margin-top:6px;
+    color:black;
+    margin-bottom: 1px;
+    margin-left:80px;
+}
+
+.datavencimentocartao{
+    margin-top:6px;
+    color:black;
+    margin-bottom: 1px;
+    margin-left:80px;
+}
+
+.col-10{
+    /* border: 1px black solid; */
+    height:24px;
+  }
+
+  .checkEnderecoEntrega{
+      margin-bottom: 75px;
+  }
+
+  .editarEnderecoBotao{
+    margin-top: 10px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: #A8DADC;
+    border-color: #00072D;
+    color: black;
+    font-weight: bold;
+    height: 32px;
+    margin-bottom: 5px;
+    margin-left: 27px;
+}
+
+.col-1{
+    /* border: 1px black solid; */
+    height:auto;
+}
+
+.titulo-pagamentoboleto{
+    font-size:20px;
+    margin-left: 7px;
+    color: #00072D;
+    font-weight: bold;
+    margin-top: 3px;
+    margin-bottom:2px;
+}
+
+.imprimir-boleto{
+    font-size: 12px;
+    margin-left: 25px;
+}
+
+.finalizar-compra{
+    margin-left: 800px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: #A8DADC;
+    border-color: #00072D;
+    color: black;
+    font-weight: bold;
+    font-size:20px;
+    height: 32px;
+    
+}
+
+/* .linha-vertical{
+    border-left: 1px solid black;
+    box-sizing: border-box;
+    height: 50px;
+    margin-left:40px;
+    margin-top: -25px;
+} */
+
+.editarcartao{
+    margin-left:15px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: #A8DADC;
+    border-color: #00072D;
+    color: black;
+    font-weight: bold;
+    font-size:16px;
+    height: 32px;
+}
+
+/* GERAL */
+
+
+.footer {
+    background-color: #00072d;
+    display: flex;
+    color: white;
+    /* margin: 0%;
+    padding: 0%;
+    border: 0%; */
+    height: 35vh;
+    width: 100%;
+}
+
+/* REDES SOCIAIS */
+.logo-facebook {
+    width: 20px;
+    margin: 5px
+}
+
+.logo-instagram {
+    width: 20px;
+    margin: 5px;
+}
+
+.logo-twitter {
+    width: 20px;
+    margin: 5px
+}
+
+/* PARTE DE BAIXO DO FOOTER */
+/* .informacoes_footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+} */
+
+/* LOGO ECHOPET */
+/* .logo_echopet {
+    display: flex;
+    justify-content: flex-end;
+} */
+
+.logo {
+    width: 130px;
+    height: 100px;
+}
+
+/* CONTATO */
+/* .col-5 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+} */
+
+/* CNPJ ECHOPET */
+/* .cnpj_echopet {
+    display: flex;
+    align-items: flex-start;
+} */
+
+
+.sobre_Echopet {
+    display: flex;
+    flex-direction: column;
+}
+
+.col-5 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.footer .container .col-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+/* FOOTER COPYRIGHT */
+
+.footer-II {
+    height: 8vh;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background-color: #cccccc;
+}
+
+.certificado_seguranca {
+    width: 40px;
+    margin: 5px;
+}
+
+.site_seguro {
+    width: 50px;
+    margin: 5px;
+}
+
+.logo_elo {
+    width: 45px;
+    margin: 5px
+}
+
+.logo_pagseguro {
+    width: 55px;
+    margin: 5px
+}
+
+.logo_mastercard {
+    width: 35px;
+    margin: 5px
+}
+
+.logo_visa {
+    width: 35px;
+    margin: 5px
+}
+
+.col-sm {
+    display: flex;
+    align-items: flex-end;
+}
+
+.logo_pequeno {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logos_cartoes {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.copyrigh {
+    display: flex;
+    justify-content: center;
+}
