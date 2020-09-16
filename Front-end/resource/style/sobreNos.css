@@ -82,7 +82,7 @@ h4 {
     height: 100vh;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1200px) {
     .right {
         display: none;
     }
