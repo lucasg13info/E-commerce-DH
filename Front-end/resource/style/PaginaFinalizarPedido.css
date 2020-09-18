@@ -3,6 +3,7 @@
     padding: 0px;
     font-family: 'Roboto'; 
     box-sizing: border-box;
+    
        
 }
 
@@ -32,10 +33,12 @@ body{
 }
 
 .finalizeseupedido{
-    margin-bottom:-10px;
-    margin-top:7px;
+    margin-bottom:-8px;
+    margin-top:10px;
 
 }
+
+
 
 .login-confirmar{
     margin-top: 7px;
@@ -133,11 +136,13 @@ body{
     margin-top: -20px;
 }
 
-.col-6{
+.body > .container > .row > .col-6{
     /* border: 1px black solid; */
     height:auto;
     background-color:white;
 }
+
+
 
 .titulo-pagamentocartao{
     font-size:20px;

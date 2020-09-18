@@ -76,11 +76,13 @@ body{
     margin-bottom:2px;
 }
 
-.body > .col-6{
+.body > .container > .col-6{
     /* border: 1px black solid; */
     height:auto;
     background-color:white;
 }
+
+
 
 .cartao{
     margin-top:6px;
