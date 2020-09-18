@@ -8,7 +8,7 @@
 
 
 
-<h1> SPRINT 1 </h1>
+<h1> SPRINT 1: Desenhando o projeto no Figma </h1>
 <p> Os grupos deverão criar e pensar no sistema a ser desenvolvido. A ideia é documentar
 wireframe de todas as páginas, funcionalidades principais da aplicação, fluxos e processos
 para a facilitação do desenvolvimento.</p>
@@ -29,7 +29,7 @@ porém deixamos como recomendação as seguintes: </p>
 
 
 
-<h1> SPRINT 2 </h1>
+<h1> SPRINT 2: Criando o Front da aplicação </h1>
 <p> Agora que já pensamos no layout e identidade visual do nosso
 projeto, essas ideias devem ser passadas para o código! </p>
 
@@ -63,3 +63,25 @@ para o layout, desde que todo o grupo concorde com as mudanças não há
 problema algum! </p>
 
 
+
+<h1> SPRINT 3: Banco de dados </h1>
+
+
+<p>
+   Nessa sprint vamos nos aprofundar mais nas regras de negócio doprojeto, definir quais informações precisam ficar salvas no banco dedados. E assim, criar as tabelas com suas respectivas colunas erelacionamentos. 
+</p>
+
+
+<p>
+    SPRINT 3: Banco de dadosNessa sprint vamos nos aprofundar mais nas regras de negócio doprojeto, definir quais informações precisam ficar salvas no banco dedados. E assim, criar as tabelas com suas respectivas colunas erelacionamentos.
+</p>
+
+
+
+<p>
+    Utilize o Workbench Model para criar o diagrama de forma maisdinâmica e gere o schema com a opção “Forward Engineer”.Lembre-se de manter boas práticas na criação da estrutura, pode serutilizado letras minúsculas e underline nas nomenclaturas. Essaregra vai evitar muito bug no back-end
+</p>
+
+<p>
+    Valelembrar:Para garantir que a estrutura do banco faz sentido com a aplicaçãoque estamos desenvolvendo, insira alguns registros em cada tabela, explorandoos tipos de relações entre as entidades.
+</p>
