@@ -136,7 +136,7 @@ body{
     margin-top: -20px;
 }
 
-.body > .container > .row > .col-6{
+.col-6{
     /* border: 1px black solid; */
     height:auto;
     background-color:white;

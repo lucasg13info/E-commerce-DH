@@ -76,12 +76,11 @@ body{
     margin-bottom:2px;
 }
 
-.body > .container > .col-6{
+.col-6{
     /* border: 1px black solid; */
     height:auto;
     background-color:white;
 }
-
 
 
 .cartao{
