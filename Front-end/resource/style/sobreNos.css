@@ -6,6 +6,10 @@ body {
     justify-content: space-between;
 }
 
+/* .container-sobre {
+    display: flex;
+} */
+
 
 * {
     box-sizing: border-box;
@@ -16,6 +20,9 @@ body {
 .left {
     width: 20vw;
     height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
 }
 
 .imagem_I {
@@ -80,6 +87,9 @@ h4 {
 .right {
     width: 20vw;
     height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
 }
 
 @media (max-width: 1200px) {
