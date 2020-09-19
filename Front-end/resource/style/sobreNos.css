@@ -1,28 +1,29 @@
-body {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    /* flex-direction: row; */
-    justify-content: space-between;
-}
-
-/* .container-sobre {
-    display: flex;
-} */
-
-
 * {
     box-sizing: border-box;
 }
+
+body {
+    padding: 0;
+    margin: 0;
+    /* display: flex; */
+}
+
+.container-sobre {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
 
 /* LEFT */
 
 .left {
     width: 20vw;
     height: 100vh;
-    position: fixed;
+    /* position: fixed;
     left: 0;
-    top: 0;
+    top: 0; */
 }
 
 .imagem_I {
@@ -87,9 +88,9 @@ h4 {
 .right {
     width: 20vw;
     height: 100vh;
-    position: fixed;
+    /* position: fixed;
     right: 0;
-    top: 0;
+    top: 0; */
 }
 
 @media (max-width: 1200px) {
