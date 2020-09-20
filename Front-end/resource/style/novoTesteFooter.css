@@ -14,6 +14,11 @@
     width: 100%;
 }
 
+/* .i-footer {
+    color: white;
+    background-color: #00072d;
+} */
+
 /* REDES SOCIAIS */
 .logo-facebook {
     width: 20px;
@@ -92,6 +97,11 @@
     background-color: #cccccc;
 }
 
+/* .ii-footer {
+    color: black;
+    background-color: #cccccc;
+} */
+
 .certificado_seguranca {
     width: 40px;
     margin: 5px;
@@ -142,8 +152,11 @@
     justify-content: center;
 }
 
-/* @media (max-width: 1200px) {
-    footer {
-        display: inline;
+@media (max-width: 1200px) {
+    .logo_pequeno {
+        display: none;
     }
-} */
+    .logos_cartoes {
+        display: none;
+    }
+}
