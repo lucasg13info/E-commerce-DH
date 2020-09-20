@@ -16,3 +16,34 @@ body{
 }
 
 
+
+
+@media (max-width: 1024px) {
+    .h1confimacaoPagamento{
+        font-size: 40px;
+    }
+    .containerConfirmacaoPagamento{
+        padding: 50px;
+    }
+
+    .statusPedido{
+        width: 52vw;
+        height: 20vh;
+    }
+    
+  }
+
+
+
+@media (max-width: 800px) {
+    .h1confirmacaoPagamento{
+        font-size: 10px;
+    }
+    .containerConfirmacaoPagamento{
+        padding: 30px;
+    }
+    .statusPedido{
+        width: 45vw;
+        height: 14vh;
+    }
+  }

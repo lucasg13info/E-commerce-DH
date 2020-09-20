@@ -1,4 +1,9 @@
 /*Header*/
+.body{
+    margin:0px;
+    padding: 0px;
+}
+
 .papai{
     display: flex;
     background-color: #000000;
@@ -133,4 +138,22 @@
     color: #fff; 
     background-color: #00072D;
     border-color: #00072D;
+}
+
+
+
+@media (max-width: 1315px) {
+    .textoHeader{
+        font-size: 16px;
+    }
+    
+    .carrinhoHeader{
+        height: 50px;
+    }
+    
+    
+}
+
+@media (max-width: 751px) {
+  
 }
