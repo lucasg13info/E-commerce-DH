@@ -1,7 +1,7 @@
 <h1 align="center"> E-commerce EchoPet 🦁 🐦 </h1>
 
 
-<img src="index.png">
+<img src="new.png">
 
 <h3> Figma: </h3> 
 <p>https://www.figma.com/file/uSzNvWzY9Nh2RZrS5mZSwG/EchoPet?node-id=0%3A1 </p>
