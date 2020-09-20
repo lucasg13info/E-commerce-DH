@@ -152,11 +152,36 @@
     justify-content: center;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 750px) {
     .logo_pequeno {
         display: none;
     }
     .logos_cartoes {
         display: none;
+    }
+    .contato {
+        display: none;
+    }
+    .certificacao {
+        display: none;
+    }
+    .footer {
+        height: 70vh;
+        width: 100%;
+    }
+    .footer-II {
+        height: 7vh;
+        width: 100%;
+    }
+}
+
+@media (min-width: 751px) {
+    .footer {
+        height: 35vh;
+        width: 100%;
+    }
+    .footer-II {
+        height: 8vh;
+        width: 100%;
     }
 }
