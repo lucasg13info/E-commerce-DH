@@ -5,7 +5,7 @@ const emailFooter = document.getElementById('emailFooter');
 //     swal ( " Bom trabalho! " , " Você clicou no botão! " , " sucesso " )
 // };
 
-let emailInput = document.getElementById('staticEmail2').value;
+// let emailInput = document.getElementById('staticEmail2').value;
 
 function enviar() {
 
