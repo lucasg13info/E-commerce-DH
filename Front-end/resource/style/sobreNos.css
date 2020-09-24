@@ -60,9 +60,9 @@ body {
     height: 100px;
 }
 
-h2 {
+/* h2 {
     text-align: center;
-}
+} */
 
 .content {
     margin: 35px;
@@ -72,9 +72,10 @@ h2 {
 
 .titulo_sobre {
     font-weight: bold;
+    text-align: center;
 }
 
-h4 {
+section > h4 {
     text-decoration: underline
 }
 
