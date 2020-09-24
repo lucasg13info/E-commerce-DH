@@ -10,6 +10,11 @@
     justify-content: center;
 }
 
+.papaiResponsa {
+    display: none;
+    background-color: #000000;
+}
+
 .logoMain{
     width: 200px;  
 }
@@ -156,4 +161,43 @@
 
 @media (max-width: 751px) {
   
+}
+
+@media (max-width: 540px) {
+    .papai {
+        display: none;
+    }
+
+    .papaiResponsa {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logoMain {
+        width: 140px;
+    }
+
+    .carrinhoHeader{
+        height: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .inputForm {
+        width: 100%;
+    }
+
+    .formulario1a {
+        height: auto;
+        padding: 0;
+        width: 75vw;
+        margin: 0 auto;
+        padding-bottom: 25px;
+    }
 }
