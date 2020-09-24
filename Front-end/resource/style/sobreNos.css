@@ -20,7 +20,7 @@ body {
 
 .left {
     width: 20vw;
-    height: 100vh;
+    height: 100%;
     /* position: fixed;
     left: 0;
     top: 0; */
@@ -50,7 +50,7 @@ body {
 
 .main {
     width: 60vw;
-    height: 100vh;
+    height: 100%;
     color: black;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -87,7 +87,7 @@ h4 {
 
 .right {
     width: 20vw;
-    height: 100vh;
+    height: 100%;
     /* position: fixed;
     right: 0;
     top: 0; */
