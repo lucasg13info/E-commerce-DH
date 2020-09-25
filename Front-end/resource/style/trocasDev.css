@@ -6,16 +6,28 @@ body{
     margin:0px;
     padding: 0px;
     background-color: #EEEEEE;
-    background-image: url('../img/trocas-dev/EchoPet-logo-preto.png');
+    position: relative;
+}
+
+body::after{
+    content: "";
+
+    position: absolute;
+    top: 130px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    z-index: -1;
+
+    opacity: 0.3;
+
+    background: url('../img/trocas-dev/EchoPet-logo-preto.png');
     background-position: center;
     background-repeat: no-repeat;
     
-    background-size: 70%  55%
-
-    
+    background-size: 70%  55%;
 }
-
-
 
 /*Header*/
 .papai{
@@ -165,7 +177,7 @@ body{
     text-align: center;
     /* background-color: midnightblue; */
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 40px;
     
 
 }
