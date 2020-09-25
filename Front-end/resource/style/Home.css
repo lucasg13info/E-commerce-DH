@@ -104,6 +104,10 @@ padding: 10px;
 .container .container-lg .container-md .container-sm {
     max-width: 960px;
 }
+
+    .card{
+        width: 13rem;
+    }
 }
 
 

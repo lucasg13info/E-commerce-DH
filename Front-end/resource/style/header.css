@@ -159,11 +159,7 @@
     
 }
 
-@media (max-width: 751px) {
-  
-}
-
-@media (max-width: 540px) {
+@media (max-width: 750px) {
     .papai {
         display: none;
     }
@@ -200,4 +196,13 @@
         margin: 0 auto;
         padding-bottom: 25px;
     }
+
+    .nav li:last-child {
+        display: none;
+    }
+
+    .height-carousel{
+        height: 150px;
+    }
+    
 }
