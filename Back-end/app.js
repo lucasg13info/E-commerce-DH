@@ -8,6 +8,7 @@ var logger = require('morgan');
 const indexRouter = require('./routes/index')
 const carrinhoRouter = require('./routes/carrinho')
 const confirmacaoDePagamentoRouter = require('./routes/confirmacaoDePagamento')
+const paginaAlterarEnderecoRouter = require('./routes/paginaAlterarEndereco');
 
 var app = express();
 
@@ -24,7 +25,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/index', indexRouter);
 app.use('/carrinho', carrinhoRouter);
-app.use('/confirmacaoDePagamento', confirmacaoDePagamentoRouter )
+app.use('/confirmacaoDePagamento', confirmacaoDePagamentoRouter);
+app.use('/paginaAlterarEndereco', paginaAlterarEnderecoRouter);
 
 
 
