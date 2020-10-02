@@ -19,4 +19,8 @@ h2 {
     .termos_politicas {
         width: 100vh;
     }
+    .termos-pol {
+        display: flex;
+        flex-direction: column;
+    }
 }

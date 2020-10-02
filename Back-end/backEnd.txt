@@ -1,0 +1,28 @@
+-- PROJETO DA REDE SOCIAL TN07 ---
+* PASSOS INICIAIS / CONFIGURANDO O AMBIENTE *
+✔ Adicionar a pasta node_modules ao arquivo .gitignore @done(20-09-30 20:33) - ok
+✔ Começar o repositório do git (git init); @done(20-09-30 20:33) - ok
+✔ Já criei o repostiório no github @done(20-09-30 20:34) - ok
+☐ Instalar as bibliotecas que vamos utilizar no projeto (pelo menos as que já planejamos);
+    ✔ Nodemon (DEV) @done(20-09-30 20:34) - ok
+        ☐ configurar o package.json/npm start = "nodemon bin/www";
+    ✔ Sequelize @done(20-09-30 20:35)
+    ✔ Sequelize-Cli (DEV) @done(20-09-30 20:35)
+    ✔ MySql2 @done(20-09-30 20:36)
+    ✔ Express-session @done(20-09-30 20:36)
+✔ Configurações iniciais do sequelize; @done(20-09-30 20:43)
+    ✔ npx sequelize init (cria a estrutura padrão do sequelize) @done(20-09-30 20:41)
+    ✔ trazer para o projeto o seu padrão de models/index.js preferido @done(20-09-30 20:41)
+    ✔ escrever o config/database.js, e garantir que os dados de conexão estão corretos; @done(20-09-30 20:43)
+    ✔ adicionar o arquivo .sequelizerc @done(20-09-30 20:43)
+    ✔ criar o banco de dados no MySQL/Servidor de BD (se for o caso); @done(20-09-30 20:45)
+* OPCIONAIS *
+☐ Configurar seu formatador de texto (es_lint/prettier) para o padrão da equipe/projeto;
+*SEQUELIZE / BANCO DE DADOS*
+☐ Criar os models;
+    ☐ chamar npx sequelize model:generate --name nomeDoModel --attributes nomeDaColuna:tipoDeDado
+    ☐ criar as migrations;
+    ☐ definir os atributos do model (se você adicionou algum sem ser pelo cli);
+    ☐ Criar os models sem nenhuma foreign_key primeiro! Se atentar para não criar
+        migration/models fazendo referências a tabelas que ainda não existem na hora
+        de executar os códigos
