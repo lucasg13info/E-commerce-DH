@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto'; 
+    box-sizing: border-box;
+    
+       
+}
+
+body{
+    background-color: #EEEEEE;
+}
+
+
+
+.col-12{
+    /* border: 1px black solid; */
+    height:auto;
+    font-size:30px;
+    color: #00072D;
+    margin-top:-7px;
+}
+
+.col-9{
+    /* border: 1px black solid; */
+    height:auto;
+}
+
+.col-3{
+    /* border: 1px black solid; */
+    height:auto;
+    background-color:white;
+}
+
+.finalizeseupedido{
+    margin-bottom:-8px;
+    margin-top:10px;
+
+}
+
+
+
+.login-confirmar{
+    margin-top: 7px;
+    width: 200px;
+    margin-left: 25px;
+    border-radius: 10px;
+    background-color: #A8DADC;
+    border-color: #00072D;
+    color: black;
+    font-weight: bold;
+    height: 40px;
+    margin-bottom: 5px;
+
+}
+
+.tituloentrega{
+    font-size:20px;
+    margin-left: 7px;
+    color: #00072D;
+    font-weight: bold;
+    margin-top:10px;
+}
+
+.resumopedido{
+    margin-left:50px;
+    font-size:20px;
+    font-weight: bold;
+    margin-top:10px;
+}
+
+.col-4{
+    /* border: 1px black solid; */
+    height:auto;
+    /* background-color:white; */
+}
+
+.col-1{
+    /* border: 1px black solid; */
+    height:auto;
+}
+
+
+.detalheendereco{
+    color: black;
+    margin-left:15px;
+}
+
+.subtotal{
+    margin-left:20px;
+    font-size:18px;
+    margin-bottom:-10px;
+    margin-top:8px;
+
+}
+
+.valorsubtotal{
+    color: #00072D;
+    margin-left:80px;
+
+}
+
+.frete{
+    margin-left:43px;
+    font-size:18px;
+    margin-top: -15px;
+}
+
+.valorfrete{
+    color: #00072D;
+    margin-left:80px;
+}
+
+.totalpedido{
+    color:red;
+    font-size:18px;
+    margin-top:-10px;
+    margin-bottom: 3px;
+    margin-left:10px;
+}
+
+.valortotalpedido{
+    color:red;
+    font-size:18px;
+    margin-top:-18px;
+    margin-bottom: 3px;
+    margin-left:35px;
+    font-weight: bold;
+}
+
+.linha-horizontal{
+    border-top: 1px solid #1414145e;
+    box-sizing: border-box;
+    width: 250px;
+    margin-left:5px;
+    margin-top: -20px;
+}
+
+.col-md-6{
+    /* border: 1px black solid; */
+    height:auto;
+    background-color:white;
+}
+
+
+
+.titulo-pagamentocartao{
+    font-size:20px;
+    margin-left: 7px;
+    color: #00072D;
+    font-weight: bold;
+    margin-top: 3px;
+    margin-bottom:2px;
+}
+
+.cartao{
+    margin-top:6px;
+    color:black;
+    margin-bottom: 1px;
+    font-weight: bold;
+}
+
+.nomenocartao{
+    margin-top:6px;
+    color:black;
+    margin-bottom: 1px;
+    margin-left:110px;
+    font-weight: bold;
+}
+
+.vencimentocartao{
+    margin-top:6px;
+    color:black;
+    margin-bottom: 1px;
+    margin-left:70px;
+    font-weight: bold;
+}
+
+.nomeusuariocartao{
+    margin-top:6px;
+    color:black;
+    margin-bottom: 1px;
+    margin-left:80px;
+}
+
+.datavencimentocartao{
+    margin-top:6px;
+    color:black;
+    margin-bottom: 1px;
+    margin-left:80px;
+}
+
+.col-5{
+    /* border: 1px black solid; */
+    height:auto;
+}
+
+
+.col-11{
+    /* border: 1px black solid; */
+    height:50px;
+}
+
+

@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    /* display: flex; */
+}
+
+.container-sobre {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+
+/* LEFT */
+
+.left {
+    width: 20vw;
+    height: 100%;
+    /* position: fixed;
+    left: 0;
+    top: 0; */
+}
+
+.imagem_I {
+    width: 20vw;
+    height: 170px;
+}
+
+.imagem_II {
+    width: 20vw;
+    height: 170px;
+}
+
+.imagem_III {
+    width: 20vw;
+    height: 170px;
+}
+
+.imagem_IV {
+    width: 20vw;
+    height: 170px;
+}
+
+/* MAIN */
+
+.main {
+    width: 60vw;
+    height: 100%;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo_EchoPet {
+    width: 150px;
+    height: 100px;
+}
+
+/* h2 {
+    text-align: center;
+} */
+
+.content {
+    margin: 35px;
+    margin-top: 50px;
+    /* overflow: hidden; */
+}
+
+.titulo_sobre {
+    font-weight: bold;
+    text-align: center;
+}
+
+section > h4 {
+    text-decoration: underline
+}
+
+/* .politicas_sobre {
+    list-style: none;
+    text-align: center;
+} */
+
+/* RIGHT */
+
+.right {
+    width: 20vw;
+    height: 100%;
+    /* position: fixed;
+    right: 0;
+    top: 0; */
+}
+
+@media (max-width: 1200px) {
+    .right {
+        display: none;
+    }
+
+    .left {
+        display: none;
+    }
+
+    .main {
+        width: 100vw;
+    }
+}

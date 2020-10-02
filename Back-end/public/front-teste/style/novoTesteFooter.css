@@ -1,0 +1,187 @@
+/* GERAL */
+* {
+    box-sizing: border-box;
+}
+
+.footer {
+    background-color: #00072d;
+    display: flex;
+    color: white;
+    /* margin: 0%;
+    padding: 0%;
+    border: 0%; */
+    height: 35vh;
+    width: 100%;
+}
+
+/* .i-footer {
+    color: white;
+    background-color: #00072d;
+} */
+
+/* REDES SOCIAIS */
+.logo-facebook {
+    width: 20px;
+    margin: 5px
+}
+
+.logo-instagram {
+    width: 20px;
+    margin: 5px;
+}
+
+.logo-twitter {
+    width: 20px;
+    margin: 5px
+}
+
+/* PARTE DE BAIXO DO FOOTER */
+/* .informacoes_footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+} */
+
+/* LOGO ECHOPET */
+/* .logo_echopet {
+    display: flex;
+    justify-content: flex-end;
+} */
+
+.logo {
+    width: 130px;
+    height: 100px;
+}
+
+/* CONTATO */
+/* .col-5 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+} */
+
+/* CNPJ ECHOPET */
+/* .cnpj_echopet {
+    display: flex;
+    align-items: flex-start;
+} */
+
+
+.sobre_Echopet {
+    display: flex;
+    flex-direction: column;
+}
+
+.col-5 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.col-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+/* FOOTER COPYRIGHT */
+
+.footer-II {
+    height: 8vh;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background-color: #cccccc;
+}
+
+/* .ii-footer {
+    color: black;
+    background-color: #cccccc;
+} */
+
+.certificado_seguranca {
+    width: 40px;
+    margin: 5px;
+}
+
+.site_seguro {
+    width: 50px;
+    margin: 5px;
+}
+
+.logo_elo {
+    width: 45px;
+    margin: 5px
+}
+
+.logo_pagseguro {
+    width: 55px;
+    margin: 5px
+}
+
+.logo_mastercard {
+    width: 35px;
+    margin: 5px
+}
+
+.logo_visa {
+    width: 35px;
+    margin: 5px
+}
+
+.col-sm {
+    display: flex;
+    align-items: flex-end;
+}
+
+.logo_pequeno {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logos_cartoes {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.copyrigh {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 750px) {
+    .logo_pequeno {
+        display: none;
+    }
+    .logos_cartoes {
+        display: none;
+    }
+    .contato {
+        display: none;
+    }
+    .certificacao {
+        display: none;
+    }
+    .footer {
+        height: 70vh;
+        width: 100%;
+    }
+    .footer-II {
+        height: 7vh;
+        width: 100%;
+    }
+}
+
+@media (min-width: 751px) {
+    .footer {
+        height: 35vh;
+        width: 100%;
+    }
+    .footer-II {
+        height: 8vh;
+        width: 100%;
+    }
+}
