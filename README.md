@@ -8,7 +8,7 @@
 
 
 
-<h1> SPRINT 1: Desenhando o projeto no Figma </h1>
+<h1> SPRINT 1: Desenhando o projeto no Figma </h1> ✔️
 <p> Os grupos deverão criar e pensar no sistema a ser desenvolvido. A ideia é documentar
 wireframe de todas as páginas, funcionalidades principais da aplicação, fluxos e processos
 para a facilitação do desenvolvimento.</p>
@@ -29,7 +29,7 @@ porém deixamos como recomendação as seguintes: </p>
 
 
 
-<h1> SPRINT 2: Criando o Front da aplicação </h1>
+<h1> SPRINT 2: Criando o Front da aplicação </h1> ✔️
 <p> Agora que já pensamos no layout e identidade visual do nosso
 projeto, essas ideias devem ser passadas para o código! </p>
 
@@ -64,7 +64,7 @@ problema algum! </p>
 
 
 
-<h1> SPRINT 3: Banco de dados </h1>
+<h1> SPRINT 3: Banco de dados </h1> ✔️
 
 
 <p>
@@ -85,3 +85,29 @@ problema algum! </p>
 <p>
     Valelembrar:Para garantir que a estrutura do banco faz sentido com a aplicaçãoque estamos desenvolvendo, insira alguns registros em cada tabela, explorandoos tipos de relações entre as entidades.
 </p>
+
+
+<h1> SPRINT 4: Back-end </h1> in progress ...
+
+<p>Deverá ser criado toda a lógica de backend do projeto. Aqui deverá ser criada cada funcionalidade do sistema em si, como envios de formulários, criação de
+usuários, produtos (CRUD) e assim por diante. Além disso, será integrado o banco de dados na aplicação para que as informações possam ser armazenadas.
+</p>
+
+<h2>Requisitos: </h2>
+
+<ul>
+    <li>Utilizar o framework express e padrão MVC; </li>
+    <li>Formulários e ações devem salvar as informações diretamente no banco de dados;</li>
+    <li>Criar a funcionalidade de autenticação de usuários (session e middlewares) e funcionalidade logout. Senhas precisam ser armazenadas criptografadas.
+        Tela de login deverá validar usuário e redireciona-lo para a página inicial interna. </li>
+    <li>Para um usuário já logado, a rota de login e de formulário de cadastro devem direcioná-lo para página inicial interna;</li>
+    <li>Deverá ser feita a validação do que está sendo salvo dentro do banco de dados, além de exibir mensagem de erro sempre que necessário.</li>
+    <li>Produtos, clientes, serviços, etc deverão ser exibidos de forma dinâmica e de acordo com o que está armazenado dentro do banco de dados. </li>
+    <li>Incluir uma seção comum em todo o site, por exemplo, o cabeçalho. Se o usuário estiver logado, eles devem indicar seu nome de usuário. Se você
+        não está logado, você deve ter um link para a página de login </li>
+    <li>Utilizar Migration como versionamento do banco de dados.</li>
+    <li>Ter alguma ferramenta de busca de alguma entidade (produtos, alunos,serviços, etc...)</li>
+</ul>
+
+
+
