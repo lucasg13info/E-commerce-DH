@@ -8,7 +8,7 @@
 
 
 
-<h1> SPRINT 1: Desenhando o projeto no Figma </h1> ✔️
+<h1> SPRINT 1: Desenhando o projeto no Figma ✔️</h1> 
 <p> Os grupos deverão criar e pensar no sistema a ser desenvolvido. A ideia é documentar
 wireframe de todas as páginas, funcionalidades principais da aplicação, fluxos e processos
 para a facilitação do desenvolvimento.</p>
@@ -29,7 +29,7 @@ porém deixamos como recomendação as seguintes: </p>
 
 
 
-<h1> SPRINT 2: Criando o Front da aplicação </h1> ✔️
+<h1> SPRINT 2: Criando o Front da aplicação ✔️</h1> 
 <p> Agora que já pensamos no layout e identidade visual do nosso
 projeto, essas ideias devem ser passadas para o código! </p>
 
@@ -64,7 +64,7 @@ problema algum! </p>
 
 
 
-<h1> SPRINT 3: Banco de dados </h1> ✔️
+<h1> SPRINT 3: Banco de dados ✔️</h1> 
 
 
 <p>
@@ -87,7 +87,7 @@ problema algum! </p>
 </p>
 
 
-<h1> SPRINT 4: Back-end </h1> in progress ...
+<h1> SPRINT 4: Back-end - in progress ... </h1> 
 
 <p>Deverá ser criado toda a lógica de backend do projeto. Aqui deverá ser criada cada funcionalidade do sistema em si, como envios de formulários, criação de
 usuários, produtos (CRUD) e assim por diante. Além disso, será integrado o banco de dados na aplicação para que as informações possam ser armazenadas.
