@@ -3,5 +3,5 @@ const router = express.Router();
 
 const paginaAlterarEnderecoController = require('../controllers/paginaAlterarEnderecoController');
 
-router.get('/paginaAlterarEndereco', paginaAlterarEnderecoController.paginaAlterarEndereco);
+router.get('/', paginaAlterarEnderecoController.paginaAlterarEndereco);
 module.exports = router;

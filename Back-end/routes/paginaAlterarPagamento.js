@@ -3,6 +3,6 @@ const router = express.Router();
 
 const paginaAlterarPagamentoController = require('../controllers/paginaAlterarPagamentoController')
 
-router.get('/paginaAlterarPagamento', paginaAlterarPagamentoController.paginaAlteraPagamento);
+router.get('/', paginaAlterarPagamentoController.paginaAlteraPagamento);
 
 module.exports = router;

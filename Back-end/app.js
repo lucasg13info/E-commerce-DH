@@ -31,17 +31,17 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 
-app.use('/index', indexRouter);
+app.use('/', indexRouter); 
 app.use('/carrinho', carrinhoRouter);
-app.use('/confirmacaoDePagamento', confirmacaoDePagamentoRouter);
-app.use('/paginaAlterarEndereco', paginaAlterarEnderecoRouter);
-app.use('/paginaAlterarPagamento', paginaAlteraPagamentoRouter);
-app.use('/paginaEnvioPagamento', paginaEnvioPagamentoRouter);
-app.use('/paginaFinalizarPedido', paginaFinalizarPedidoRouter);
-app.use('/paginaLogin', paginaLoginRouter );
-app.use('/politica-termos', politicasTermosRouter);
+app.use('/confirmPagamento', confirmacaoDePagamentoRouter);
+app.use('/alterarEndereco', paginaAlterarEnderecoRouter);
+app.use('/alterarPagamento', paginaAlteraPagamentoRouter);
+app.use('/envioPagamento', paginaEnvioPagamentoRouter);
+app.use('/finalizarPedido', paginaFinalizarPedidoRouter);
+app.use('/login', paginaLoginRouter );
+app.use('/politicaTermos', politicasTermosRouter);
 app.use('/sobreNos', sobreNosRouter);
-app.use('/produto01', produto01Router);
+app.use('/produto', produto01Router);
 app.use('/trocasDev', trocasDevRouter);
 
 
