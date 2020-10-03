@@ -4,7 +4,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-
+//rotas
 const indexRouter = require('./routes/index')
 const carrinhoRouter = require('./routes/carrinho')
 const confirmacaoDePagamentoRouter = require('./routes/confirmacaoDePagamento')
