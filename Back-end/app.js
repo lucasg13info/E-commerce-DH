@@ -12,7 +12,7 @@ const paginaAlterarEnderecoRouter = require('./routes/paginaAlterarEndereco')
 const paginaAlteraPagamentoRouter = require('./routes/paginaAlterarPagamento')
 const paginaEnvioPagamentoRouter = require('./routes/paginaEnvioPagamento')
 const paginaFinalizarPedidoRouter = require('./routes/paginaFinalizarPedido')
-
+const paginaLoginRouter = require('./routes/paginaLogin')
 
 var app = express();
 
@@ -34,6 +34,7 @@ app.use('/paginaAlterarEndereco', paginaAlterarEnderecoRouter);
 app.use('/paginaAlterarPagamento', paginaAlteraPagamentoRouter);
 app.use('/paginaEnvioPagamento', paginaEnvioPagamentoRouter);
 app.use('/paginaFinalizarPedido', paginaFinalizarPedidoRouter);
+app.use('/paginaLogin', paginaLoginRouter );
 
 
 // catch 404 and forward to error handler
