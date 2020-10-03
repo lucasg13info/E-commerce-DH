@@ -1,5 +1,5 @@
 module.exports = {
     produto01: (req, res) => {
-        res.render('produto01')
+        res.render('Produto-01')
     }
 }

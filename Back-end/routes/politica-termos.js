@@ -3,6 +3,6 @@ const router = express.Router();
 
 const politicaTermosController = require('../controllers/politica-termosController');
 
-router.get('/politicaTermos', politicaTermosController.politicaTermos);
+router.get('/', politicaTermosController.politicaTermos);
 
 module.exports = router;

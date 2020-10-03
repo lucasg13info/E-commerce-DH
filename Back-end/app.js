@@ -13,6 +13,10 @@ const paginaAlteraPagamentoRouter = require('./routes/paginaAlterarPagamento')
 const paginaEnvioPagamentoRouter = require('./routes/paginaEnvioPagamento')
 const paginaFinalizarPedidoRouter = require('./routes/paginaFinalizarPedido')
 const paginaLoginRouter = require('./routes/paginaLogin')
+const politicasTermosRouter = require('./routes/politica-termos')
+const sobreNosRouter = require('./routes/sobreNos')
+const produto01Router = require('./routes/produto01')
+const trocasDevRouter = require('./routes/trocasDev')
 
 var app = express();
 
@@ -35,6 +39,10 @@ app.use('/paginaAlterarPagamento', paginaAlteraPagamentoRouter);
 app.use('/paginaEnvioPagamento', paginaEnvioPagamentoRouter);
 app.use('/paginaFinalizarPedido', paginaFinalizarPedidoRouter);
 app.use('/paginaLogin', paginaLoginRouter );
+app.use('/politica-termos', politicasTermosRouter);
+app.use('/sobreNos', sobreNosRouter);
+app.use('/produto01', produto01Router);
+app.use('/trocasDev', trocasDevRouter);
 
 
 // catch 404 and forward to error handler
