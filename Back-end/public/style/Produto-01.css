@@ -158,12 +158,12 @@ body{
     color:green;
 }
 
-h4{
+.underline-produto{
     color: rgba(3, 57, 166, 1);
 
 }
 
-.row h4{
+.underline-produto{
     border-bottom: 0.10px solid rgb(180, 179, 179);
 }
 
