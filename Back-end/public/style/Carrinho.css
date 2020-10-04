@@ -3,7 +3,9 @@ body{
     box-sizing: border-box;
 }
 
-
+.paddingCarrinho {
+    padding: 70px;
+}
 
 
 
