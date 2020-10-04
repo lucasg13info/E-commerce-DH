@@ -6,7 +6,7 @@
     <link rel="shortcut icon" href="./img/index/EchoPet-logo-preto.png">
     <title>Login | EchoPet</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../Front-end/resource/style/PaginaLogin.css">
+    <link rel="stylesheet" href="style/PaginaLogin.css">
 
 </head>
 
@@ -14,6 +14,11 @@
 <body>
   
 <%- include('./partials/header') %>
+
+<div class="caixa">
+
+
+
 
    <div class="container">
         <div class="row">
@@ -27,7 +32,7 @@
                     <label class="formulario" for="senha">Senha</label>
                     <input type="password" class="form-control" name="senha" placeholder="Digite sua senha">
                     <label class="small-text"><input type="checkbox">Lembrar senha</label>
-                    <label class="recuperar-senha" >Esqueci a senha</label> 
+                   <a href="#"> <label class="recuperar-senha" >Esqueci a senha</label> </a> 
                     </br>
                     <button type="button" class="login-botao">Fazer Login</button>
                     <br>
@@ -64,6 +69,7 @@
 
    <br>
    
+</div>
    
 <%- include('./partials/novoTesteFooter') %>
 

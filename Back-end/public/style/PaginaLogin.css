@@ -12,6 +12,13 @@ body{
 
 
 
+
+.caixa{
+    padding: 7%;
+
+}
+
+
 .col-md-4 {
     background-color: white;
     /* border: 1px black solid; */
@@ -20,7 +27,7 @@ body{
 }
 
 .col-md-2 {
-    background-color:#EEEEEE;
+    background-color: white;
     height: auto;
     
 }
