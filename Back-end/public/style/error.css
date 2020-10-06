@@ -30,3 +30,15 @@
 
     text-decoration: none;
 }
+
+@media (max-width: 750px) {
+    .container {
+        text-align: center;
+        font-size: 90%;
+        padding: 30%;
+        justify-content: center;
+    }
+    .logo-error {
+        width: 40vw;
+    }
+}
