@@ -12,23 +12,24 @@ const { Model } = require('sequelize');
       type_status: DataTypes.INTEGER,
       categories_cat_id: {
         type: DataTypes.INTEGER,
-        references: {
-          model: "Categories",
-          key: "cat_id"
-        }
+        
       }
     }, {
       // definindo opções do model!
       sequelize,
       modelName: 'typeProducts',
-      tableName: 'type_products '
+      tableName: 'type_products'
     });
     
     typeProducts.associate = (models)=> {
       //associações vão aqui!
       typeProducts.belongsTo(models.Categories, {
         foreingKey: "categories_cat_id"
+      }),
+      typeProducts.hasMany (models.Products, {
+        foreingKey: "type_produts_type_id"
       })
+
     } 
     
     return typeProducts;

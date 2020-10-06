@@ -29,13 +29,14 @@ const { Model } = require('sequelize');
       // definindo opções do model!
       sequelize,
       modelName: 'Products',
-      tableName: 'products '
+      tableName: 'products'
     });
     
     Products.associate = (models)=> {
       //associações vão aqui!
       Products.belongsTo(models.typeProducts, {
-        foreingKey: "type_produts_type_id"
+        foreingKey: "type_produts_type_id",
+        as: 'typeProducts'
       })
     } 
     
