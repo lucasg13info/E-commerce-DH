@@ -12,6 +12,7 @@
     border: 0%; */
     height: 35vh;
     width: 100%;
+    padding: 20px;
 }
 
 /* .i-footer {
@@ -183,5 +184,11 @@
     .footer-II {
         height: 8vh;
         width: 100%;
+    }
+}
+
+@media (max-height: 570px) {
+    .height_responsivo {
+        display: none;
     }
 }
