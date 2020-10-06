@@ -21,6 +21,7 @@ body {
 .left {
     width: 20vw;
     height: 100%;
+    display: none;
     /* position: fixed;
     left: 0;
     top: 0; */
@@ -49,10 +50,12 @@ body {
 /* MAIN */
 
 .main {
-    width: 60vw;
+    width: 75vw;
     height: 100%;
     color: black;
     font-family: 'Times New Roman', Times, serif;
+    padding: 50px;
+    font-size: 20px;
 }
 
 .logo_EchoPet {
@@ -73,10 +76,14 @@ body {
 .titulo_sobre {
     font-weight: bold;
     text-align: center;
+    font-size: 40px;
 }
 
 section > h4 {
-    text-decoration: underline
+    text-decoration: underline;
+    font-size: 30px;
+    padding: 3px;
+    font-weight: bold;
 }
 
 /* .politicas_sobre {
@@ -89,6 +96,7 @@ section > h4 {
 .right {
     width: 20vw;
     height: 100%;
+    display: none;
     /* position: fixed;
     right: 0;
     top: 0; */
@@ -105,5 +113,6 @@ section > h4 {
 
     .main {
         width: 100vw;
+        padding: 0px;
     }
 }
