@@ -1,19 +1,19 @@
-const {type_products} = require ('../models'); 
+const {Products} = require ('../models'); 
 const {Categories} = require('../models')
 
 
 module.exports = {
 
     index: async (req, res) =>{
-        let produtos = await type_products.findAll({include: [{model: Categories, attributes: ["cat_descricao"]}]});
-        res.send(produtos);
+        let produtos = await Products.findAll();
+        // res.send(produtos);
 
-    //    res.render('index')
+       res.render('index' , { produtos })
     }
 
 
 
-    // CRIAR / CADASTRAR MATTERIAL - JUAN
+    // CRIAR / CADASTRAR MATERIAL - JUAN
 
     // bulkCreate: async (req, res)=> {
     //     const listaDeProducts = [

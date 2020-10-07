@@ -48,22 +48,27 @@
   
 
 
-
   <!--Contúdo principal site 1-->
   <main class="container">
     <h1 class="h1-main">Produtos em Destaque</h1>
     <div class="row">
-      <div class="col-md-3 col-10 offset-md-0 offset-1">
-        <div class="card">
-          <img src="./img/index/racaoPedrigree.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Ração para Cães Adultos Carne e Vegetais Pedigree</h5>
-            <p class="card-text">R$120,00</p>
-            <a href="/produto" class="btn btn-primary">Comprar</a>
-            <p class="nomeEchopet">EchoPet</p>
+
+      <%  for(let produto of produtos) { %>
+      
+        <div class="row">
+          <div class="col-md-3 col-10 offset-md-0 offset-1">
+            <div class="card">
+              <img src="./img/index/racaoPedrigree.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> <%= produto.prd_descricao %> </h5>
+                <p class="card-text"> <%= produto.prd_valor %> </p>
+                <a href="/produto" class="btn btn-primary">Comprar</a>
+                <p class="nomeEchopet">EchoPet</p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
+  
+      <% } %>
 
       <div class="col-md-3">
         <div class="card" >

@@ -18,13 +18,14 @@ const { Model } = require('sequelize');
       },
       
       
-      // type_produts_id: {
-      //   type: DataTypes.INTEGER,
-      //   references: {
-      //     model: "type_products",
-      //     key: "id"
-      //   }
-      // }
+      typeProductId: {
+        type: DataTypes.INTEGER,
+        references: {
+          model: "type_products",
+          key: "id",
+        },
+        field: "type_produts_id"
+      }
     }, {
       // definindo opções do model!
       sequelize,

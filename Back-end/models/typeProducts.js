@@ -10,9 +10,10 @@ const { Model } = require('sequelize');
       },
       type_descricao: DataTypes.STRING,
       type_status: DataTypes.INTEGER,
-      categories_id: {
+      CategoryId: {
         type: DataTypes.INTEGER,
-        referencies: {model: "Categories", key: "id"}
+        references: {model: "Categories", key: "id"},
+        field: "categories_id"
       }
     }, {
       // definindo opções do model!
