@@ -1,13 +1,26 @@
-const {Products} = require ('../models'); 
-
+const {type_products} = require ('../models'); 
+const {Categories} = require('../models')
 
 
 module.exports = {
 
     index: async (req, res) =>{
-        // let produtos = await Products.findAll({include: 'typeProducts'});
-        // res.send(produtos);
+        let produtos = await type_products.findAll({include: [{model: Categories, attributes: ["cat_descricao"]}]});
+        res.send(produtos);
 
-       res.render('index')
+    //    res.render('index')
     }
+
+
+
+    // CRIAR / CADASTRAR MATTERIAL - JUAN
+
+    // bulkCreate: async (req, res)=> {
+    //     const listaDeProducts = [
+    //         {prd_descricao: "tapete de cachorro", prd_status: "1", prd_valor: "R$ 120,00", qtd_estoque: "20", type_products_id: "1"}
+    //     ]
+
+    //     const resultado = await type_products.bulkCreate(listaDeUsuarios);
+    //     console.log(resultado);
+    // }
 }

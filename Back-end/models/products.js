@@ -3,7 +3,7 @@ const { Model } = require('sequelize');
    
     const Products = sequelize.define('Products', {
       // definindo os atributos do model!
-      prd_id: {
+      id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
@@ -18,13 +18,13 @@ const { Model } = require('sequelize');
       },
       
       
-      type_produts_type_id: {
-        type: DataTypes.INTEGER,
-        references: {
-          model: "typeProducts",
-          key: "type_id"
-        }
-      }
+      // type_produts_id: {
+      //   type: DataTypes.INTEGER,
+      //   references: {
+      //     model: "type_products",
+      //     key: "id"
+      //   }
+      // }
     }, {
       // definindo opções do model!
       sequelize,
@@ -34,9 +34,9 @@ const { Model } = require('sequelize');
     
     Products.associate = (models)=> {
       //associações vão aqui!
-      Products.belongsTo(models.typeProducts, {
-        foreingKey: "type_produts_type_id",
-        as: 'typeProducts'
+      Products.belongsTo(models.type_products, {
+        foreingKey: "type_produts_id",
+        targetKey: "id"
       })
     } 
     

@@ -2,7 +2,7 @@ const { Model } = require('sequelize');
   module.exports = (sequelize, DataTypes) => {
     const typeUsers = sequelize.define('typeUsers', {
       // definindo os atributos do model!
-      typeUser_id: {
+      id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,

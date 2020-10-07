@@ -1,8 +1,8 @@
 const { Model } = require('sequelize');
   module.exports = (sequelize, DataTypes) => {
-    const typeProducts = sequelize.define('typeProducts', {
+    const type_products = sequelize.define('type_products', {
       // definindo os atributos do model!
-      type_id: {
+      id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
@@ -10,27 +10,29 @@ const { Model } = require('sequelize');
       },
       type_descricao: DataTypes.STRING,
       type_status: DataTypes.INTEGER,
-      categories_cat_id: {
+      categories_id: {
         type: DataTypes.INTEGER,
-        
+        referencies: {model: "Categories", key: "id"}
       }
     }, {
       // definindo opções do model!
       sequelize,
-      modelName: 'typeProducts',
+      modelName: 'type_products',
       tableName: 'type_products'
     });
     
-    typeProducts.associate = (models)=> {
+    type_products.associate = (models)=> {
       //associações vão aqui!
-      typeProducts.belongsTo(models.Categories, {
-        foreingKey: "categories_cat_id"
+      type_products.belongsTo(models.Categories, {
+        foreingKey: "categories_id",
+        targetKey: "id",
       }),
-      typeProducts.hasMany (models.Products, {
-        foreingKey: "type_produts_type_id"
+      type_products.hasMany (models.Products, {
+        foreingKey: "type_produts_id",
+        targetKey: "id"
       })
 
     } 
     
-    return typeProducts;
+    return type_products;
   };

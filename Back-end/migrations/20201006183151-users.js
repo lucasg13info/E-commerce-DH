@@ -1,7 +1,7 @@
 module.exports = {
   up: async (queryInterface, Sequelize) => {
     await queryInterface.createTable('Users', {
-      user_id: {
+      id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
@@ -17,10 +17,10 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       user_telefone: {
-        type: Sequelize.NUMBER
+        type: Sequelize.STRING(20)
       },
       user_telefone2: {
-        type: Sequelize.NUMBER
+        type: Sequelize.STRING(20)
       },
       user_status: {
         type: Sequelize.INTEGER
@@ -28,8 +28,8 @@ module.exports = {
       type_users_typeUser_id: {
         type: Sequelize.INTEGER,
         references: {
-          model: "type_users",
-          key: "typeUser_id"
+          model: "typeUsers",
+          key: "id"
         }
       },
       createdAt: {

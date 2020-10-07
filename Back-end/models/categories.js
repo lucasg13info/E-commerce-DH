@@ -2,7 +2,7 @@ const { Model } = require('sequelize');
   module.exports = (sequelize, DataTypes) => {
     const Categories = sequelize.define('Categories', {
       // definindo os atributos do model!
-      cat_id: {
+      id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
@@ -18,8 +18,10 @@ const { Model } = require('sequelize');
     
     Categories.associate = (models)=> {
       //associações vão aqui!
-      Categories.hasMany(models.typeProducts, {
-        foreingKey: "categories_cat_id"
+      Categories.hasMany(models.type_products, {
+        foreingKey: "categories_id",
+        targetKey: "id",
+        as: "hasTypeProducts"
       })
     } 
     
