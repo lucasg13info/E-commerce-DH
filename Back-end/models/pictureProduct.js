@@ -35,5 +35,5 @@ const { Model } = require('sequelize');
     //   })
     // } 
     
-    return Products;
+    return pictureProduct;
   };
