@@ -58,7 +58,8 @@ body{
     font-size: 40px
 }
 
-.input-group{
-    width: 40%;
+@media (min-width: 780px){
+    .input-group{
+        width: 40%;
+    }
 }
-
