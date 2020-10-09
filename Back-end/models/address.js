@@ -1,6 +1,6 @@
 const { Model } = require('sequelize');
   module.exports = (sequelize, DataTypes) => {
-    const address = sequelize.define('address', {
+    const Address = sequelize.define('Address', {
       // definindo os atributos do model!
       id: {
         allowNull: false,
@@ -24,12 +24,12 @@ const { Model } = require('sequelize');
       modelName: 'address',
     });
     
-    Users.associate = (models)=> {
+    // Users.associate = (models)=> {
       //associações vão aqui!
       // Users.hasMany // belongsTo(models.typeUser, {
       //   foreingKey: "type_users_typeUser_id"
       // })
-    } 
+    // } 
     
-    return address;
+    return Address;
   };
