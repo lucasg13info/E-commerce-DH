@@ -4,8 +4,9 @@ body{
 }
 
 #resumoCarrinho{
-    margin-top: 1%;
+    margin-top: 0%;
 }
+
 #titleCarrinho{
     margin-top: 3%;
     margin-bottom: 1%;
@@ -15,4 +16,49 @@ body{
     height: 5vh;
 }
 
+
+.linhaDiv {
+    border-bottom: 0.10px solid rgb(180, 179, 179);
+}
+
+/*#parceleInfo{
+    font-size: 12px;
+    color: rgb(70, 70, 70);
+}*/
+
+#valorFrete{
+    font-size: 18px;
+    color: green;
+}
+
+
+.desconto10Porcento{
+    text-align: center;
+    
+    background: #f1f1f1;
+    border: 2px solid #000000;
+    
+    border-radius: 31px;
+    margin: 60px;
+    margin-left: 10%;
+    margin-bottom: 5px;
+    padding: 10px;
+    
+}
+    
+    
+.cumpomDescontoTextoNormal{
+    font-weight: bold;
+    font-size: 20px ;
+}
+    
+.cupomPetiscao{
+    color: orange;
+    font-weight: bold;
+    font-size: 40px
+}
+
+.input-group{
+    width: 40%;
+}
 
