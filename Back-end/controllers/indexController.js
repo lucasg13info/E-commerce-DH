@@ -18,6 +18,24 @@ module.exports = {
     // bulkCreate: async (req, res)=> {
     //     const listaDeProducts = [
     //         {prd_descricao: "tapete de cachorro", prd_status: "1", prd_valor: "R$ 120,00", qtd_estoque: "20", type_products_id: "1"}
+    //         {prd_descricao: "tapete de cachorro", prd_status: "1", prd_valor: "R$ 120,00", qtd_estoque: "20", type_products_id: "1"}
+    //         {prd_descricao: "tapete de cachorro", prd_status: "1", prd_valor: "R$ 120,00", qtd_estoque: "20", type_products_id: "1"}
+    //         {prd_descricao: "tapete de cachorro", prd_status: "1", prd_valor: "R$ 120,00", qtd_estoque: "20", type_products_id: "1"}
+    //         {prd_descricao: "tapete de cachorro", prd_status: "1", prd_valor: "R$ 120,00", qtd_estoque: "20", type_products_id: "1"}
+    //         {prd_descricao: "tapete de cachorro", prd_status: "1", prd_valor: "R$ 120,00", qtd_estoque: "20", type_products_id: "1"}
+    //         {prd_descricao: "tapete de cachorro", prd_status: "1", prd_valor: "R$ 120,00", qtd_estoque: "20", type_products_id: "1"}
+    //         {prd_descricao: "tapete de cachorro", prd_status: "1", prd_valor: "R$ 120,00", qtd_estoque: "20", type_products_id: "1"}
+    //         {prd_descricao: "tapete de cachorro", prd_status: "1", prd_valor: "R$ 120,00", qtd_estoque: "20", type_products_id: "1"}
+    //         {prd_descricao: "tapete de cachorro", prd_status: "1", prd_valor: "R$ 120,00", qtd_estoque: "20", type_products_id: "1"}
+    //         {prd_descricao: "tapete de cachorro", prd_status: "1", prd_valor: "R$ 120,00", qtd_estoque: "20", type_products_id: "1"}
+    //         {prd_descricao: "tapete de cachorro", prd_status: "1", prd_valor: "R$ 120,00", qtd_estoque: "20", type_products_id: "1"}
+    //         {prd_descricao: "tapete de cachorro", prd_status: "1", prd_valor: "R$ 120,00", qtd_estoque: "20", type_products_id: "1"}
+    //         {prd_descricao: "tapete de cachorro", prd_status: "1", prd_valor: "R$ 120,00", qtd_estoque: "20", type_products_id: "1"}
+    //         {prd_descricao: "tapete de cachorro", prd_status: "1", prd_valor: "R$ 120,00", qtd_estoque: "20", type_products_id: "1"}
+    //         {prd_descricao: "tapete de cachorro", prd_status: "1", prd_valor: "R$ 120,00", qtd_estoque: "20", type_products_id: "1"}
+    //         {prd_descricao: "tapete de cachorro", prd_status: "1", prd_valor: "R$ 120,00", qtd_estoque: "20", type_products_id: "1"}
+    //         {prd_descricao: "tapete de cachorro", prd_status: "1", prd_valor: "R$ 120,00", qtd_estoque: "20", type_products_id: "1"}
+
     //     ]
 
     //     const resultado = await type_products.bulkCreate(listaDeUsuarios);
