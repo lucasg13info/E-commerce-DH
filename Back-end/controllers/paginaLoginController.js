@@ -8,7 +8,7 @@ module.exports  = {
     },
 
     paginaCadastro: (req,res) =>{
-        res.render('cadastro')
+       return res.render('cadastro')
     },
 
 
@@ -41,7 +41,7 @@ module.exports  = {
                 res.status(503).send('Serviço não disponível')
             ) 
 
-        console.log(user_descricao);
+        console.log(resultado);
 
         return res.redirect('/')
     }
