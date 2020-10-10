@@ -1,6 +1,6 @@
 const { Model } = require('sequelize');
   module.exports = (sequelize, DataTypes) => {
-    const typeUsers = sequelize.define('typeUsers', {
+    const typeUsers = sequelize.define('type_users', {
       // definindo os atributos do model!
       id: {
         allowNull: false,

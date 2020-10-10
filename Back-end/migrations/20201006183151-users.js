@@ -28,10 +28,10 @@ module.exports = {
       user_senha: {
         type: Sequelize.STRING
       },
-      type_users_typeUser_id: {
+      user_type_users_id: {
         type: Sequelize.INTEGER,
         references: {
-          model: "typeUsers",
+          model: "type_users",
           key: "id"
         }
       },

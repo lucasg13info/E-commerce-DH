@@ -17,11 +17,12 @@ const { Model } = require('sequelize');
       user_senha: DataTypes.STRING,
       user_type_users_id: {
         type: DataTypes.INTEGER,
-        references: {
-          models: "typeUsers",
-          key: "id"
-        }
-      }
+        // references: {
+        //   models: "typeUsers",
+        //   key: "id"
+        // },
+        foreignKey: true
+      } 
     }, {
       // definindo opções do model!
       sequelize,
@@ -34,11 +35,11 @@ const { Model } = require('sequelize');
       //   foreingKey: "type_users_typeUser_id"
       // })
       Users.hasMany(models.Address, {
-        foreingKey: "add_users_id"
+        foreignKey: "add_users_id"
       });
-      Users.belongsTo(models.typeUsers);
+      Users.belongsTo(models.type_users, {foreignKey: 'user_type_users_id' });
       Users.hasMany(models.Requesties, {
-        foreingKey: "users_id"
+        foreignKey: "users_id"
       })
     } 
     
