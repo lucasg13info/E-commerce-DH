@@ -44,18 +44,31 @@
                     </div>
                 </form>
             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
             <div class="col-md-2"></div>
             <div class="col-md-4">
-                <form>
+                <form action= "/login" method="POST">
                     <h1 class="text-left2">Criar conta</h1>
                     <label class="formulario" for="nome">Nome</label>
-                    <input type="text" class="form-control" name="nome" >
+                    <input type="text" class="form-control" name="name" id="name" >
                     <br>
                     <label class="formulario" for="email">E-mail</label>
-                    <input type="email" class="form-control" name="email" placeholder="Digite seu E-mail">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Digite seu E-mail">
                     <br>
                     <label class="formulario" for="senha">Senha</label>
-                    <input type="password" class="form-control" name="senha" placeholder="Pelo menos 6 caracteres">
+                    <input type="password" class="form-control" name="password" id="password" placeholder="Pelo menos 6 caracteres">
                     <br>
                     <a href="/alterarEndereco"> Cadastrar endereço</a>
                     <button type="button" class="login-botao">Criar sua conta da EchoPet</button>
