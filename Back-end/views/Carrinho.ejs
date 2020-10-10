@@ -49,37 +49,24 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row" id="codProduto"><%= product.id %></th>
-                    <td class="descProduto">Ração</td>
-                    <td class="qtd">1</td>
-                    <td>R$ 190,00</td>
+                    <% carrinhos.forEach(produto => { %>
+                    <th scope="row" id="codProduto"><%= produto.id %></th>
+                    <td class="descProduto"><%= produto.prd_descricao %></td>
+                    <td class="qtd"><%= produto.qtd_estoque %></td>
+                    <td><%= produto.prd_valor %></td>
                   </tr>
+                  <% }) %>
                 </tbody>
               </table>
             </table>
           </div>
         </div>
-        <tbody>
-          <% users.forEach(user => { %>
-              <tr>
-                  <th scope="row"> <%= user.id %> </th>
-                  <th> <%= user.name %> </th>
-                  <th>
-                      <a href="/users/ver/<%= user.id %>" class="btn btn-primary"> Ver dados </a>
-                      <a href="/users/editar/<%= user.id %>" class="btn btn-warning"> Editar dados </a>
-                      <form action="/users/deletar/<%= user.id %>?_method=DELETE" method="POST">
-                          <button type="submit" class="btn btn-danger"> Excluir </button>
-                      </form>
-                  </th>
-              </tr>
-          <% }) %>
-      </tbody>
 
 
         <div class="col-md-5" id="resumoCarrinho">
           <div class="card w-75">
             <div class="card-body">
-              <h5 class="card-title">Subtotal: <span>R$ 530,00</span></h5>
+              <h5 class="card-title">Subtotal: <span>R$  </span></h5>
               <p class="card-text"><strong>Frete: </strong><a href="http://" #id="calcFrete">Calcular Frete</a>
               <p class="card-text"><a href="http://" #id="cupomDesconto">Possui um cupom de desconto?</a><br><br>
                 <a href="/envioPagamento" class="btn btn-primary">Continuar Compra</a>
