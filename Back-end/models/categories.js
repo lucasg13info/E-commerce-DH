@@ -23,7 +23,7 @@ const { Model } = require('sequelize');
         targetKey: "id",
         as: "hasTypeProducts"
       });
-      Categories.belongsToMany(models.products, {
+      Categories.belongsToMany(models.Products, {
         through: "productsCategories"
       });
     } 
