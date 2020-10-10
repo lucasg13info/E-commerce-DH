@@ -1,6 +1,6 @@
 const { Model } = require('sequelize');
   module.exports = (sequelize, DataTypes) => {
-    const Users = sequelize.define('Users', {
+    const Requesties = sequelize.define('Requesties', {
       // definindo os atributos do model!
       id: {
         allowNull: false,
@@ -8,38 +8,37 @@ const { Model } = require('sequelize');
         primaryKey: true,
         type: DataTypes.INTEGER
       },
-      user_descricao: DataTypes.STRING,
-      user_email: DataTypes.STRING,
-      user_cpf: DataTypes.INTEGER,
-      user_telefone: DataTypes.STRING(20),
-      user_telefone2: DataTypes.STRING(20),
-      user_status: DataTypes.INTEGER,
-      user_type_users_id: {
+      num_ped: DataTypes.INTEGER,
+      valor_total: DataTypes.FLOAT,
+      request_date: DataTypes.DATE,
+      ped_status: DataTypes.INTEGER,
+      users_id: {
         type: DataTypes.INTEGER,
         references: {
-          models: "typeUsers",
+          models: "users",
           key: "id"
         }
       }
     }, {
       // definindo opções do model!
       sequelize,
-      modelName: 'Users',
+      modelName: 'Requesties',
     });
     
-    Users.associate = (models)=> {
+    Requesties.associate = (models)=> {
       //associações vão aqui!
       // Users.hasMany // belongsTo(models.typeUser, {
       //   foreingKey: "type_users_typeUser_id"
       // })
-      Users.hasMany(models.Address, {
-        foreingKey: "add_users_id"
+      Requesties.belongsTo(models.Users);
+      Requesties.hasMany(models.situationRequest, {
+        foreingKey: "requesties_ped_id"
       });
-      Users.belongsTo(models.typeUsers);
-      Users.hasMany(models.Requesties, {
-        foreingKey: "users_id"
+      Requesties.belongsToMany(models.Products, {
+        through: "relationRequest"
       })
+
     } 
     
-    return Users;
+    return Requesties;
   };

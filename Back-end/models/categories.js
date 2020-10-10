@@ -22,7 +22,10 @@ const { Model } = require('sequelize');
         foreingKey: "categories_id",
         targetKey: "id",
         as: "hasTypeProducts"
-      })
+      });
+      Categories.belongsToMany(models.products, {
+        through: "productsCategories"
+      });
     } 
     
     return Categories;

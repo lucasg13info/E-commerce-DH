@@ -38,7 +38,16 @@ const { Model } = require('sequelize');
       Products.belongsTo(models.type_products, {
         foreingKey: "type_produts_id",
         targetKey: "id"
-      })
+      });
+      Products.hasMany(models.pictureProduct, {
+        foreingKey: "products_id"
+      });
+      Products.belongsToMany(models.Requesties, {
+        through: "relationRequest"
+      });
+      Products.belongsToMany(models.Categories, {
+        through: "productsCategories"
+      });
     } 
     
     return Products;
