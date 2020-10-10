@@ -14,6 +14,7 @@ const { Model } = require('sequelize');
       user_telefone: DataTypes.STRING(20),
       user_telefone2: DataTypes.STRING(20),
       user_status: DataTypes.INTEGER,
+      user_senha: DataTypes.STRING,
       user_type_users_id: {
         type: DataTypes.INTEGER,
         references: {

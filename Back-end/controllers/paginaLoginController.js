@@ -1,33 +1,48 @@
-const { users } = require ('../models')
+const { Users } = require ('../models')
 const Sequelize = require('sequelize');
+const bcrypt = require ('bcrypt')
 
 module.exports  = {
     paginaLogin: (req,res) =>{
         res.render('PaginaLogin', { users })
-    }
+    },
+
+    paginaCadastro: (req,res) =>{
+        res.render('cadastro')
+    },
+
+
+
     // paginaLogin: async (req, res)=> {
     //     let usersLogin = await users.findAll();
     //     return res.render('PaginaLogin', { usersLogin })
     // },
-//     store: async (req, res) => {
-//         const {
-//             user_descricao,
-//             user_email,
-//             user_cpf,
-//             user_telefone,
-//             user_status
-//         } = req.body; 
+   
+    store: async (req, res) => {
+        const {
+            user_descricao,
+            user_email,
+            user_cpf,
+            user_telefone,
+            user_senha
+        } = req.body; 
 
-//         const resultado = await users.create({
-//             user_descricao,
-//             user_email,
-//             user_cpf,
-//             user_telefone,
-//             user_status
-//         });
+        const resultado = await Users.create({
+            user_descricao,
+            user_email,
+            user_cpf,
+            user_telefone,
+            user_status: 1,
+            user_senha: bcrypt.hashSync(user_senha, 10),
+            type_users_typeUser_id: 1
+        })
+            .then((resultado) => resultado) 
+            .catch((err) =>
+                res.status(503).send('Serviço não disponível')
+            ) 
 
-//         console.log(resultado);
+        console.log(user_descricao);
 
-//         return res.redirect('/')
-//     }
+        return res.redirect('/')
+    }
 };
