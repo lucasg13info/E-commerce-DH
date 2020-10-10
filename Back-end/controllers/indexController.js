@@ -1,5 +1,6 @@
 const {Products} = require ('../models'); 
 const {Categories} = require('../models')
+const Sequelize = require('sequelize');
 
 
 module.exports = {
