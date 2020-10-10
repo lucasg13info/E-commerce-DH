@@ -29,16 +29,18 @@ module.exports  = {
 
         const resultado = await Users.create({
             user_descricao,
-            user_email,
+            user_email: user_email,
             user_cpf,
             user_telefone,
             user_status: 1,
             user_senha: bcrypt.hashSync(user_senha, 10),
-            type_users_typeUser_id: 1
+            user_type_users_id: 1
         })
             .then((resultado) => resultado) 
-            .catch((err) =>
-                res.status(503).send('Serviço não disponível')
+            .catch((err) => {
+                
+                return res.status(503).send('Serviço não disponível')
+            }
             ) 
 
         console.log(user_descricao);
