@@ -49,34 +49,31 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row" id="codProduto">0001</th>
+                    <th scope="row" id="codProduto"><%= product.id %></th>
                     <td class="descProduto">Ração</td>
                     <td class="qtd">1</td>
                     <td>R$ 190,00</td>
-                  </tr>
-                  <tr>
-                    <th scope="row" id="codProduto">0002</th>
-                    <td class="descProduto">Tapete Higiênico</td>
-                    <td class="qtd">3</td>
-                    <td>R$ 145,00</td>
-                  </tr>
-                  <tr>
-                    <th scope="row" id="codProduto">0003</th>
-                    <td class="descProduto">Areia de gato</td>
-                    <td class="qtd">5</td>
-                    <td>R$ 250,99</td>
-                  </tr>
-                  <tr>
-                    <th scope="row" id="codProduto">0015</th>
-                    <td class="descProduto">Aquário de peixe</td>
-                    <td class="qtd">1</td>
-                    <td>R$ 51,99</td>
                   </tr>
                 </tbody>
               </table>
             </table>
           </div>
         </div>
+        <tbody>
+          <% users.forEach(user => { %>
+              <tr>
+                  <th scope="row"> <%= user.id %> </th>
+                  <th> <%= user.name %> </th>
+                  <th>
+                      <a href="/users/ver/<%= user.id %>" class="btn btn-primary"> Ver dados </a>
+                      <a href="/users/editar/<%= user.id %>" class="btn btn-warning"> Editar dados </a>
+                      <form action="/users/deletar/<%= user.id %>?_method=DELETE" method="POST">
+                          <button type="submit" class="btn btn-danger"> Excluir </button>
+                      </form>
+                  </th>
+              </tr>
+          <% }) %>
+      </tbody>
 
 
         <div class="col-md-5" id="resumoCarrinho">
