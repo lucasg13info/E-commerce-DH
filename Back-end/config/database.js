@@ -1,6 +1,6 @@
 module.exports = {
     username: 'root',
-    password: 'infantaria0729',
+    password: 'root',
     database: 'echopet',
     host: '127.0.0.1',
     dialect: 'mysql',

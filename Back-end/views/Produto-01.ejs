@@ -45,7 +45,7 @@
           <img src="/img/Produtos/icon-star.png" alt="..." class="img-thumbnail" id="avaliacao">
           <img src="/img/Produtos/icon-star.png" alt="..." class="img-thumbnail" id="avaliacao">
           <img src="/img/Produtos/icon-star.png" alt="..." class="img-thumbnail" id="avaliacao"><br><br>
-          <p><strong>Disponibilidade:<span id="estadoDisp"> Em estoque</span></strong></p>
+          <p><strong>Quantidade em Estoque:<span id="estadoDisp"> <%= produto.qtd_estoque %> itens </span></strong></p>
         </div>
 
         <div class="col-md-4">
@@ -53,7 +53,7 @@
             <div class="card-body">
               <h5 class="card-title">Valor:</h5>
               <p class="card-text">R$ <%= produto.prd_valor %>,00</p>
-              <p class="card-text"><strong>Quantidade: <%= produto.qtd_estoque %></strong></p>
+              <p class="card-text"><strong>Quantidade: INCREMENTAR </strong></p>
               <p class="card-text"><strong>Frete: </strong><a href="http://" #id="calcFrete">Calcular
                   Frete</a></p>
               <a href="/carrinho" class="btn btn-primary">Adicionar ao carrinho</a>
