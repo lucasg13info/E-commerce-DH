@@ -52,8 +52,8 @@
           <div class="card w-75">
             <div class="card-body">
               <h5 class="card-title">Valor:</h5>
-              <p class="card-text">R$ 290,00</p>
-              <p class="card-text"><strong>Quantidade: 2</strong></p>
+              <p class="card-text">R$ <%= produto.prd_valor %></p>
+              <p class="card-text"><strong>Quantidade: <%= produto.qtd_estoque %></strong></p>
               <p class="card-text"><strong>Frete: </strong><a href="http://" #id="calcFrete">Calcular
                   Frete</a></p>
               <a href="/carrinho" class="btn btn-primary">Adicionar ao carrinho</a>
