@@ -111,3 +111,15 @@ usuários, produtos (CRUD) e assim por diante. Além disso, será integrado o ba
 
 
 
+
+
+<h1>Para executar o backend do projeto: </h1>
+<p> 1- Acesse a pasta Back-end </p>
+<p> 2- Dê um npm install para baixar as dependencias de projeto </p>
+<p> 3- Instale o Sequelize </p>
+<p> 4- Instale o NPX </p>
+<p> 5- Configure o arquivo /config/database.js com o user e senha do seu banco de dados </p>
+<p> 6- Dê o comando: npx sequelize db:migrate:undo:all para limpar o banco </p>
+<p> 7- Dê o comando: npx sequelize db:migrade para rodas as migrations e o banco </p>
+<p> 8- Instale o nodemon </p>
+<p> 9 - Execute nodemon ou npm start para rodar o servidor que está configurado na porta 3000 </p>
