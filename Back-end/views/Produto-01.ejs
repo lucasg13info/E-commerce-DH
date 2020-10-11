@@ -52,7 +52,7 @@
           <div class="card w-75">
             <div class="card-body">
               <h5 class="card-title">Valor:</h5>
-              <p class="card-text">R$ <%= produto.prd_valor %></p>
+              <p class="card-text">R$ <%= produto.prd_valor %>,00</p>
               <p class="card-text"><strong>Quantidade: <%= produto.qtd_estoque %></strong></p>
               <p class="card-text"><strong>Frete: </strong><a href="http://" #id="calcFrete">Calcular
                   Frete</a></p>
@@ -66,11 +66,16 @@
         <div class="col-12">
           <h4 class="underline-produto">Características:</h4>
           <ul>
-            <li>Indicada para cães filhotes;</li>
-            <li>Controla o volume de fezes;</li>
-            <li>Nutrientes para um desenvolvimento saudável,</li>
-            <li>Disponível em embalagens de 15kg.</li>
+            <li> <%= produto.caracteristica1 %> </li> 
+            <li> <%= produto.caracteristica2 %> </li>
+            <li> <%= produto.caracteristica3 %> </li>
+            <li> <%= produto.caracteristica4 %> </li>
           </ul>
+          <!-- caracteristicas -->
+          <!-- Indicada para cães filhotes;
+          Controla o volume de fezes;
+          Nutrientes para um desenvolvimento saudável;
+          Disponível em embalagens de 15kg. -->
         </div>
       </div><br>
 
