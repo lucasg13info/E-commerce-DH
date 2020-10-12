@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.paginaCadastro{
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* .containerCadastro{
+    padding: 13px;
+    margin: 8px auto;
+    margin-bottom: 85;
+    max-width: 90%;
+
+    height: 10%;
+    width: 10%;
+    padding-bottom: 13px;
+} */
+
+.containerCadastro{
+    display: flex;
+    
+}
+
+.imgDog{
+    width: 40%;
+    float: left;
+}
+.imgCachorroCadastro{
+     width: 800px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  
+}
+.formCadastro1{
+    float: left;
+    background-color: #4A887E;
+    width: 60%; 
+    border-radius: 10px;
+    height: 800px;
+   
+}
+.h1Cadastro{
+    text-align: center;
+    padding-top: 17px;
+}
+.formCadastro{
+    text-align: center;
+    box-sizing: border-box;
+    
+   
+}
+.Cadasto{
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color:#ffffff;
+    margin:10px;
+    opacity: 0.5;
+    width: 30%;
+    
+}
+.Email {
+  width: 62.5%;
+  padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color:#ffffff;
+    margin:10px;
+    opacity: 0.5;
+    width: 63%;
+}
+#Register{
+    width: 62.5%;
+}
+#Google{
+    width: 62.5%;
+    color: #FF0000;
+    font-weight: bold;
+    
+}
+#Facebook{
+    width: 62.5%;
+    color: #0000CD;
+    font-weight: bold;
+}
+
+.Forgot{
+    padding-top: 5px;
+
+}
+.Forgot:hover{
+    color: #BDB9BA;
+    
+}
+.Login:hover{
+    color: #BDB9BA;
+}
+.linkCadastro{
+    text-decoration: none;
+    color:#000000;
+}
