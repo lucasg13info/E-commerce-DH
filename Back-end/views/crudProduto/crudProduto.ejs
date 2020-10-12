@@ -2,10 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='/style/crudProduto.css' />
+    <link rel="shortcut icon" href="/img/index/EchoPet-logo-preto.png">
+
+    <title>Produtos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 <body>
-    haaaaaaaaaaaaaaaaaaaaaaaaaa
-</body>
-</html>
+    <header class="menu">
+            <p class="usuario-menu"> Produtos </p>
+            <hr>
+        </div>
+    </header>
+    <main class="container mt-4">
+        <div class="d-flex justify-content-between">
+            <h1>Lista de produtos </h1>
+            <form action="/crud/pesquisar" class="d-flex justify-content-around align-items-center" method="GET">
+                <input type="text" class="form-control" placeholder="Pesquise um usuario" name="key">
+                <button type="submit" class="ml-3 btn btn-success"> Buscar </button>
+            </form>
+        </div>
+        
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col"> ID </th>
+                    <th scope="col"> Produto </th>
+                    <th scope="col"> Ações </th>
+                </tr>
+            </thead>
+            <tbody>
+                <% produtos.forEach(produto => { %>
+                    <tr>
+                        <th scope="row"> <%= produto.id %> </th>
+                        <th> <%= produto.prd_descricao %> </th>
+                        <th>
+                            <a href="/crud/ver/<%= produto.id %>" class="btn btn-primary"> Ver dados </a>
+                            <a href="/crud/editar/<%= produto.id %>" class="btn btn-warning"> Editar dados </a>
+                            <form action="/crud/deletar/<%= produto.id %>?_method=DELETE" method="POST">
+                                <button type="submit" class="btn btn-danger"> Excluir </button>
+                            </form>
+                        </th>
+                    </tr>
+                <% }) %>
+            </tbody>
+        </table>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
