@@ -1,25 +1,48 @@
-.containerFormaPagamento{
+#containerPaiPagamentos{
+   /* border: 3px solid red; */
+    margin-bottom: 3%;
     margin-top: 3%;
+ 
+    
 }
 
-.cartaoExistente {
+#cartaoExistente {
     border: 1px solid rgb(182, 178, 178);
-    margin-top: 2%;
-    margin-bottom: 5%;
     padding: 1%;
-    width: 70%;
     height: 25vh;
+    /*margin-left: 2%;*/
+   
 }
 
-p{
-    margin-bottom: 0;
-    font-style: unset;
+#coluna1{
+    border: 1px solid rgb(182, 178, 178);
+    padding: 1%; 
 }
+
+@media (min-width: 460){
+    #coluna1{
+        margin-right: 8%;
+    }
+}
+
 
 h4{
-    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-top: 3%;
+    margin-left: 9.5%;
 }
 
-#checkCartao{
-    margin-bottom: 1%;
+h5{
+    color:rgb(3, 33, 63);
+}
+
+.form-group{
+    width: 100%;
+}
+
+#continuarPagamento{
+    margin-top: 2%;
+    height: 8vh;
+    width: 60%;
+    margin-left: 20%;
 }

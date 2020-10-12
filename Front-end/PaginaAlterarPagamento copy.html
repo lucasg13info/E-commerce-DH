@@ -77,46 +77,74 @@
 <body>
 
   <!--Main-->
-
-  <div class="container" id="containerFormaPagamento">
-
-    <h4>Formas de Pagamento</h4>
-    <!--Div de cartão já existente-->
-    <div class="cartaoExistente">
-      <div class="row" #cartaoExist>
-        <div class="col-md-8">
-          <p>Utilizar cartão existente</p>
-          <!--Check Box-->
-          <br>
-          <div class="custom-control custom-checkbox" id="checkCartao">
-            <input type="checkbox" class="custom-control-input" id="customCheck1">
-            <label class="custom-control-label" for="customCheck1"><img src="" alt="">XXXXXXXXX5684</label>
-          </div>
-          <!--Chaeckbox-->
-
-          <!------Formulario--------->
-          <form>
-            <div class="row">
-              <div class="col">
-                <input type="text" class="form-control" placeholder="Nome do Titular">
-              </div>
-              <div class="col">
-                <input type="text" class="form-control" placeholder="Vencimento">
-              </div>
-              <div class="col">
-                <input type="text" class="form-control" placeholder="CVV">
-              </div>
-            </div>
-          </form><br>
-          <!------Formulario--------->
-
+  <h4>Formas de Pagamento</h4>
+  <div class="container" id="containerPaiPagamentos">
+    <!--Container Pai Formas de Pagamento-->
+    
+    <!--Linha Pagamento Existente-->
+    <div class="row" id="linhaPagamentoExistente">
+      <div class="col-sm-12" id="cartaoExistente">
+        <h5>Utilizar cartão existente</h5>
+        <!--Check Box-->
+        <br>
+        <div class="custom-control custom-checkbox" id="checkCartao">
+          <input type="checkbox" class="custom-control-input" id="customCheck1">
+          <label class="custom-control-label" for="customCheck1"><img src="" alt="">XXXXXXXXX5684</label>
         </div>
+        <!--Check Box-->
+
+        <!------Formulario--------->
+        <form>
+          <div class="row">
+            <div class="col-sm-4">
+              <input type="text" class="form-control" placeholder="Nome do Titular">
+            </div>
+            <div class="col-sm-3">
+              <input type="text" class="form-control" placeholder="Vencimento">
+            </div>
+            <div class="col-sm-2">
+              <input type="text" class="form-control" placeholder="CVV">
+            </div>
+            <button type="button" class="btn btn-primary btn-sm" id="botao">Selecionar cartão</button>
+          </div>
+        </form><br>
+        <!------Formulario--------->
       </div>
     </div>
 
+    <!--Final da Linha de Pagamento Existente--><br><br>
 
+    <!--Linha Pagamento Nova-->
+    <div class="row" id="linhaPagamentoNova">
+      <div class="col-sm-12" id="coluna1">
+        <h5>Utilizar novo cartão</h5><br>
+        <form>
+          <div class="form-group">
+            <label for="formGroupExampleInput">Número do cartão </label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Número">
+          </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput2">Nome impresso no cartão </label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Nome do títular">
+          </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput2">Código de segurança </label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="CVV">
+          </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput2">Data de Vencimento</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="mm/aaaa">
+          </div>
+          <button type="button" class="btn btn-primary btn-sm" id="botao">Selecionar cartão</button>
+        </form>
+      </div>
+
+    </div>
+    <!--Final Linha Pagamento Nova-->
+    <button type="button" class="btn btn-danger" id="continuarPagamento">Continuar pagamento com o cartão selecionado</button>  
 
   </div>
+  <!--Final Container Pai Formas de Pagamento-->
 
 
 
