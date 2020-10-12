@@ -8,7 +8,7 @@ a {
 } */
 
 .menu {
-    background-color: darkcyan;
+    background-color: #00072D;
   }
   
   .usuario-menu {
@@ -18,4 +18,5 @@ a {
     text-decoration: solid;
     font-family: 'Times New Roman', Times, serif;
     font-style: unset;
+    color: white;
   }
