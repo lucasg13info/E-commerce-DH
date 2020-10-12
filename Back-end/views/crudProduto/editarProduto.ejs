@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='/style/crudProduto.css' />
+    <title>Editar Produto</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <header class="menu">
+        <div>
+            <p class="usuario-menu"> Edite seu perfil </p>
+            <hr>
+        </div>
+    </header>
+
+    <main class="container mt-4">
+        <form class="card p-3" action="/crud/editar/<%= produto.id %>?_method=PUT" method="POST">
+            <div class="form-group">
+                <label for="prd_descricao"> Nome </label>
+                <input type="text" class="form-control" id="prd_descricao" name="prd_descricao" value="<%= produto.prd_descricao %>">
+            </div>
+            <div class="form-group">
+                <label for="prd_status"> Status </label>
+                <input type="number" class="form-control" id="prd_status" name="prd_status" value="<%= produto.prd_status %>">
+            </div>
+            <div class="form-group">
+                <label for="prd_valor"> Valor </label>
+                <input type="number" class="form-control" id="prd_valor" name="prd_valor" value="<%= produto.prd_valor %>">
+            </div>
+            <div class="form-group">
+                <label for="qtd_estoque"> Quantidade em Estoque </label>
+                <input type="number" class="form-control" id="qtd_estoque" name="qtd_estoque" value="<%= produto.qtd_estoque %>">
+            </div>
+            <div class="form-group">
+                <label for="caracteristica1"> Caracteristica 1 </label>
+                <input type="text" class="form-control" id="caracteristica1" name="caracteristica1" value="<%= produto.caracteristica1 %>">
+            </div>
+            <div class="form-group">
+                <label for="caracteristica2"> Caracteristica 2 </label>
+                <input type="text" class="form-control" id="caracteristica2" name="caracteristica2" value="<%= produto.caracteristica2 %>">
+            </div>
+            <div class="form-group">
+                <label for="caracteristica3"> Caracteristica 3 </label>
+                <input type="text" class="form-control" id="caracteristica3" name="caracteristica3" value="<%= produto.caracteristica3 %>">
+            </div>
+            <div class="form-group">
+                <label for="caracteristica4"> Caracteristica 4 </label>
+                <input type="text" class="form-control" id="caracteristica4" name="caracteristica4" value="<%= produto.caracteristica4 %>">
+            </div>
+            <div class="form-group">
+                <label for="typeProductId"> ID Type products </label>
+                <input type="number" class="form-control" id="typeProductId" name="typeProductId" value="<%= produto.typeProductId %>">
+            </div>
+            <button class="btn btn-success" type="submit"> Salvar alterções </button>
+        </form>
+    </main>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
