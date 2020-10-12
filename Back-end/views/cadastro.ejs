@@ -20,76 +20,63 @@
 
 
     <div class="containerCadastro">
-    
-    <div class="imgDog">
-        <!--<a href='https://br.freepik.com/fotos-vetores-gratis/fundo'
+
+        <div class="imgDog">
+            <!--<a href='https://br.freepik.com/fotos-vetores-gratis/fundo'
           alt="Fundo foto criado por rawpixel.com - br.freepik.com">-->
-        <img class="imgCachorroCadastro" src="https://www.imagemhost.com.br/images/2020/07/08/64846_2.jpg">
+            <img class="imgCachorroCadastro" src="https://www.imagemhost.com.br/images/2020/07/08/64846_2.jpg">
 
+        </div>
+        <div class="formCadastro1">
+            <h1 class="h1Cadastro">Crie sua conta</h1>
+            <form method="POST" action="/login/cadastro" class="formCadastro">
+                <label for="user_descricao"></label>
+                <input class="Cadasto" id="user_descricao" name="user_descricao" type="text" placeholder="* Nome"
+                    required>
+
+                <label for="user_telefone"></label>
+                <input class="Cadasto" id="user_telefone" name="user_telefone" type="tel" placeholder="* Telefone"
+                    required><br>
+
+                <label for="user_cpf"></label>
+                <input class="Cadasto" id="user_cpf" name="user_cpf" type="text" placeholder=" * CPF" required>
+
+                <label for="user_telefone2"></label>
+                <input class="Cadasto" id="user_telefone2" name="user_telefone2" type="tel" placeholder="Telefone2"><br>
+
+                <label for="user_email"></label>
+                <input class="Email" id="user_email" name="user_email" type="email" placeholder="* Email" required><br>
+
+                <label for="user_senha"></label>
+                <input class="Cadasto" id="user_senha" name="user_senha" type="password" placeholder="* Senha" required>
+
+                <label for="user_senha"></label>
+                <input class="Cadasto" id="user_senha" name="user_senha" type="password" placeholder="* Repita a senha"
+                    required><br>
+
+                <input class="CadastoSubmit" id="Register" type="submit" value="Registre sua conta!"><br>
+
+                <input class="Cadasto" id="Google" type="submit" value="Registre com Google"><br>
+
+                <input class="Cadasto" id="Facebook" type="submit" value="Registr com Facebook"><br>
+                <label class="smallText"><input type="checkbox">Lembrar senha</label>
+
+                <a class="linkCadastro" href="#">
+                    <p class="Forgot">Esqueci minha senha</p><br>
+                </a>
+
+                <a class="linkCadastro" href="#">
+                    <a href="/login">
+                        <p class="Login">Realmente tem uma conta? Login!</p>
+                    </a>
+                </a>
+            </form>
+        </div>
     </div>
-    <div class="formCadastro1">
-        <h1 class="h1Cadastro">Crie sua conta</h1>
-        <form method="POST" action="/login/cadastro" class="formCadastro">
-            <label for="user_descricao"></label>
-            <input class="Cadasto" id="user_descricao" name="user_descricao" type="text" placeholder="* Nome" required>
-
-            <label for="user_telefone"></label>
-            <input class="Cadasto" id="user_telefone" name="user_telefone" type="tel" placeholder="* Telefone" required><br>
-
-
-
-            <label for="user_cpf"></label>
-            <input class="Cadasto" id="user_cpf" name="user_cpf" type="text" placeholder=" * CPF" required>
-
-            <label for="user_telefone2"></label>
-            <input class="Cadasto" id="user_telefone2" name="user_telefone2" type="tel" placeholder="Telefone2"><br>
-
-
-            <label for="user_email"></label>
-            <input class="Email" id="user_email" name="user_email" type="email" placeholder="* Email" required><br>
-
-            <label for="user_senha"></label>
-            <input class="Cadasto" id="user_senha" name="user_senha" type="password" placeholder="* Senha" required>
-
-            <label for="user_senha"></label>
-            <input class="Cadasto" id="user_senha" name="user_senha" type="password" placeholder="* Repita a senha" required><br>
-
-
-            <input class="CadastoSubmit" id="Register" type="submit" value="Registre sua conta!"><br>
-
-
-            <input class="Cadasto" id="Google" type="submit" value="Registre com Google"><br>
-
-
-            <input class="Cadasto" id="Facebook" type="submit" value="Registr com Facebook"><br>
-            <label class="smallText"><input type="checkbox">Lembrar senha</label>
-
-            <a class="linkCadastro" href="#">
-                <p class="Forgot">Esqueci minha senha</p><br>
-            </a>
-
-            <a class="linkCadastro" href="#">
-                <a href="/login"><p class="Login">Realmente tem uma conta? Login!</p></a>
-            </a>
-
-
-        </form>
-
     </div>
-
     </div>
-
-
-
-    </div>
-
-</div>
-
-
     <br>
     <br>
-
-
 
     <%- include('./partials/novoTesteFooter') %>
 
