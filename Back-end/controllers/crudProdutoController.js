@@ -4,12 +4,12 @@ const Sequelize = require('sequelize');
 const Op = Sequelize.Op
 
 const crudProdutoController = {
-    index: async (req, res)=> {
+    crudProduto: async (req, res)=> {
         let produtos = await Products.findAll();
-        return res.render('crudProduto', { produtos })
+        return res.render('./crudProduto/crudProduto', { produtos })
     },
     create: (req, res)=> {
-        return res.render('crudProduto')
+        return res.render('./crudProduto/crudProduto')
     },
     store: async (req, res)=> {
         const { prd_descricao, prd_status, prd_valor, qtd_estoque, caracteristica1, caracteristica2, caracteristica3, caracteristica4, typeProductId } = req.body;
@@ -35,7 +35,7 @@ const crudProdutoController = {
 
         const produto = await Products.findByPk(id);
 
-        return res.render('editarProduto', {produto})
+        return res.render('./crudProduto/editarProduto', {produto})
     },
     update: async (req, res)=> {
         const {id} = req.params;
@@ -83,7 +83,7 @@ const crudProdutoController = {
             }
         })
         
-        return res.render('dadosProduto', { produto })
+        return res.render('./crudProduto/dadosProduto', { produto })
     },
     search: async (req, res)=> {
         let {key} = req.query
@@ -99,8 +99,14 @@ const crudProdutoController = {
             // ]
         })
 
-        return res.render('crudProduto', { produtos })
+        return res.render('./crudProduto/crudProduto', { produtos })
     }
 }
 
 module.exports = crudProdutoController
+
+// module.exports = {
+//     crudProduto: (req, res) => {
+//         res.render('./crudProduto/crudProduto');
+//     }
+// }

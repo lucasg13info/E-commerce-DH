@@ -1,11 +1,11 @@
-var express = require('express');
-var router = express.Router();
-const crudProdutoController = require('../controllers/crudProdutoController');
+const express = require('express');
+const router = express.Router();
+const crudProdutoController = require('../controllers/crudProdutoController')
 
 /* GET users listing. */
-router.get('/produtos', crudProdutoController.index);
+router.get('/produtos', crudProdutoController.crudProduto); // ok
 router.get('/ver/:id', crudProdutoController.findById);
-router.get('/pesquisar', crudProdutoController.search);
+router.get('/pesquisar', crudProdutoController.search); // ok
 
 router.get('/cadastro', crudProdutoController.create);
 router.post('/cadastro', crudProdutoController.store);

@@ -1,0 +1,21 @@
+/* body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+} */
+
+.menu {
+    background-color: darkcyan;
+  }
+  
+  .usuario-menu {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: solid;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: unset;
+  }
