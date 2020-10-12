@@ -29,7 +29,6 @@
 h4{
     margin-bottom: 2%;
     margin-top: 3%;
-    margin-left: 9.5%;
 }
 
 h5{
@@ -45,4 +44,14 @@ h5{
     height: 8vh;
     width: 60%;
     margin-left: 20%;
+}
+
+img{
+    width: 45%;
+    
+}
+
+#iconPag{
+    width: 10%;
+    margin-bottom: 1%;
 }
