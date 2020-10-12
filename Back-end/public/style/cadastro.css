@@ -26,7 +26,7 @@
   
 }
 .formCadastro1{
-    background-color: #4A887E;
+    background-color: #00072D;
     width: 73%; 
     border-radius: 10px;
     height: 800px;
@@ -35,6 +35,7 @@
 .h1Cadastro{
     text-align: center;
     padding-top: 17px;
+    color: white;
 }
 .formCadastro{
     text-align: center;
@@ -46,7 +47,7 @@
     padding: 20px;
     border: none;
     border-radius: 5px;
-    background-color:#ffffff;
+    background-color: white;
     margin:10px;
     opacity: 0.5;
     width: 30%;
@@ -57,7 +58,7 @@
   padding: 20px;
     border: none;
     border-radius: 5px;
-    background-color:#ffffff;
+    background-color:white;
     margin:10px;
     opacity: 0.5;
     width: 63%;
@@ -77,18 +78,30 @@
     font-weight: bold;
 }
 
+.smallText{
+    color: white;
+}
+
 .Forgot{
     padding-top: 5px;
+    color: white;
 
 }
+
+.smallText:hover{
+    color: orange;
+    text-decoration: none;
+}
 .Forgot:hover{
-    color: #BDB9BA;
+    color: orange;
+    text-decoration: none;
     
 }
 .Login:hover{
-    color: #BDB9BA;
+    color: orange;
+    text-decoration: none;
 }
 .linkCadastro{
     text-decoration: none;
-    color:#000000;
+    color:white
 }
