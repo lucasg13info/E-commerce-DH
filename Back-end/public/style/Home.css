@@ -31,7 +31,9 @@ body{
 }
 
 
-
+.d-block w-100 height-carousel{
+    
+}
 /*Cupom de desconto*/
 .desconto10Porcento{
 text-align: center;
