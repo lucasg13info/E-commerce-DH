@@ -48,6 +48,8 @@
 
 .textoHeader{
     color: white;
+    text-decoration: none;
+    color: white;
 }
 
 .carrinho1{
@@ -147,6 +149,12 @@
     border-color: #00072D;
 }
 
+
+
+.textoHeader:hover{
+    color: orange;
+    text-decoration: none;
+}
 
 
 @media (max-width: 1315px) {
