@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' href='/style/crudProduto.css' />
+    <link rel="shortcut icon" href="/img/index/EchoPet-logo-preto.png">
+
     <title>Cadastro</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
@@ -20,24 +22,40 @@
     <main class="container mt-4">
         <form class="card p-3" action="/crud/cadastro" method="POST">
             <div class="form-group">
-                <label for="name"> Nome </label>
-                <input type="text" class="form-control" id="name" name="name">
+                <label for="prd_descricao"> Nome </label>
+                <input type="text" class="form-control" id="prd_descricao" name="prd_descricao">
             </div>
             <div class="form-group">
-                <label for="email"> Email </label>
-                <input type="email" class="form-control" id="email" name="email">
+                <label for="prd_status"> Status </label>
+                <input type="number" class="form-control" id="prd_status" name="prd_status">
             </div>
             <div class="form-group">
-                <label for="birthdate"> Data de Nascimento </label>
-                <input type="date" class="form-control" id="birthdate" name="birthdate">
+                <label for="prd_valor"> Valor </label>
+                <input type="number" class="form-control" id="prd_valor" name="prd_valor">
             </div>
             <div class="form-group">
-                <label for="password"> Senha </label>
-                <input type="password" class="form-control" id="password" name="password">
+                <label for="qtd_estoque"> Quantidade em Estoque </label>
+                <input type="number" class="form-control" id="qtd_estoque" name="qtd_estoque">
             </div>
             <div class="form-group">
-                <label for="age"> Idade </label>
-                <input type="number" class="form-control" id="age" name="age">
+                <label for="caracteristica1"> Caracteristica 1 </label>
+                <input type="text" class="form-control" id="caracteristica1" name="caracteristica1">
+            </div>
+            <div class="form-group">
+                <label for="caracteristica2"> Caracteristica 2 </label>
+                <input type="text" class="form-control" id="caracteristica2" name="caracteristica2">
+            </div>
+            <div class="form-group">
+                <label for="caracteristica3"> Caracteristica 3 </label>
+                <input type="text" class="form-control" id="caracteristica3" name="caracteristica3">
+            </div>
+            <div class="form-group">
+                <label for="caracteristica4"> Caracteristica 4 </label>
+                <input type="text" class="form-control" id="caracteristica4" name="caracteristica4">
+            </div>
+            <div class="form-group">
+                <label for="typeProductId"> ID Type products </label>
+                <input type="number" class="form-control" id="typeProductId" name="typeProductId">
             </div>
             <button class="btn btn-success" type="submit"> Cadastrar-se </button>
         </form>

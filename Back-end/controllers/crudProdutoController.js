@@ -9,7 +9,7 @@ const crudProdutoController = {
         return res.render('./crudProduto/crudProduto', { produtos })
     },
     create: (req, res)=> {
-        return res.render('./crudProduto/crudProduto')
+        return res.render('./crudProduto/cadastroProduto')
     },
     store: async (req, res)=> {
         const { prd_descricao, prd_status, prd_valor, qtd_estoque, caracteristica1, caracteristica2, caracteristica3, caracteristica4, typeProductId } = req.body;
