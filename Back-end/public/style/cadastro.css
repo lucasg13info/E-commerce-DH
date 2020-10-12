@@ -41,6 +41,7 @@
     text-align: center;
     box-sizing: border-box;
     
+    
    
 }
 .Cadasto{
@@ -49,9 +50,25 @@
     border-radius: 5px;
     background-color: white;
     margin:10px;
-    opacity: 0.5;
+    opacity: 0.9;
     width: 30%;
-    
+}
+
+
+.CadastoSubmit{
+    padding: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    margin:10px;
+    opacity: 0.9;
+    width: 25%;
+}
+
+
+.CadastoSubmit:hover{
+    color: orange;
 }
 .Email {
   width: 62.5%;
@@ -60,20 +77,20 @@
     border-radius: 5px;
     background-color:white;
     margin:10px;
-    opacity: 0.5;
+    opacity: 0.9;
     width: 63%;
 }
 #Register{
     width: 62.5%;
 }
 #Google{
-    width: 62.5%;
+    width: 30%;
     color: #FF0000;
     font-weight: bold;
     
 }
 #Facebook{
-    width: 62.5%;
+    width: 30%;
     color: #0000CD;
     font-weight: bold;
 }
