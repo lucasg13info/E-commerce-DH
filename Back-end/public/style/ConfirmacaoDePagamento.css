@@ -7,18 +7,27 @@ body{
 
 /*Main*/
 
+
+.imgTestePapagaio{
+    width: 30vw;
+    height: 20vh;
+}
 .confirmPagto{
     text-align: center;
 }
 
 .containerConfirmacaoPagamento{
     padding: 70px;
+    
+}
+
+.statusPedido{
+    width: 380px;
+    height: 335px;
 }
 
 
-
-
-@media (max-width: 1024px) {
+@media (max-width: 1220px) {
     .h1confimacaoPagamento{
         font-size: 40px;
     }
@@ -27,8 +36,8 @@ body{
     }
 
     .statusPedido{
-        width: 52vw;
-        height: 20vh;
+        width: 380px;
+        height: 335px;
     }
     
   }
@@ -37,13 +46,16 @@ body{
 
 @media (max-width: 800px) {
     .h1confirmacaoPagamento{
-        font-size: 10px;
+        font-size: 2.5rem;
+    }
+
+    .OlaPessoa{
+        font-size: 1.8rem;
     }
     .containerConfirmacaoPagamento{
         padding: 30px;
     }
     .statusPedido{
-        width: 45vw;
-        height: 14vh;
-    }
-  }
+        width: 280px;
+        height: 255px;
+    }}
