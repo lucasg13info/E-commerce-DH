@@ -20,7 +20,19 @@ module.exports = {
         type: Sequelize.INTEGER, 
         allowNull: true,
       },
-      
+      caracteristica1: {
+        type: Sequelize.STRING
+      },
+      caracteristica2: {
+        type: Sequelize.STRING
+      },
+      caracteristica3: {
+        type: Sequelize.STRING
+      },
+      caracteristica4: {
+        type: Sequelize.STRING
+      }, 
+        
        type_produts_id: {
         type: Sequelize.INTEGER,
         references: {

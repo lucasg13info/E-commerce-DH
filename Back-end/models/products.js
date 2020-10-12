@@ -16,7 +16,10 @@ const { Model } = require('sequelize');
         type: DataTypes.INTEGER, 
         allowNull: true,
       },
-      
+      caracteristica1: DataTypes.STRING,
+      caracteristica2: DataTypes.STRING,
+      caracteristica3: DataTypes.STRING,
+      caracteristica4: DataTypes.STRING,      
       
       typeProductId: {
         type: DataTypes.INTEGER,

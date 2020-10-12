@@ -1,6 +1,7 @@
 const {Products} = require ('../models'); 
 const {Categories} = require('../models')
 const Sequelize = require('sequelize');
+const Op = Sequelize.Op
 
 
 module.exports = {
@@ -10,8 +11,20 @@ module.exports = {
         // res.send(produtos);
 
        res.render('index' , { produtos })
-    }
+    },
+    search: async (req, res)=> {
+        let {key} = req.query
 
+        let produtos = await Products.findAll({
+            where: {
+                prd_descricao: {
+                    [Op.like]: `%${key}%`
+                }
+            }
+        })
+
+        return res.render('index', { produtos })
+    }
 
 
     // CRIAR / CADASTRAR MATERIAL - JUAN
