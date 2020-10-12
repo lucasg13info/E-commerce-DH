@@ -7,36 +7,27 @@
     background-color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-/* .containerCadastro{
-    padding: 13px;
-    margin: 8px auto;
-    margin-bottom: 85;
-    max-width: 90%;
-
-    height: 10%;
-    width: 10%;
-    padding-bottom: 13px;
-} */
 
 .containerCadastro{
     display: flex;
+    padding: 110px; 
     
 }
 
 .imgDog{
-    width: 40%;
-    float: left;
+    width: 50%;
+    display: flex;
+    
 }
 .imgCachorroCadastro{
-     width: 800px;
+     width: 690px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
   
 }
 .formCadastro1{
-    float: left;
     background-color: #4A887E;
-    width: 60%; 
+    width: 73%; 
     border-radius: 10px;
     height: 800px;
    
