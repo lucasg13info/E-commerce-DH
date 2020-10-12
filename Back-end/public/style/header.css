@@ -48,6 +48,8 @@
 
 .textoHeader{
     color: white;
+    text-decoration: none;
+    color: white;
 }
 
 .carrinho1{
@@ -103,14 +105,16 @@
     text-align: inherit;
     white-space: nowrap;
     background-color: transparent;
-    border: 21;
+    border: 21px;
 
-    font-size: 30px;
+    font-size: 18px;
 }
 
 .animaisMenuHamburguer{
     font-weight: bold;
     font-size: 30px;
+
+    font-size: 23px;
 }
 
 .dropdown-menu {
@@ -145,6 +149,12 @@
     border-color: #00072D;
 }
 
+
+
+.textoHeader:hover{
+    color: orange;
+    text-decoration: none;
+}
 
 
 @media (max-width: 1315px) {

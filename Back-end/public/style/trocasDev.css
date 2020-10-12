@@ -31,6 +31,40 @@
     width: 35px;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 770px ) {
+    .row-cols-2{
+        display: block;
+        flex-wrap: wrap;
+        
 
+        
+    }
+
+    .explicacaoTroca{
+        margin: 2px;
+        margin-bottom: 40px;
+        left: 150px;
+        font-size: 7px;
+
+               
+        
+    }
+    .descricao{
+        display: contents;
+        font-size: 15px;
+        
+        padding-left: 50px;
+        
+    }
+
+    .valeTroca{
+        
+        left: 145 px;        
+        width: 2px;
+        font-size: 10px;
+        
+    }
+    
+    
 }
+

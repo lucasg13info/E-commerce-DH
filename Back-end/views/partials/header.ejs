@@ -7,6 +7,7 @@
   <link rel="shortcut icon" href="/img/index/EchoPet-logo-preto.png">
 
   <link rel="stylesheet" href="/style/header.css">
+  <link rel="stylesheet" href="/style/login.css">
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -17,88 +18,118 @@
 <body>
 
 
- <!--HEADER-->
- <header class="papai">
-  <div class="logo">
-   <a href="/"> <img class="logoMain" src="/img/index/EchoPet-logo-white.png" alt=""> </a>
-  </div>
+  <!--HEADER-->
+  <header class="papai">
+    <div class="logo">
+      <a href="/"> <img class="logoMain" src="/img/index/EchoPet-logo-white.png" alt=""> </a>
+    </div>
 
-  <div class="formulario1">
-    <form class="formulario1a" action="">
-      <input class="inputForm" type="text" placeholder="    busque seu produto">
-    </form>
-  </div>
+    <div class="formulario1">
+      <form class="formulario1a" action="/search" method="GET">
+        <input class="inputForm" type="text" placeholder="    busque seu produto" name="key">
+      </form>
+    </div>
 
-  <div class="textoBemVindo1">
-    <h3 class="textoHeader">Bem-vindo</h3>
-    <a href="/login"><p class="textoHeader">Entre ou Cadastre-se</p></a>
-  </div>
-
-  <div class="carrinho1">
-    <a href="/carrinho"><img class="carrinhoHeader" src="/img/index/carrinho.png" alt="Logo carrinho"> </a>
-    <a href="/carrinho"> <p class="textoHeader">Carrinho Item 0 </p></a>
-  </div>
-</header>
+    <div class="textoBemVindo1">
+      <h3 class="textoHeader">Bem-vindo</h3>
+      <!-- <a href="/login"><p class="textoHeader">Entre ou Cadastre-se</p></a> -->
 
 
+      <div class="dropdown show">
+        <a class="textoHeader" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Entre ou Cadastre-se
+        </a>
 
-<!--Papai resposa-->
-<header class="papaiResponsa">
-  <div class="row1">
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <div class="login">
+            <h2 class="login-header">Entre</h2>
+
+            <form class="login-container">
+              <p><input type="email" id="email" placeholder="Email"></p>
+              <p><input type="password" id="password" placeholder="Senha"></p>
+              <p><input type="submit" value="Log in"></p>
+            </form>
+            <a href="/login/cadastro"> <button type="button" class="btn btn-warning">Não tem conta? Cadastre-se</button></a>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+    <div class="carrinho1">
+      <a href="/carrinho"><img class="carrinhoHeader" src="/img/index/carrinho.png" alt="Logo carrinho"> </a>
+      <a href="/carrinho">
+        <p class="textoHeader">Carrinho Item 0 </p>
+      </a>
+    </div>
+  </header>
+
+
+
+  <!--Papai resposa-->
+  <header class="papaiResponsa">
+    <div class="row1">
       <a href="/"><img class="logoMain" src="./img/index/EchoPet-logo-white.png" alt=""></a>
 
-    <div>
-      <a href="/login"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="48" style="fill:white"><path fill-rule="evenodd" d="M12 2.5a5.5 5.5 0 00-3.096 10.047 9.005 9.005 0 00-5.9 8.18.75.75 0 001.5.045 7.5 7.5 0 0114.993 0 .75.75 0 101.499-.044 9.005 9.005 0 00-5.9-8.181A5.5 5.5 0 0012 2.5zM8 8a4 4 0 118 0 4 4 0 01-8 0z"></path></svg></a>
-      <a href="/carrinho"><img class="carrinhoHeader" src="./img/index/carrinho.png" alt=""></a>
+      <div>
+        <a href="/login"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="48"
+            style="fill:white">
+            <path fill-rule="evenodd"
+              d="M12 2.5a5.5 5.5 0 00-3.096 10.047 9.005 9.005 0 00-5.9 8.18.75.75 0 001.5.045 7.5 7.5 0 0114.993 0 .75.75 0 101.499-.044 9.005 9.005 0 00-5.9-8.181A5.5 5.5 0 0012 2.5zM8 8a4 4 0 118 0 4 4 0 01-8 0z">
+            </path>
+          </svg></a>
+        <a href="/carrinho"><img class="carrinhoHeader" src="./img/index/carrinho.png" alt=""></a>
+      </div>
+
     </div>
 
-  </div>
-
-  <div class="formulario1">
-    <form class="formulario1a" action="">
-      <input class="inputForm" type="text">
-    </form>
-  </div>
-</header>
-
-
-<!--Menu2 -->
-<div class="navA">
-  <div class="dropdown">
-    <img class="btn dropdown-toggle menu-hamburguer" src="/img/index/menu-hamburguer.png" type="button"
-      id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-
-    </button>
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-      <p class="animaisMenuHamburguer"> ANIMAIS</p>
-      <a class="dropdown-item" href="#">Cachorros</a>
-      <a class="dropdown-item" href="#">Gatos</a>
-      <a class="dropdown-item" href="#">Pássaros</a>
-      <a class="dropdown-item" href="#">Peixes</a>
-      <hr>
-      <p class="animaisMenuHamburguer" href="#">OUTROS</p>
+    <div class="formulario1">
+      <form class="formulario1a" action="/search" method="GET">
+        <input class="inputForm" type="text" placeholder="    busque seu produto" name="key">
+      </form>
     </div>
+  </header>
+
+
+  <!--Menu2 -->
+  <div class="navA">
+    <div class="dropdown">
+      <img class="btn dropdown-toggle menu-hamburguer" src="/img/index/menu-hamburguer.png" type="button"
+        id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <p class="animaisMenuHamburguer"> ANIMAIS</p>
+        <a class="dropdown-item" href="#">Cachorros</a>
+        <a class="dropdown-item" href="#">Gatos</a>
+        <a class="dropdown-item" href="#">Pássaros</a>
+        <a class="dropdown-item" href="#">Peixes</a>
+        <hr>
+        <p class="animaisMenuHamburguer" href="#">OUTROS</p>
+      </div>
+    </div>
+
+
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link" href="/">Cupom de desconto</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/">Novidades para seu cachorro</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/sobreNos">Sobre nós</a>
+      </li>
+    </ul>
+
   </div>
 
 
-  <ul class="nav">
-    <li class="nav-item">
-      <a class="nav-link" href="/">Cupom de desconto</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="/">Novidades para seu cachorro</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="/sobreNos">Sobre nós</a>
-    </li>
-  </ul>
-
-</div>
 
 
 
-
-  
 
 
 

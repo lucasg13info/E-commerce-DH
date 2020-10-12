@@ -44,25 +44,67 @@
                     </div>
                 </form>
             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
             <div class="col-md-2"></div>
             <div class="col-md-4">
-                <form>
+                <form action= "/login" method="POST">
                     <h1 class="text-left2">Criar conta</h1>
                     <label class="formulario" for="nome">Nome</label>
-                    <input type="text" class="form-control" name="nome" >
+                    <input type="text" class="form-control" name="name" id="name" >
                     <br>
                     <label class="formulario" for="email">E-mail</label>
-                    <input type="email" class="form-control" name="email" placeholder="Digite seu E-mail">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Digite seu E-mail">
                     <br>
                     <label class="formulario" for="senha">Senha</label>
-                    <input type="password" class="form-control" name="senha" placeholder="Pelo menos 6 caracteres">
+                    <input type="password" class="form-control" name="password" id="password" placeholder="Pelo menos 6 caracteres">
                     <br>
+                    <a href="/alterarEndereco"> Cadastrar endereço</a>
                     <button type="button" class="login-botao">Criar sua conta da EchoPet</button>
                     </form>
             </div>
             <div class="col-md-1"></div>
         </div>
    </div>
+
+
+   <!-- <main class="container mt-4">
+    <form class="card p-3" action="/login" method="POST">
+        <div class="form-group">
+            <label for="user_descricao"> Nome </label>
+            <input type="text" class="form-control" id="user_descricao" name="user_descricao">
+        </div>
+        <div class="form-group">
+            <label for="user_email"> Email </label>
+            <input type="email" class="form-control" id="user_email" name="user_email">
+        </div>
+        <div class="form-group">
+            <label for="user_cpf"> CPF </label>
+            <input type="number" class="form-control" id="user_cpf" name="user_cpf">
+        </div>
+        <div class="form-group">
+            <label for="user_telefone"> Telefone </label>
+            <input type="tel" class="form-control" id="user_telefone" name="user_telefone">
+        </div>
+        <div class="form-group">
+            <label for="user_status"> Status </label>
+            <input type="number" class="form-control" id="user_status" name="user_status">
+        </div>
+        <button class="btn btn-success" type="submit"> Cadastrar-se </button>
+    </form>
+</main> -->
+
 
 
 

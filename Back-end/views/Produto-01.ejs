@@ -37,21 +37,23 @@
 
         <div class="col-md-6">
 
-          <h3>Ração Pedigree - Cães filhotes - 15 kg</h3>
-          <p>Código: 101010</p>
+          <h3><%= produto.prd_descricao %></h3>
+          <p>Código: <%= produto.id %></p>
+
+
           <img src="/img/Produtos/icon-star.png" alt="..." class="img-thumbnail" id="avaliacao">
           <img src="/img/Produtos/icon-star.png" alt="..." class="img-thumbnail" id="avaliacao">
           <img src="/img/Produtos/icon-star.png" alt="..." class="img-thumbnail" id="avaliacao">
           <img src="/img/Produtos/icon-star.png" alt="..." class="img-thumbnail" id="avaliacao"><br><br>
-          <p><strong>Disponibilidade:<span id="estadoDisp"> Em estoque</span></strong></p>
+          <p><strong>Quantidade em Estoque:<span id="estadoDisp"> <%= produto.qtd_estoque %> itens </span></strong></p>
         </div>
 
         <div class="col-md-4">
           <div class="card w-75">
             <div class="card-body">
               <h5 class="card-title">Valor:</h5>
-              <p class="card-text">R$ 290,00</p>
-              <p class="card-text"><strong>Quantidade: 2</strong></p>
+              <p class="card-text">R$ <%= produto.prd_valor %>,00</p>
+              <p class="card-text"><strong>Quantidade: INCREMENTAR </strong></p>
               <p class="card-text"><strong>Frete: </strong><a href="http://" #id="calcFrete">Calcular
                   Frete</a></p>
               <a href="/carrinho" class="btn btn-primary">Adicionar ao carrinho</a>
@@ -64,11 +66,16 @@
         <div class="col-12">
           <h4 class="underline-produto">Características:</h4>
           <ul>
-            <li>Indicada para cães filhotes;</li>
-            <li>Controla o volume de fezes;</li>
-            <li>Nutrientes para um desenvolvimento saudável,</li>
-            <li>Disponível em embalagens de 15kg.</li>
+            <li> <%= produto.caracteristica1 %> </li> 
+            <li> <%= produto.caracteristica2 %> </li>
+            <li> <%= produto.caracteristica3 %> </li>
+            <li> <%= produto.caracteristica4 %> </li>
           </ul>
+          <!-- caracteristicas -->
+          <!-- Indicada para cães filhotes;
+          Controla o volume de fezes;
+          Nutrientes para um desenvolvimento saudável;
+          Disponível em embalagens de 15kg. -->
         </div>
       </div><br>
 

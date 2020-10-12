@@ -16,7 +16,10 @@ const { Model } = require('sequelize');
         type: DataTypes.INTEGER, 
         allowNull: true,
       },
-      
+      caracteristica1: DataTypes.STRING,
+      caracteristica2: DataTypes.STRING,
+      caracteristica3: DataTypes.STRING,
+      caracteristica4: DataTypes.STRING,      
       
       typeProductId: {
         type: DataTypes.INTEGER,
@@ -38,7 +41,16 @@ const { Model } = require('sequelize');
       Products.belongsTo(models.type_products, {
         foreingKey: "type_produts_id",
         targetKey: "id"
-      })
+      });
+      Products.hasMany(models.pictureProduct, {
+        foreingKey: "products_id"
+      });
+      Products.belongsToMany(models.Requesties, {
+        through: "relationRequest"
+      });
+      Products.belongsToMany(models.Categories, {
+        through: "productsCategories"
+      });
     } 
     
     return Products;

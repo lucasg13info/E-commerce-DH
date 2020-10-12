@@ -18,6 +18,13 @@ const { Model } = require('sequelize');
       add_complemento: DataTypes.STRING,
       add_estado: DataTypes.STRING,
       add_uf: DataTypes.STRING,
+      add_users_id: {
+        type: DataTypes.INTEGER,
+        references: {
+          model: "Users",
+          key: "id"
+        }
+      }
     }, {
       // definindo opções do model!
       sequelize,
@@ -30,6 +37,9 @@ const { Model } = require('sequelize');
       //   foreingKey: "type_users_typeUser_id"
       // })
     // } 
+    Address.associate = (models)=> {
+      Address.belongsTo(models.Users)
+    }
     
     return Address;
   };

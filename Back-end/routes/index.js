@@ -4,6 +4,8 @@ const indexController = require('../controllers/indexController')
 
 /* GET home page. */
 router.get('/', indexController.index); 
+router.get('/search', indexController.search);
+// router.get('/', indexController.bulkCreate); 
 
 // CADASTRAR PRODUTO - ROTA
 // router.get('/cadastrarProduto', indexController.bulkCreate);
@@ -11,7 +13,5 @@ router.get('/', indexController.index);
 
 // Criar View com formulario de cadstro de produto apenas para os devs efetuarem cadastro de materiais.
 
-
-// router.get('/search', indexController.search);
 
 module.exports = router;

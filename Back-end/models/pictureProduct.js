@@ -34,6 +34,9 @@ const { Model } = require('sequelize');
     //     targetKey: "id"
     //   })
     // } 
+    pictureProduct.associate = (models)=> {
+      pictureProduct.belongsTo(models.Products)
+    }
     
     return pictureProduct;
   };
