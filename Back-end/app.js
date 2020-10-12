@@ -17,6 +17,8 @@ const politicasTermosRouter = require('./routes/politica-termos')
 const sobreNosRouter = require('./routes/sobreNos')
 const produto01Router = require('./routes/produto01')
 const trocasDevRouter = require('./routes/trocasDev')
+const crudProdutoRouter = require('./routes/crudProduto')
+const produtoMenuRouter = require('./routes/produtoMenu')
 
 var app = express();
 
@@ -43,6 +45,8 @@ app.use('/politicaTermos', politicasTermosRouter);
 app.use('/sobreNos', sobreNosRouter);
 app.use('/produto', produto01Router);
 app.use('/trocasDev', trocasDevRouter);
+app.use('/crud', crudProdutoRouter);
+app.use('/produtoMenu', produtoMenuRouter)
 
 
 // catch 404 and forward to error handler

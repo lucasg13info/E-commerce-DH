@@ -23,13 +23,19 @@
 .formulario1a{
     height: 100px;
 
-    padding: 71px;  
-    width: 800px;
+    padding: 70px;  
+    width: 900px;
+
+    justify-content: center;
+
+    align-items: center;
+
+    justify-items: center;
 }
 
 
 .inputForm{
-    width: 615px;
+    width: 700px;
     
     background: #FFFFFF;
     border: 2px solid #000000;
@@ -47,6 +53,8 @@
 }
 
 .textoHeader{
+    color: white;
+    text-decoration: none;
     color: white;
 }
 
@@ -86,7 +94,7 @@
 /*Menu Hamburguer*/
 .element.style { /*Itens do menu*/
     position: absolute;
-    top: 5px;
+    top: 177px;
     left: 4px;
     transform: translate3d(0px, 44px, 8px);
     
@@ -149,7 +157,41 @@
 
 
 
-@media (max-width: 1315px) {
+.textoHeader:hover{
+    color: orange;
+    text-decoration: none;
+}
+
+
+@media (max-width: 1500px) {
+    .formulario1a{
+        width: 800px;      
+    }
+    
+}
+
+
+
+@media (max-width: 1400px) {
+    .formulario1a{
+        width: 700px;      
+    }
+    .inputForm{
+        width: 640px;
+    }
+}
+
+
+
+@media (max-width: 1320px) {
+    .formulario1a{
+        width: 600px;      
+    }
+    
+    .inputForm{
+        width: 540px;
+    }
+
     .textoHeader{
         font-size: 16px;
     }
@@ -157,9 +199,66 @@
     .carrinhoHeader{
         height: 50px;
     }
-    
-    
 }
+
+
+
+@media (max-width: 1200px) {
+    .formulario1a{
+        width: 500px;      
+    }
+    
+    .inputForm{
+        width: 440px;
+    }
+
+    .textoHeader{
+        font-size: 16px;
+    }
+    
+    .carrinhoHeader{
+        height: 50px;
+    }   
+}
+
+
+@media (max-width: 1024px) {
+    .formulario1a{
+        width: 400px;      
+    }
+    
+    .inputForm{
+        width: 340px;
+    }
+
+    .textoHeader{
+        font-size: 16px;
+    }
+    
+    .carrinhoHeader{
+        height: 50px;
+    }   
+}
+
+
+@media (max-width: 840px) {
+    .formulario1a{
+        width: 300px;      
+    }
+    
+    .inputForm{
+        width: 240px;
+    }
+
+    .textoHeader{
+        font-size: 16px;
+    }
+    
+    .carrinhoHeader{
+        height: 50px;
+    }   
+}
+
 
 @media (max-width: 750px) {
     .papai {

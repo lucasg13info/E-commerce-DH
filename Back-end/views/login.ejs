@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/index/EchoPet-logo-preto.png">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style/login.css">
+
+</head>
+
+<body>
+
+
+    <%- include('./partials/header') %>
+
+
+    <div class="login">
+        <div class="login-triangle"></div>
+        
+        <h2 class="login-header">Entre</h2>
+      
+        <form class="login-container">
+          <p><input type="email" id="email"placeholder="Email"></p>
+          <p><input type="password" id="password"placeholder="Senha"></p>
+          <p><input type="submit" value="Log in"></p>
+        </form>
+        <a href="/login/cadastro">Não tem conta? Cadastre-se</a>
+      </div>
+
+
+    <%- include('./partials/novoTesteFooter') %>
+
+
+</body>
+
+</html>
