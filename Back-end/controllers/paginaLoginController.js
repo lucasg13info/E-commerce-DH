@@ -7,6 +7,10 @@ module.exports  = {
         res.render('PaginaLogin', { users })
     },
 
+    paginaLogin: (req,res) =>{
+        res.render('login')
+    },
+
     paginaCadastro: (req,res) =>{
        return res.render('cadastro')
     },
