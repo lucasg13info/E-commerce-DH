@@ -1,5 +1,5 @@
 module.exports = {
-    produtosParaPeixes: (req, res) => {
+    produtosParaPeixe: (req, res) => {
         res.render('peixeMenu')
     }
 
