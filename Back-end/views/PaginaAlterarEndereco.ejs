@@ -14,47 +14,17 @@
 
 <body>
     <div class="container padding-alterarEndereco">
-        <div class="row">
-            <div class="col-12">Selecionar um endereço de envio</div>
-        </div>
-        <div class="row">
-            <div class="mensagem">O endereço que deseja usar está exibido abaixo? Se estiver, clique no botão "Enviar para este endereço" ou você pode inserir um novo endereço de envio</div>
-        </div>
-        <br>
-        <div class="row">
-            <div class="col-4">
-            Digital House
-              <br>
-              Av. Dr. Cardoso de Melo, 90
-              <br>
-              Vila Olímpia
-              <br>
-              CEP:04548-000
-              <br>
-              Telefone:(11) 3500-9839
-            </div>
-            <div class="col-4">
-                <button type="button" class="login-botao">Enviar para este endereço</button>
-                <label class="alterar">Alterar</label>
-                <label class="excluir">Excluir</label>
-            </div>
-            <div class="col-1"></div>
-            <div class="col-3">
-                <button type="button" class="login-continuar">Continuar</button>
-                <label class="finalizar">Você pode revisar esse pedido antes que seja finalizado</label>
-            </div>
-        </div>
-        <br>
+        
         <div class="row">
             <div class="col-11">
-                <label class="adicionarEndereco">Adicionar um novo endereço</label>
+                <label class="adicionarEndereco">Cadastar endereço</label>
             </div>
          </div>
 
          <div class="row">
             <div class="col-10">
                 
-                <form>
+                <!-- <form>
                     <div class="form-row">
                       <div class="col">
                         <input type="text" class="form-control" placeholder="Nome">
@@ -63,35 +33,38 @@
                         <input type="text" class="form-control" placeholder="Sobrenome">
                       </div>
                     </div>
-                  </form>
+                  </form> -->
                 
-                  <form>
+                  <form action="" method="POST">
                     <div class="form-row">
-                      <div class="col-9">
-                        <input type="text" class="form-control" placeholder="Endereço">
+                      <div class="col-7">
+                        <input type="text" class="form-control add_descricao" id="add_descricao" name="add_descricao" placeholder="Endereço">
                       </div>
                       <div class="col-2">
-                        <input type="text" class="form-control" placeholder="Numero">
+                        <input type="number" class="form-control add_numero" id="add_numero" name="add_numero" placeholder="Numero">
                       </div>
-                      <div class="col-1">
-                        <input type="text" class="form-control" placeholder="Apto.">
+                      <div class="col-3">
+                        <input type="text" class="form-control add_complemento" id="add_complemento" name="add_complemento" placeholder="Complemento">
                       </div>
-                      <div class="col-6">
-                        <input type="text" class="form-control" placeholder="Cidade">
+                      <div class="col-5">
+                        <input type="text" class="form-control add_cidade" id="add_cidade" name="add_cidade" placeholder="Cidade">
                       </div>
-                      <div class="col-6">
-                        <input type="text" class="form-control" placeholder="Estado">
+                      <div class="col-5">
+                        <input type="text" class="form-control add_estado" id="add_estado" name="add_estado" placeholder="Estado">
+                      </div>
+                      <div class="col-2">
+                        <input type="text" class="form-control add_uf" id="add_uf" name="add_uf" placeholder="País">
                       </div>
                     </div>
                   </form>
 
                   <form>
                     <div class="form-row">
-                      <div class="col-2">
-                        <input type="text" class="form-control" placeholder="Telefone">
+                      <div class="col-4">
+                        <input type="text" class="form-control add_bairro" id="add_bairro" name="add_bairro" placeholder="Bairro">
                       </div>
-                      <div class="col-2">
-                        <input type="text" class="form-control" placeholder="Celular">
+                      <div class="col-7">
+                        <input type="text" class="form-control add_referencia" id="add_referencia" name="add_referencia" placeholder="Referência">
                       </div>
                     </div>
                   </form>
@@ -107,7 +80,7 @@
                       </div>
 
                       <div class="col-2">
-                        <label class="buscarCep" href=# >Buscar CEP</label>
+                        <img src="./img/footer/EchoPet-logo-preto.png" alt="Logo EchoPet" class="logoCEPEchopet">
                       </div>
 
                       <div class="col-2">

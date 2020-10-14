@@ -8,16 +8,15 @@ const { Model } = require('sequelize');
         primaryKey: true,
         type: DataTypes.INTEGER
       },
-      add_descricao: DataTypes.STRING,
-      add_bairro: DataTypes.STRING,
+      add_descricao: DataTypes.STRING, // ok
+      add_bairro: DataTypes.STRING, // ok
       add_cep: DataTypes.INTEGER,
-      add_status: DataTypes.INTEGER,
-      add_entrega: DataTypes.STRING,
-      add_referencia: DataTypes.STRING,
-      add_cidade: DataTypes.STRING,
-      add_complemento: DataTypes.STRING,
-      add_estado: DataTypes.STRING,
-      add_uf: DataTypes.STRING,
+      add_numero: DataTypes.INTEGER, // ok
+      add_referencia: DataTypes.STRING, // ok
+      add_cidade: DataTypes.STRING, // ok
+      add_complemento: DataTypes.STRING, // ok
+      add_estado: DataTypes.STRING, // ok
+      add_uf: DataTypes.STRING, // ok
       add_users_id: {
         type: DataTypes.INTEGER,
         references: {
