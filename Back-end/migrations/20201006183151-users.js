@@ -33,7 +33,8 @@ module.exports = {
         references: {
           model: "type_users",
           key: "id"
-        }
+        },
+        foreignKey: true
       },
       createdAt: {
         allowNull: false,
