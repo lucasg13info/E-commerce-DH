@@ -19,18 +19,16 @@ const produto01Router = require('./routes/produto01')
 const trocasDevRouter = require('./routes/trocasDev')
 const crudProdutoRouter = require('./routes/crudProduto')
 
+const produtoMenuCachorroRouter = require ('./routes/produtoMenuCachorro')
+const produtoMenuGatoRouter = require ('./routes/produtoMenuGato')
+const produtoMenuPassaroRouter = require ('./routes/produtoMenuPassaro')
+const produtoMenuPeixeRouter = require ('./routes/produtoMenuPeixe')
 const emailEnviadoRouter = require('./routes/emailAutomatico')
 
 
 
 
 
-
-
-const produtoMenuCachorroRouter = require ('./routes/produtoMenuCachorro')
-const produtoMenuGatoRouter = require ('./routes/produtoMenuGato')
-const produtoMenuPassaroRouter = require ('./routes/produtoMenuPassaro')
-const produtoMenuPeixeRouter = require ('./routes/produtoMenuPeixe')
 
 var app = express();
 
@@ -58,20 +56,12 @@ app.use('/sobreNos', sobreNosRouter);
 app.use('/produto', produto01Router);
 app.use('/trocasDev', trocasDevRouter);
 app.use('/crud', crudProdutoRouter);
-app.use('/emailEnviado', emailEnviadoRouter);
-
-
-
-
-
-
-
-
 
 app.user('produtoMenuCachorro', produtoMenuCachorroRouter);
 app.use('produtoMenuGato', produtoMenuGatoRouter);
 app.use('produtoMenuPassaro', produtoMenuPassaroRouter);
 app.use('produtoMenuPeixe', produtoMenuPeixeRouter);
+app.use('/emailEnviado', emailEnviadoRouter);
 // app.use(express.static('public'))
 
 
