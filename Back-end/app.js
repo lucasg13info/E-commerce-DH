@@ -23,7 +23,7 @@ const produtoMenuCachorroRouter = require ('./routes/produtoMenuCachorro')
 const produtoMenuGatoRouter = require ('./routes/produtoMenuGato')
 const produtoMenuPassaroRouter = require ('./routes/produtoMenuPassaro')
 const produtoMenuPeixeRouter = require ('./routes/produtoMenuPeixe')
-const emailEnviadoRouter = require('./routes/emailAutomatico')
+// const emailEnviadoRouter = require('./routes/emailAutomatico')
 
 
 
@@ -61,7 +61,8 @@ app.use('/produtoMenuCachorro', produtoMenuCachorroRouter);
 app.use('/produtoMenuGato', produtoMenuGatoRouter);
 app.use('/produtoMenuPassaro', produtoMenuPassaroRouter);
 app.use('/produtoMenuPeixe', produtoMenuPeixeRouter);
-app.use('/emailEnviado', emailEnviadoRouter);
+// app.use('/emailEnviado', emailEnviadoRouter);
+
 // app.use(express.static('public'))
 
 

@@ -1,5 +1,5 @@
 module.exports = {
-    produtosParaPassaros: (req, res) => {
+    produtosParaPassaro: (req, res) => {
         res.render('passaroMenu')
     }
 
