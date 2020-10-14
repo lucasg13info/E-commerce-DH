@@ -57,10 +57,10 @@ app.use('/produto', produto01Router);
 app.use('/trocasDev', trocasDevRouter);
 app.use('/crud', crudProdutoRouter);
 
-app.user('produtoMenuCachorro', produtoMenuCachorroRouter);
-app.use('produtoMenuGato', produtoMenuGatoRouter);
-app.use('produtoMenuPassaro', produtoMenuPassaroRouter);
-app.use('produtoMenuPeixe', produtoMenuPeixeRouter);
+app.user('/produtoMenuCachorro', produtoMenuCachorroRouter);
+app.use('/produtoMenuGato', produtoMenuGatoRouter);
+app.use('/produtoMenuPassaro', produtoMenuPassaroRouter);
+app.use('/produtoMenuPeixe', produtoMenuPeixeRouter);
 app.use('/emailEnviado', emailEnviadoRouter);
 // app.use(express.static('public'))
 
