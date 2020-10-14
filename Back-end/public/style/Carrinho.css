@@ -3,17 +3,9 @@ body{
     box-sizing: border-box;
 }
 
-.paddingCarrinho {
-    padding: 70px;
+#resumoCarrinho{
+    margin-top: 0%;
 }
-
-
-
-
-
-/* main{
-    border: 1px solid red;
-} */
 
 #titleCarrinho{
     margin-top: 3%;
@@ -24,3 +16,52 @@ body{
     height: 5vh;
 }
 
+
+.linhaDiv {
+    border-bottom: 0.10px solid rgb(180, 179, 179);
+}
+
+/*#parceleInfo{
+    font-size: 12px;
+    color: rgb(70, 70, 70);
+}*/
+
+#valorFrete{
+    font-size: 18px;
+    color: green;
+}
+
+
+.desconto10Porcento{
+    text-align: center;
+    
+    background: #f1f1f1;
+    border: 2px solid #000000;
+    
+    border-radius: 31px;
+    margin: 60px;
+    margin-left: 10%;
+    margin-bottom: 5px;
+    padding: 10px;
+    
+}
+    
+    
+.cumpomDescontoTextoNormal{
+    font-weight: bold;
+    font-size: 20px ;
+}
+    
+.cupomPetiscao{
+    color: orange;
+    font-weight: bold;
+    font-size: 40px
+}
+
+@media (min-width: 780px){
+    .input-group{
+        width: 40%;
+    }
+}
+
+/*Teste*/

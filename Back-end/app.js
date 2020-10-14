@@ -57,7 +57,7 @@ app.use('/produto', produto01Router);
 app.use('/trocasDev', trocasDevRouter);
 app.use('/crud', crudProdutoRouter);
 
-app.user('/produtoMenuCachorro', produtoMenuCachorroRouter);
+app.use('/produtoMenuCachorro', produtoMenuCachorroRouter);
 app.use('/produtoMenuGato', produtoMenuGatoRouter);
 app.use('/produtoMenuPassaro', produtoMenuPassaroRouter);
 app.use('/produtoMenuPeixe', produtoMenuPeixeRouter);
