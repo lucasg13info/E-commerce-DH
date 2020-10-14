@@ -19,6 +19,12 @@ const produto01Router = require('./routes/produto01')
 const trocasDevRouter = require('./routes/trocasDev')
 const crudProdutoRouter = require('./routes/crudProduto')
 
+
+
+
+
+
+
 const produtoMenuCachorroRouter = require ('./routes/produtoMenuCachorro')
 const produtoMenuGatoRouter = require ('./routes/produtoMenuGato')
 const produtoMenuPassaroRouter = require ('./routes/produtoMenuPassaro')
@@ -50,6 +56,14 @@ app.use('/sobreNos', sobreNosRouter);
 app.use('/produto', produto01Router);
 app.use('/trocasDev', trocasDevRouter);
 app.use('/crud', crudProdutoRouter);
+
+
+
+
+
+
+
+
 
 app.user('produtoMenuCachorro', produtoMenuCachorroRouter);
 app.use('produtoMenuGato', produtoMenuGatoRouter);
