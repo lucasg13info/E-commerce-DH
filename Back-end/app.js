@@ -19,6 +19,8 @@ const produto01Router = require('./routes/produto01')
 const trocasDevRouter = require('./routes/trocasDev')
 const crudProdutoRouter = require('./routes/crudProduto')
 
+const emailEnviadoRouter = require('./routes/emailAutomatico')
+
 
 
 
@@ -56,6 +58,7 @@ app.use('/sobreNos', sobreNosRouter);
 app.use('/produto', produto01Router);
 app.use('/trocasDev', trocasDevRouter);
 app.use('/crud', crudProdutoRouter);
+app.use('/emailEnviado', emailEnviadoRouter);
 
 
 
