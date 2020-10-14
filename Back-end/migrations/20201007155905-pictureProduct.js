@@ -7,7 +7,7 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      pic_carrinho: {
+      pic_caminho: {
         type: Sequelize.STRING
       },
       pic_status: {

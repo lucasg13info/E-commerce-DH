@@ -2,6 +2,8 @@
 const { Products } = require('../models');
 const Sequelize = require('sequelize');
 const Op = Sequelize.Op
+const multer = require('multer');
+const parser = multer({dest: "public/img/uploads"})
 
 const crudProdutoController = {
     crudProduto: async (req, res)=> {
