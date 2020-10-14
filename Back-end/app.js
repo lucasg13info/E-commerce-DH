@@ -18,7 +18,11 @@ const sobreNosRouter = require('./routes/sobreNos')
 const produto01Router = require('./routes/produto01')
 const trocasDevRouter = require('./routes/trocasDev')
 const crudProdutoRouter = require('./routes/crudProduto')
-const produtoMenuRouter = require('./routes/produtoMenu')
+
+const produtoMenuCachorroRouter = require ('./routes/produtoMenuCachorro')
+const produtoMenuGatoRouter = require ('./routes/produtoMenuGato')
+const produtoMenuPassaroRouter = require ('./routes/produtoMenuPassaro')
+const produtoMenuPeixeRouter = require ('./routes/produtoMenuPeixe')
 
 var app = express();
 
@@ -46,7 +50,11 @@ app.use('/sobreNos', sobreNosRouter);
 app.use('/produto', produto01Router);
 app.use('/trocasDev', trocasDevRouter);
 app.use('/crud', crudProdutoRouter);
-app.use('/produtoMenu', produtoMenuRouter);
+
+app.user('produtoMenuCachorro', produtoMenuCachorroRouter);
+app.use('produtoMenuGato', produtoMenuGatoRouter);
+app.use('produtoMenuPassaro', produtoMenuPassaroRouter);
+app.use('produtoMenuPeixe', produtoMenuPeixeRouter);
 // app.use(express.static('public'))
 
 
