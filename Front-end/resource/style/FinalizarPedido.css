@@ -1,0 +1,73 @@
+#containerPaiFinalizarPedido{
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+h3{
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+#cartaoRevisarEndereco{
+    margin-bottom: 3%;
+}
+
+#cartaoRevisarCompra{
+    margin-bottom: 3%;
+}
+
+#cardCartaoSelecionado{
+    margin-bottom: 8%;
+}
+
+#endereco{
+    font-size: 22px;
+}
+
+#txtResumoPedido{
+    font-size: 18px;
+}
+
+#txtSubtotal{
+    font-size: 20px;
+}
+
+#txtFrete{
+    font-size: 20px;
+}
+
+#txtTotalCompra{
+    margin-top: 5%;
+    color: rgb(14, 112, 14);
+   /* color: rgb(172, 35, 35); */
+    font-size: 22px;
+}
+
+#headerForm{
+    background-color: rgb(11, 11, 80);
+    color: whitesmoke;
+    font-size: 20px;
+    
+}
+
+#btnConfirmarPedido{
+    border: none;
+    background-color: rgb(172, 35, 35); 
+}
+
+#txtCartao{
+    
+    margin-top: 2%;
+    font-size: 21px;
+}
+
+#imgBandeiras{
+    margin-top: 1%;
+    margin-bottom: 2%;
+    width: 40%;
+}
+
+#cardCartaoSelecionado h5{
+    font-size: 23px;
+    color: rgb(172, 35, 35); 
+}
