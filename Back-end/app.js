@@ -23,14 +23,14 @@ const produtoMenuCachorroRouter = require ('./routes/produtoMenuCachorro')
 const produtoMenuGatoRouter = require ('./routes/produtoMenuGato')
 const produtoMenuPassaroRouter = require ('./routes/produtoMenuPassaro')
 const produtoMenuPeixeRouter = require ('./routes/produtoMenuPeixe')
-// const emailEnviadoRouter = require('./routes/emailAutomatico')
-
-
-
+const emailEnviadoRouter = require('./routes/emailAutomatico')
 
 
 
 var app = express();
+
+
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -46,7 +46,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter); 
 app.use('/carrinho', carrinhoRouter);
 app.use('/confirmPagamento', confirmacaoDePagamentoRouter);
-app.use('/alterarEndereco', paginaAlterarEnderecoRouter);
+app.use('/endereco', paginaAlterarEnderecoRouter);
 app.use('/alterarPagamento', paginaAlteraPagamentoRouter);
 app.use('/envioPagamento', paginaEnvioPagamentoRouter);
 app.use('/finalizarPedido', paginaFinalizarPedidoRouter);
@@ -61,7 +61,7 @@ app.use('/produtoMenuCachorro', produtoMenuCachorroRouter);
 app.use('/produtoMenuGato', produtoMenuGatoRouter);
 app.use('/produtoMenuPassaro', produtoMenuPassaroRouter);
 app.use('/produtoMenuPeixe', produtoMenuPeixeRouter);
-// app.use('/emailEnviado', emailEnviadoRouter);
+app.use('/emailEnviado', emailEnviadoRouter);
 
 // app.use(express.static('public'))
 

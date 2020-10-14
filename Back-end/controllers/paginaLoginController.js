@@ -1,5 +1,6 @@
 const { Users } = require ('../models')
 const Sequelize = require('sequelize');
+const bcrypt = require('bcrypt');
 
 
 
@@ -45,7 +46,7 @@ module.exports  = {
                   user_cpf,
                   user_telefone,
                   user_status: 1,
-                  user_senha
+                  user_senha: bcrypt.hashSync(user_senha, 10)
                   // user_type_users_id: 1,
                 });
               } catch (error) {
