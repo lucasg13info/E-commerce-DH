@@ -23,7 +23,7 @@ const { Model } = require('sequelize');
       //   foreingKey: "type_users_typeUser_id"
       // })
       typeUsers.hasMany(models.Users, {
-        foreingkey: "user_type_users_id"
+        foreignKey: "user_type_users_id"
       })
     } 
     

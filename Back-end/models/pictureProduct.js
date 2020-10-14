@@ -9,7 +9,7 @@ const { Model } = require('sequelize');
         primaryKey: true,
         type: DataTypes.INTEGER
       },
-      pic_carrinho: DataTypes.STRING,
+      pic_caminho: DataTypes.STRING,
       pic_status: DataTypes.INTEGER,      
       
       products_id: {
