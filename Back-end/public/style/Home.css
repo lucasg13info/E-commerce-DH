@@ -31,9 +31,9 @@ body{
 }
 
 
-.d-block w-100 height-carousel{
+/* .d-block w-100 height-carousel{
     
-}
+} */
 /*Cupom de desconto*/
 .desconto10Porcento{
 text-align: center;
@@ -55,7 +55,7 @@ padding: 10px;
 .cupomPetiscao{
     color: orange;
     font-weight: bold;
-    font-size: 40px
+    font-size: 20px
 }
 
 
