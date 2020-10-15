@@ -69,6 +69,7 @@ width: 1000px;
 .logoMarcas{
     display: flex;
     justify-content: center;
+    padding: 10px;
 }
 
 
