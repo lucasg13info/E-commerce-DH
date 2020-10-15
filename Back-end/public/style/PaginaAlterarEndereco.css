@@ -11,7 +11,7 @@ body{
 
 
 .padding-alterarEndereco {
-    padding: 70px;
+    padding: 100px;
     font-family: 'Roboto';
 }
 
@@ -129,12 +129,13 @@ body{
     /* margin-bottom: 1px; */
 }
 
-.buscarCep{
+/* .logoCEPEchopet{
     margin-left:-5px;
     margin-top:26px;
     font-size:20px;
     font-weight: bold;
-}
+    width: 100px;
+} */
 
 .icone-correio{
     margin-left: 17px;

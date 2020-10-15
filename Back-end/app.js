@@ -27,10 +27,10 @@ const emailEnviadoRouter = require('./routes/emailAutomatico')
 
 
 
-
-
-
 var app = express();
+
+
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -46,7 +46,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter); 
 app.use('/carrinho', carrinhoRouter);
 app.use('/confirmPagamento', confirmacaoDePagamentoRouter);
-app.use('/alterarEndereco', paginaAlterarEnderecoRouter);
+app.use('/endereco', paginaAlterarEnderecoRouter);
 app.use('/alterarPagamento', paginaAlteraPagamentoRouter);
 app.use('/envioPagamento', paginaEnvioPagamentoRouter);
 app.use('/finalizarPedido', paginaFinalizarPedidoRouter);

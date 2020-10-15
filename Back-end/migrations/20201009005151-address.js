@@ -16,11 +16,8 @@ module.exports = {
       add_cep: {
         type: Sequelize.INTEGER
       },
-      add_status: {
+      add_numero: {
         type: Sequelize.INTEGER
-      },
-      add_entrega: {
-        type: Sequelize.STRING
       },
       add_referencia: {
         type: Sequelize.STRING

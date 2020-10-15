@@ -4,3 +4,5 @@ const emailAutomaticoController = require('../controllers/crudProdutoController'
 
 // router.get('/emailEnviado', emailAutomaticoController.emailAutomatico)
 router.post('/', emailAutomaticoController.store); 
+
+module.exports = router;
