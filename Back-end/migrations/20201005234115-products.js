@@ -32,7 +32,10 @@ module.exports = {
       caracteristica4: {
         type: Sequelize.STRING
       }, 
-        
+      picture_product: {
+        type: Sequelize.STRING
+      },
+
        type_produts_id: {
         type: Sequelize.INTEGER,
         references: {

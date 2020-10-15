@@ -20,7 +20,7 @@
 
     
     <main class="container mt-4">
-        <form class="card p-3" action="/crud/cadastro" method="POST">
+        <form class="card p-3" action="/crud/cadastro" method="POST" enctype="multipart/form-data">
             <div class="form-group">
                 <label for="prd_descricao"> Nome </label>
                 <input type="text" class="form-control" id="prd_descricao" name="prd_descricao">
@@ -56,6 +56,10 @@
             <div class="form-group">
                 <label for="typeProductId"> ID Type products </label>
                 <input type="number" class="form-control" id="typeProductId" name="typeProductId">
+            </div>
+            <div class="form-group">
+                <label for="picture_product"> Imagem do Produto </label>
+                <input type="file" class="form-control" id="picture_product" name="picture_product">
             </div>
             <button class="btn btn-success" type="submit"> Cadastrar-se </button>
         </form>

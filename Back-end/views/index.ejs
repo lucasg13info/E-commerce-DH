@@ -56,7 +56,7 @@
       <%  for(let produto of produtos) { %>
        <div class="col-md-3">
         <div class="card" >
-          <img src="./img/index/racaoPedrigree.jpg" class="card-img-top" alt="...">
+          <img src="<%= produto.picture_product %>" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title"><%= produto.prd_descricao %></h5>
             <p class="card-text">R$ <%= produto.prd_valor %>,00</p>

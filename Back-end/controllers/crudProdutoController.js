@@ -2,8 +2,9 @@
 const { Products } = require('../models');
 const Sequelize = require('sequelize');
 const Op = Sequelize.Op
-const multer = require('multer');
-const parser = multer({dest: "public/img/uploads"})
+const path = require('path');
+// const multer = require('multer');
+// const parser = multer({dest: "public/img/uploads"})
 
 const crudProdutoController = {
     crudProduto: async (req, res)=> {
@@ -15,7 +16,8 @@ const crudProdutoController = {
     },
     store: async (req, res)=> {
         const { prd_descricao, prd_status, prd_valor, qtd_estoque, caracteristica1, caracteristica2, caracteristica3, caracteristica4, typeProductId } = req.body;
-
+        let picture_product = req.file.path
+        picture_product.replace("public", "")
         const resultado = await Products.create({
             prd_descricao,
             prd_status,
@@ -25,7 +27,8 @@ const crudProdutoController = {
             caracteristica2,
             caracteristica3,
             caracteristica4,
-            typeProductId
+            typeProductId,
+            picture_product
         });
 
         console.log(resultado);
