@@ -1,5 +1,5 @@
 const { Email } = require('../models');
-const Sequelize = require('sequelize');
+// const Sequelize = require('sequelize');
 
 const emailAutomaticoController = {
     // emailAutomatico: async (req, res) => {
@@ -13,6 +13,7 @@ const emailAutomaticoController = {
         });
 
         console.log(resultado);
+        // console.log(Sequelize)
 
         return res.redirect('/')
     },

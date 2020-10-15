@@ -38,24 +38,29 @@ body{
 .desconto10Porcento{
 text-align: center;
 
-background: #f1f1f1;
+background: #ffffff;
 border: 2px solid #000000;
 
 border-radius: 31px;
-margin: 60px;
-padding: 10px;
+margin: 65px;
+padding: 25px;
+
+height: 98px;
+width: 1000px;
+
+
 }
 
 
 .cumpomDescontoTextoNormal{
     font-weight: bold;
-    font-size: 20px ;
+    font-size: 27px ;
 }
 
 .cupomPetiscao{
     color: orange;
     font-weight: bold;
-    font-size: 20px
+    font-size: 30px
 }
 
 
@@ -64,6 +69,7 @@ padding: 10px;
 .logoMarcas{
     display: flex;
     justify-content: center;
+    padding: 10px;
 }
 
 
