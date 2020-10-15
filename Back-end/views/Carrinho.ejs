@@ -66,12 +66,12 @@
           <div class="card w-75">
             <div class="card-body">
               <h4 class="card-title">Resumo do Pedido</h4>
-              <p id="qtdProdCarrinho">2 Produtos</p>
+              <p id="qtdProdCarrinho">? Produtos</p>
               <p class="card-text"><strong>Frete: </strong><span id="valorFrete">Grátis</span></p>
               <p class="linhaDiv"></p>
-              <h5 class="card-title">Subtotal: <span>R$ 530,00</span></h5>
+              <h5 class="card-title">Subtotal: <span>R$ ?</span></h5>
               <!--<p id="parceleInfo">Na EchoPet sua compra está garantida!</p>-->
-              <p class="card-text"><a href="http://" #id="cupomDesconto">Possui um cupom de desconto?</a><br><br>
+              <p class="card-text"><a href="#" id="cupomDesconto">Possui um cupom de desconto?</a><br><br>
                 <a href="/alterarPagamento" class="btn btn-primary">Continuar Compra</a>
             </div>
           </div>
@@ -93,8 +93,8 @@
 
         <!--Cupom de desconto-->
         <div class="desconto10Porcento">
-          <p class="cumpomDescontoTextoNormal">Use o cupom <b class="cupomPetiscao">Petiscão</b> e ganhe <b
-              class="cupomPetiscao">10% OFF</b> na sua 1ª compra</p>
+          <p class="cumpomDescontoTextoNormal">Use o cupom <b class="cupomPetiscao">PETISCAO</b> e ganhe <b
+              class="cupomPetiscao">R$ 10,00 reais</b> na sua 1ª compra</p>
         </div>
         
   </main>
@@ -105,6 +105,7 @@
 
 
   </div>
+  
   </main>
 
 
@@ -120,6 +121,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
+    <script src="/javascripts/carrinho.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 
 </html>

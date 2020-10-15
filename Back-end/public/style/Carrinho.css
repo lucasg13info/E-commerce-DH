@@ -55,7 +55,7 @@ body{
 .cupomPetiscao{
     color: orange;
     font-weight: bold;
-    font-size: 40px
+    font-size: 20px
 }
 
 @media (min-width: 780px){
