@@ -113,6 +113,15 @@ width: 1000px;
         max-width: 849px;
     }
 
+    .paddingCard {
+        padding: 8px;
+        height: 490px;
+    }
+    
+    .cardIndex {
+        padding: 10px;
+    }
+
     }
 
 @media (min-width: 992px){
@@ -122,6 +131,15 @@ width: 1000px;
 
     .card{
         width: 13rem;
+    }
+
+    .paddingCard {
+        padding: 8px;
+        height: 490px;
+    }
+    
+    .cardIndex {
+        padding: 10px;
     }
 }
 
@@ -144,6 +162,15 @@ width: 1000px;
             color: orange;
             font-weight: bold;
             font-size: 25px;
+        }
+
+        .paddingCard {
+            padding: 8px;
+            height: 490px;
+        }
+        
+        .cardIndex {
+            padding: 10px;
         }
 
     }
