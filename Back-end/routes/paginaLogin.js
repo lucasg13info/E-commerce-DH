@@ -9,5 +9,7 @@ router.get('/cadastro', paginaLoginController.paginaCadastro);
 router.post('/cadastro', paginaLoginController.store);
 router.post('/', paginaLoginController.login);
 
+router.get('/logout', paginaLoginController.logout);
+
 
 module.exports = router;

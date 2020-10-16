@@ -33,7 +33,8 @@
     <div class="textoBemVindo1">
       <h3 class="textoHeader">Bem-vindo,  </h3>
       <!-- <a href="/login"><p class="textoHeader">Entre ou Cadastre-se</p></a> -->
-      <% if(req.session)
+      <% if(typeof user == "undefined") { %>
+      
       <div class="dropdown show">
         <a class="textoHeader" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Entre ou Cadastre-se
@@ -43,18 +44,26 @@
           <div class="login">
             <h2 class="login-header">Entre</h2>
 
-            <form class="login-container">
-              <p><input type="email" id="email" placeholder="Email"></p>
-              <p><input type="password" id="password" placeholder="Senha"></p>
+            <form class="login-container" method="POST" action="/login">
+              <div class="errorLogin">
+                <p>
+                  <% if(typeof errorLogin != "undefined") { %>
+                    <%= errorLogin %>
+                  <% } %>
+                </p>
+              </div>
+              <p><input type="email" id="email"placeholder="Email" name="user_email"></p>
+              <p><input type="password" id="password"placeholder="Senha" name="user_senha"></p>
               <p><input type="submit" value="Log in"></p>
             </form>
-            <a href="/login/cadastro"> <button type="button" class="btn btn-warning">Não tem conta? Cadastre-se</button></a>
+            <a href="/login/cadastro" class="linkandoCadastroLogin">Não tem conta? Cadastre-se</a>          
           </div>
         </div>
       </div>
-
-
-
+      <% } else { %>
+            <%= user.user_descricao %>
+            <a href="/login/logout"> <button> Sair </button> </a>
+        <% } %>
     </div>
 
     <div class="carrinho1">

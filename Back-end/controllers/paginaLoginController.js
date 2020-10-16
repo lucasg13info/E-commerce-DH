@@ -82,8 +82,13 @@ module.exports  = {
           return res.render('login', { errorLogin: "E-mail ou senha incorreto" })
         }
 
-        req.session.userLogado = true
+
         req.session.user = user
+        req.session.save()
         return res.redirect('/')
+      },
+      logout: async (req, res) => {
+        await req.session.destroy()
+        res.redirect("/login")
       }
 };

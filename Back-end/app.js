@@ -5,6 +5,22 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 const session = require('express-session');
 
+
+var app = express();
+
+app.use (session ({
+  resave: false, 
+  aveUninitialized: true, 
+  cookie: {secure: false}, 
+  secret:"dkbeah"
+}));
+
+app.use(function(req, res, next) {
+  res.locals = req.session || null
+  next()
+})
+
+
 //routes
 const indexRouter = require('./routes/index')
 const carrinhoRouter = require('./routes/carrinho')
@@ -28,13 +44,7 @@ const emailEnviadoRouter = require('./routes/emailAutomatico')
 
 
 
-var app = express();
 
-app.use (session ({
-  resave: false, 
-  aveUninitialized: true, 
-  cookie: {secure: false}
-}));
 
 
 
@@ -82,6 +92,8 @@ app.use((req, res, next) => {
   res.status(404).render('error');
   next();
 });
+
+
 
 // error handler
 app.use(function(err, req, res, next) {
