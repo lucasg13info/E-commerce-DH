@@ -1,7 +1,7 @@
 let listaCarrinho = document.getElementById('listaCarrinho');
 
 let produtos = JSON.parse(localStorage.getItem("carrinho"))
-
+let precoTotal = 0
 produtos.forEach(produtoCarrinho => {
 
     tr = document.createElement('tr')
@@ -20,7 +20,8 @@ produtos.forEach(produtoCarrinho => {
     tr.appendChild(coluna2)
     tr.appendChild(coluna3)
     tr.appendChild(coluna4)
-
+    precoTotal  += (produtoCarrinho.valorProduto * produtoCarrinho.qttProduto)
     listaCarrinho.appendChild(tr)
 
 })
+document.getElementById('totalPedido').innerHTML = 'R$ ' + precoTotal + ',00'

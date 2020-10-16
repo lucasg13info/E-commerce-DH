@@ -3,6 +3,18 @@
     padding: 0px;
 }
 
+.botaoLogout {
+    background-color: white;
+    color: #000000;
+}
+
+.nameUser {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px;
+}
+
 .papai{
     display: flex;
     background-color: #000000;

@@ -31,7 +31,7 @@
     </div>
     
     <div class="textoBemVindo1">
-      <h3 class="textoHeader">Bem-vindo,  </h3>
+      <h3 class="textoHeader">Bem-vindo  </h3>
       <!-- <a href="/login"><p class="textoHeader">Entre ou Cadastre-se</p></a> -->
       <% if(typeof user == "undefined") { %>
       
@@ -60,10 +60,14 @@
           </div>
         </div>
       </div>
+      
       <% } else { %>
-            <%= user.user_descricao %>
-            <a href="/login/logout"> <button> Sair </button> </a>
+        <div class="nameUser"><%= user.user_descricao %>
+          <a href="/login/logout"> <button class="botaoLogout"> Sair </button> </a>
+        </div>
+            
         <% } %>
+      
     </div>
 
     <div class="carrinho1">
