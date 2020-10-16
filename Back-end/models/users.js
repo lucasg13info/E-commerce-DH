@@ -10,7 +10,7 @@ const { Model } = require('sequelize');
       },
       user_descricao: DataTypes.STRING,
       user_email: DataTypes.STRING,
-      user_cpf: DataTypes.INTEGER,
+      user_cpf: DataTypes.STRING,
       user_telefone: DataTypes.STRING(20),
       user_telefone2: DataTypes.STRING(20),
       user_status: DataTypes.INTEGER,
