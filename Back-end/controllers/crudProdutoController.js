@@ -17,7 +17,7 @@ const crudProdutoController = {
     store: async (req, res)=> {
         const { prd_descricao, prd_status, prd_valor, qtd_estoque, caracteristica1, caracteristica2, caracteristica3, caracteristica4, typeProductId } = req.body;
         let picture_product = req.file.path
-        picture_product.replace("public", "")
+        picture_product = picture_product.replace("public" + path.sep, "")
         const resultado = await Products.create({
             prd_descricao,
             prd_status,
