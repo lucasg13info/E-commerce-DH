@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 .containerCadastro{
     
     padding: 50px;
@@ -71,7 +70,7 @@
     background-color:white;
     margin:10px;
     opacity: 0.9;
-    width: 63%;
+    width: 64.4%;
 }
 #Register{
     width: 62.5%;
@@ -115,17 +114,3 @@
     text-decoration: none;
     color:white
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
