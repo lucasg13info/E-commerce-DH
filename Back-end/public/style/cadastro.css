@@ -5,28 +5,20 @@
 }
 
 
+.containerCadastro{
+    
+    padding: 50px;
+    margin-left: 25%;
+    margin-right: 10%;
+}
+
+
 .paginaCadastro{
     background-color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.containerCadastro{
-    display: flex;
-    padding: 110px; 
-    
-}
 
-.imgDog{
-    width: 34%;
-    
-    
-}
-.imgCachorroCadastro{
-     width: 530px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-  
-}
 .formCadastro1{
     background-color: #00072D;
     width: 73%; 
@@ -42,9 +34,7 @@
 .formCadastro{
     text-align: center;
     box-sizing: border-box;
-    
-    
-   
+  
 }
 .Cadasto{
     padding: 20px;
@@ -72,6 +62,7 @@
 .CadastoSubmit:hover{
     color: orange;
 }
+
 .Email {
   width: 62.5%;
   padding: 20px;
@@ -138,59 +129,3 @@
 
 
 
-@media (max-width: 1400px) {
-    .imgCachorroCadastro{
-        width: 480px;
-       
-     
-   }
-}
-
-@media (max-width: 1300px) {
-    .imgCachorroCadastro{
-        width: 440px;
-       
-     
-   }
-}
-
-
-@media (max-width: 1210px) {
-    .imgCachorroCadastro{
-        width: 410px;
-   }
-}
-
-@media (max-width: 1150px) {
-    .imgCachorroCadastro{
-        width: 380px;     
-   }
-}
-
-
-@media (max-width: 1090px) {
-    .imgCachorroCadastro{
-        width: 350px;     
-   }
-}
-
-
-
-@media (max-width: 1000px) {
-    .imgCachorroCadastro{
-        display: none;
-   }
-
-   .containerCadastro{
-    position: relative;
-
-    padding: 100px;
-}
-   .formCadastro1{
-       position: relative;
-
-       align-self: center;
-   }
-
-   
-}
