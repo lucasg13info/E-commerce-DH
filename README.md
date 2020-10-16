@@ -87,7 +87,7 @@ problema algum! </p>
 </p>
 
 
-<h1> SPRINT 4: Back-end - in progress ... </h1> 
+<h1> SPRINT 4: Back-end ✔️ </h1> 
 
 <p>Deverá ser criado toda a lógica de backend do projeto. Aqui deverá ser criada cada funcionalidade do sistema em si, como envios de formulários, criação de
 usuários, produtos (CRUD) e assim por diante. Além disso, será integrado o banco de dados na aplicação para que as informações possam ser armazenadas.
