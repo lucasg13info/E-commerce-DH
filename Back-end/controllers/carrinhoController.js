@@ -10,5 +10,5 @@ module.exports = {
     carrinho: async (req, res)=> {
         let carrinhos = await Products.findAll();
         return res.render('Carrinho', { carrinhos })
-    }, 
+    }
 }

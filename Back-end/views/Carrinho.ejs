@@ -43,15 +43,7 @@
                     <th scope="col">Valor</th>
                   </tr>
                 </thead>
-                <tbody>
-                  <tr>
-                    <% carrinhos.forEach(produto => { %>
-                    <th scope="row" id="codProduto"><%= produto.id %></th>
-                    <td class="descProduto"><%= produto.prd_descricao %></td>
-                    <td class="qtd">Qtd Cliente</td>
-                    <td>R$ <%= produto.prd_valor %>,00 </td>
-                  </tr>
-                  <% }) %>
+                <tbody id="listaCarrinho">
                 </tbody>
               </table>
             </table>
@@ -122,6 +114,8 @@
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
     <script src="/javascripts/carrinho.js"></script>
+    <script src="/javascripts/carrinhoFinalizar.js"></script>
+
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 

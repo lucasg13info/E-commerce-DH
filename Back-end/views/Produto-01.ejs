@@ -53,10 +53,10 @@
             <div class="card-body">
               <h5 class="card-title">Valor:</h5>
               <p class="card-text">R$ <%= produto.prd_valor %>,00</p>
-              <p class="card-text"><strong>Quantidade: INCREMENTAR </strong></p>
+              <p class="card-text"><strong>Quantidade: <input type="number" id="qttProduto" value="1"> </strong></p>
               <p class="card-text"><strong>Frete: </strong><a href="http://" #id="calcFrete">Calcular
                   Frete</a></p>
-              <a href="/carrinho" class="btn btn-primary">Adicionar ao carrinho</a>
+              <button href="/carrinho" class="btn btn-primary" id="addCarrinho">Adicionar ao carrinho</button>
             </div>
           </div>
         </div>
@@ -130,6 +130,11 @@
 
   </main>
 
+  <span id="idProduto" data-value=" <%= produto.id %>"></span>
+  <span id="descricaoProduto" data-value=" <%= produto.prd_descricao %>"></span>
+  <span id="valorProduto" data-value=" <%= produto.prd_valor %>"></span>
+
+
 
 
  
@@ -147,6 +152,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
     crossorigin="anonymous"></script>
+    <script src="/javascripts/carrinho.js"></script>
 </body>
 
 </html>
