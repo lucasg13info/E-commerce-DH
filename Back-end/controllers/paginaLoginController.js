@@ -1,6 +1,7 @@
 const { Users } = require ('../models')
 const Sequelize = require('sequelize');
 const bcrypt = require('bcrypt');
+const users = require('../models/users');
 
 
 
@@ -62,5 +63,27 @@ module.exports  = {
         // console.log(resultado);
     
         return res.redirect("/login");
+      },
+      login: async (req, res) => {
+        const user_email = req.body.user_email
+        const user_senha = req.body.user_senha
+
+        const user = await Users.findOne({
+          where: {
+            user_email: user_email
+          }
+        })
+
+        if(!user) {
+          return res.render('login', { errorLogin: "E-mail ou senha incorreto" })
+        }
+
+        if(!bcrypt.compareSync(user_senha, user.user_senha)) {
+          return res.render('login', { errorLogin: "E-mail ou senha incorreto" })
+        }
+
+        req.session.userLogado = true
+        req.session.user = user
+        return res.redirect('/')
       }
 };

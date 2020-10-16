@@ -3,6 +3,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+const session = require('express-session');
 
 //routes
 const indexRouter = require('./routes/index')
@@ -29,6 +30,12 @@ const emailEnviadoRouter = require('./routes/emailAutomatico')
 
 var app = express();
 
+app.use (session ({
+  resave: false, 
+  aveUninitialized: true, 
+  cookie: {secure: false}
+}));
+
 
 
 
@@ -50,7 +57,7 @@ app.use('/endereco', paginaAlterarEnderecoRouter);
 app.use('/alterarPagamento', paginaAlteraPagamentoRouter);
 app.use('/envioPagamento', paginaEnvioPagamentoRouter);
 app.use('/finalizarPedido', paginaFinalizarPedidoRouter);
-app.use('/login', paginaLoginRouter );
+app.use('/login', paginaLoginRouter);
 app.use('/politicaTermos', politicasTermosRouter);
 app.use('/sobreNos', sobreNosRouter);
 app.use('/produto', produto01Router);
@@ -81,10 +88,13 @@ app.use(function(err, req, res, next) {
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
+  console.log(err);
 
   // render the error page
   res.status(err.status || 500);
   res.render('error');
+
+  
 });
 
 module.exports = app;

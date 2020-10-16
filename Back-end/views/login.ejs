@@ -24,12 +24,23 @@
         
         <h2 class="login-header">Entre</h2>
       
-        <form class="login-container">
-          <p><input type="email" id="email"placeholder="Email"></p>
-          <p><input type="password" id="password"placeholder="Senha"></p>
+        <form class="login-container" method="POST" action="/login">
+          <div class="errorLogin">
+            <p>
+              <% if(typeof errorLogin != "undefined") { %>
+                <%= errorLogin %>
+              <% } %>
+            </p>
+          </div>
+          <p><input type="email" id="email"placeholder="Email" name="user_email"></p>
+          <p><input type="password" id="password"placeholder="Senha" name="user_senha"></p>
           <p><input type="submit" value="Log in"></p>
         </form>
         <a href="/login/cadastro">Não tem conta? Cadastre-se</a>
+
+     
+
+
       </div>
 
 
