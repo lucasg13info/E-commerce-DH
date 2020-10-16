@@ -123,4 +123,4 @@ usuários, produtos (CRUD) e assim por diante. Além disso, será integrado o ba
 <p> 7- Dê o comando: npx sequelize db:migrate:undo:all para limpar o banco </p>
 <p> 8- Dê o comando: npx sequelize db:migrade para rodas as migrations e o banco </p>
 <p> 9- Instale o nodemon </p>
-<p> 10 - Execute nodemon ou npm start para rodar o servidor que está configurado na porta 3000 </p>
+ 10 - Execute nodemon ou npm start para rodar o servidor que está configurado na porta 3000
