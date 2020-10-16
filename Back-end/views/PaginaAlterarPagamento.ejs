@@ -11,127 +11,125 @@
 
 
 
-<body>
+
 
   <%- include('./partials/header')%>
 
 
-    <div class="container padding-alterarPagamento">
-        <div class="row">
-            <div class="col-12">Selecionar forma de Pagamento</div>
-        </div>
-        <div class="row">
-            <div class="mensagem">O endereço que deseja usar está exibido abaixo? Se estiver, clique no botão "Enviar para este endereço" ou você pode inserir um novo endereço de envio</div>
-        </div>
-        <br>
-        <div class="row">
-            <div id="cartaocredito" class="col-2">
-                <label class="pagamentocartao">Cartão de Crédito</label>
-                <p><img src="./img/Login + Pagamento/icone-mastercard.png" height="40px" ><label class="iconecartao">Com final XXXX</label></p>
-            </div>
-            <div class="col-2">
-                <label class="nomecartao">Nome no cartão</label>
-                <label class="nomeusuario">Usuario da Silva</label>
-            </div>
-            <div class="col-2">
-                <label class="vencimento">Vencimento</label>
-                <label class="datacartao">08/2026</label>
-            </div>
-            <div class="col-2">
-                <button type="button" class="login-botao">Selecionar este cartão</button>
-                <label class="alterar">Alterar</label>
-                <label class="excluir">Excluir</label>
-            </div>
-
-
-            <div class="col-1"></div>
-            <div class="col-3">
-                <button type="button" class="login-continuar">Continuar</button>
-                <label class="finalizar">Você pode revisar esse pedido antes que seja finalizado</label>
-            </div>
-        </div>
-        <br>
-        <div class="row">
-            <div class="col-11">
-                <label class="adicionarcartaocredito">Adicionar cartão de crédito</label>
-            </div>
-         </div>
-
-         <div class="row">
-            <div class="col-10">
-                
-                <form>
-                    <div class="form-row">
-                      <div class="col-2">
-                        <input type="text" class="form-control" placeholder="Número do cartão">
-                      </div>
-                      <div class="col-6">
-                        <input type="text" class="form-control" placeholder="Nome do titular">
-                      </div>
-                     
-                    </div>
-                  </form>
-                  <p class="datavencimentocartao">Vencimento</p>
-                  <form>
-                    <div class="form-row">
-                      <div class="col-4">
-                        <input type="text" class="form-control" placeholder="Mês">
-                      </div>
-                      <div class="col-4">
-                        <input type="text" class="form-control" placeholder="Ano">
-                      </div>
-                     
-                    </div>
-                  </form>
-                
-                  <p class="datavencimentocartao">Código de Segurança do Cartão</p>
-                  <form>
-                    <div class="form-row">
-                      <div class="col-4">
-                        <input type="text" class="form-control" placeholder="Código">
-                      </div>   
-                      <div class="col-2">
-                        <button type="button" class="adicionar-cartaoBotao">Adicionar Cartão</button>
-                    </div>                  
-                    </div>
-                    
-                  </form>
-
-                    
-                    
-
-                    </div>
-                  </form>
-
-                  
-            </div>
-            
-                
-                               
-           
-         </div>
-
-     
-   </div>
-
-
-   <br>
   
-  <%- include('./partials/novoTesteFooter') %>
-
-
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
-</body>
-
-
-
-
-
-</html>
+  
+  <body>
+      <div class="container">
+          <div class="row">
+              <div class="col-12">Selecionar forma de Pagamento</div>
+          </div>
+          <div class="row">
+              <div class="mensagem">O endereço que deseja usar está exibido abaixo? Se estiver, clique no botão "Enviar para este endereço" ou você pode inserir um novo endereço de envio</div>
+          </div>
+          <br>
+          <div class="row">
+              <div id="cartaocredito" class="col-2">
+                  <label class="pagamentocartao">Cartão de Crédito</label>
+                  <p><img src="./img/Login + Pagamento/icone-mastercard.png" height="40px" ><label class="iconecartao">Com final XXXX</label></p>
+              </div>
+              <div class="col-2">
+                  <label class="nomecartao">Nome no cartão</label>
+                  <label class="nomeusuario">Usuario da Silva</label>
+              </div>
+              <div class="col-2">
+                  <label class="vencimento">Vencimento</label>
+                  <label class="datacartao">08/2026</label>
+              </div>
+              <div class="col-2">
+                  <button type="button" class="login-botao">Selecionar este cartão</button>
+                  <label class="alterar">Alterar</label>
+                  <label class="excluir">Excluir</label>
+              </div>
+  
+  
+              <div class="col-1"></div>
+              <div class="col-3">
+                  <button type="button" class="login-continuar">Continuar</button>
+                  <label class="finalizar">Você pode revisar esse pedido antes que seja finalizado</label>
+              </div>
+          </div>
+          <br>
+          <div class="row">
+              <div class="col-11">
+                  <label class="adicionarcartaocredito">Adicionar cartão de crédito</label>
+              </div>
+           </div>
+  
+           <div class="row">
+              <div class="col-10">
+                  
+                  <form>
+                      <div class="form-row">
+                        <div class="col-2">
+                          <input type="text" class="form-control" placeholder="Número do cartão">
+                        </div>
+                        <div class="col-6">
+                          <input type="text" class="form-control" placeholder="Nome do titular">
+                        </div>
+                       
+                      </div>
+                    </form>
+                    <p class="datavencimentocartao">Vencimento</p>
+                    <form>
+                      <div class="form-row">
+                        <div class="col-4">
+                          <input type="text" class="form-control" placeholder="Mês">
+                        </div>
+                        <div class="col-4">
+                          <input type="text" class="form-control" placeholder="Ano">
+                        </div>
+                       
+                      </div>
+                    </form>
+                  
+                    <p class="datavencimentocartao">Código de Segurança do Cartão</p>
+                    <form>
+                      <div class="form-row">
+                        <div class="col-4">
+                          <input type="text" class="form-control" placeholder="Código">
+                        </div>   
+                        <div class="col-2">
+                          <button type="button" class="adicionar-cartaoBotao">Adicionar Cartão</button>
+                      </div>                  
+                      </div>
+                      
+                    </form>
+  
+                      
+                      
+  
+                      </div>
+                    </form>
+  
+                    
+              </div>
+              
+                  
+                                 
+             
+           </div>
+  
+       
+     </div>
+  
+  
+     <br>  
+  
+  
+  
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
+  </body>
+  
+  <%- include('./partials/novoTesteFooter')%>
+  
+  
+  
+  </html>
