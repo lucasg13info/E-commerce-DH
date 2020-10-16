@@ -6,7 +6,14 @@ body{
 }
 
 
+.paddingCard {
+    padding: 8px;
+    height: 490px;
+}
 
+.cardIndex {
+    padding: 10px;
+}
 
 /*MAIN*/
 .h1-main{
