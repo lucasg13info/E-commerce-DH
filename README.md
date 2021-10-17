@@ -1,4 +1,4 @@
-<h1 align="center"> E-commerce EchoPet 🦁 🐦 </h1>
+<h1 align="center"> E-commerce EchoPet 🦁 🐦</h1>
 
 
 <img src="new.png">
